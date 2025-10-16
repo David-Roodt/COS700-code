@@ -1,0 +1,4 @@
+size,learning_rate,decay_rate,activation_function,topology,final_sigma,final_qe,best_qe,best_epoch
+40,0.1,exponent_decay,euclidean,hexagonal,20.0,1.267239170960612,1.2456328561811782,7
+40,0.1,exponent_decay,euclidean,hexagonal,20.0,1.263145663391763,1.2370260253955394,199
+40,0.1,exponent_decay,euclidean,hexagonal,20.0,1.2624940129874305,1.2426952140512266,315

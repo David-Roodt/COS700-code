@@ -1,0 +1,3037 @@
+
+/apps/chpc/cuda/12.4/lib64:/apps/chpc/bio/gnu-build/tbb-2018_U2/build/linux_intel64_gcc_cc7.2.0_libc2.17_kernel3.10.0_release
+/apps/chpc/cuda/12.4/bin/nvcc
+Running on host: gpu4003
+CUDA devices: 1
+Sun Oct 12 16:20:38 2025       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 550.54.14              Driver Version: 550.54.14      CUDA Version: 12.4     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  Tesla V100-SXM2-16GB           Off |   00000000:1A:00.0 Off |                  Off |
+| N/A   57C    P0            243W /  300W |     877MiB /  16384MiB |     96%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+|   1  Tesla V100-SXM2-16GB           Off |   00000000:1C:00.0 Off |                  Off |
+| N/A   32C    P0             56W /  300W |       0MiB /  16384MiB |      1%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+|   2  Tesla V100-SXM2-16GB           Off |   00000000:1D:00.0 Off |                  Off |
+| N/A   51C    P0            229W /  300W |     877MiB /  16384MiB |     95%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+|   3  Tesla V100-SXM2-16GB           Off |   00000000:1E:00.0 Off |                  Off |
+| N/A   60C    P0            248W /  300W |     877MiB /  16384MiB |     17%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+                                                                                         
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI        PID   Type   Process name                              GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|    0   N/A  N/A    134730      C   pmemd.cuda                                    874MiB |
+|    2   N/A  N/A    134731      C   pmemd.cuda                                    874MiB |
+|    3   N/A  N/A    134345      C   pmemd.cuda                                    874MiB |
++-----------------------------------------------------------------------------------------+
+GPU is available
+CUDA version: 12.1
+Device name: Tesla V100-SXM2-16GB
+GPU memory: 15.77 GB
+Loading SOM weights from ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_500_tanh.npy
+Selected Artwork: The Seine At Bercy 1878
+Generated Prompt: The Seine At Bercy 1878 by Paul Cezanne
+Selected Artwork Artist: Paul Cezanne
+Saved 1 images as a grid: The Seine At Bercy 1878 by Paul Cezanne.png
+Result_features: [np.float64(0.5953015079321734), np.float64(0.4996932226742561), np.float64(0.4979896518573046), np.float64(0.4732611999047213), 0.00838470458984375, 0.010807037353515625, 0.019134521484375, 0.029712677001953125, 0.07220077514648438, 0.0477447509765625, 0.051853179931640625, 0.11458969116210938, 0.01459503173828125, 0.005687713623046875, 0.004627227783203125, 0.003467559814453125, 0.00762176513671875, 0.018756866455078125, 0.07570648193359375, 0.2891731262207031, 0.15642547607421875, 0.049129486083984375, 0.0126800537109375, 0.007701873779296875, np.float64(0.3897880670192629), np.float64(0.7746210037306385), np.float64(0.638382394625491), np.float64(0.5638269906537391), np.float64(0.2562948916225916), np.float64(0.8785561339886853), np.float64(0.14048141262108826), np.float64(0.06210439110564428), np.float64(0.008925304851821246), np.float64(0.5050215166857038), np.float64(0.5033732545592703), np.float64(0.49987292883961404), np.float64(0.7181147348345662), np.float64(0.3146786310081084), np.float64(0.3763225279983), np.float64(0.30563323388672325), np.float64(0.29723399946790463), np.float64(0.6758522454301769), np.float64(0.4191703122989123), np.float64(0.37383172459349073), np.float64(0.31798506858831715), np.float64(0.6476606341213383)]
+
+Result_features Length: 46
+
+Best Matching Unit: (12, 13)
+
+Full Label Vector: [-0.15849402  0.00072396  0.17499922  0.00262112  0.11718312 -0.19121577
+  0.09257841  0.18137161 -0.00019167 -0.06587366  0.05952554  0.16896072
+ -0.13119943 -0.03909059 -0.13951202 -0.00135805  0.01640732  0.18030256
+ -0.03551016  0.02717774  0.15637835 -0.07249184  0.07069324]
+
+Prediction Binary: [0 0 1 0 1 0 0 1 0 0 0 1 0 0 0 0 0 1 0 1 1 0 1]
+
+Significant Labels: [('Ivan Shishkin', np.float64(0.18137160824421084)), ('Camille Pissarro', np.float64(0.18030255858038657)), ('Vincent Van Gogh', np.float64(0.17499921674693222)), ('Ilya Repin', np.float64(0.168960718984956)), ('Martiros Saryan', np.float64(0.15637834885867744)), ('Pablo Picasso', np.float64(0.11718312222353265)), ('Childe Hassam', np.float64(0.0706932364942424)), ('Ivan Aivazovsky', np.float64(0.02717773636905319))]
+
+The contributing artists for the generated image were: Paul Cezanne
+
+Ground Truth: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0]
+
+Predicted Binary: [0 0 1 0 1 0 0 1 0 0 0 1 0 0 0 0 0 1 0 1 1 0 1]
+
+Accuracy: 0.6086956521739131
+
+Precision: 0.0
+
+Recall: 0.0
+
+F1 Score: 0.0
+
+Random Forest Prediction: [4]
+
+Random Forest Probabilities: [[0.0192 0.0295 0.0391 0.0398 0.1922 0.0101 0.0704 0.0095 0.0193 0.0353
+  0.0186 0.0455 0.0335 0.0707 0.1002 0.0337 0.0328 0.0221 0.089  0.0017
+  0.0082 0.0485 0.0311]]
+
+Random Forest Binary (threshold=0.05): [0 0 0 0 1 0 1 0 0 0 0 0 0 1 1 0 0 0 1 0 0 0 0]
+
+Random Forest Accuracy: 0.7391304347826086
+
+Random Forest Precision: 0.0
+
+Random Forest Recall: 0.0
+
+Random Forest F1 Score: 0.0
+
+  Rank 1: fPablo Picasso (19.22%)
+  Rank 2: fGustave Dore (10.02%)
+  Rank 3: fMarc Chagall (8.90%)
+  Rank 4: fEugene Boudin (7.07%)
+  Rank 5: fJohn Singer Sargent (7.04%)
+  Rank 6: fPaul Cezanne (4.85%)
+Selected Artwork: Pollard Willow 1882
+Generated Prompt: Pollard Willow 1882 by Vincent Van Gogh
+Selected Artwork Artist: Vincent Van Gogh
+Saved 1 images as a grid: Pollard Willow 1882 by Vincent Van Gogh.png
+Result_features: [np.float64(0.49144549694141626), np.float64(0.5017391246844225), np.float64(0.5108139920266628), np.float64(0.7213269282234823), 0.000217437744140625, 0.000579833984375, 0.0076141357421875, 0.20592117309570312, 0.6389274597167969, 0.1444244384765625, 0.001964569091796875, 0.000152587890625, 2.6702880859375e-05, 1.9073486328125e-05, 0.0, 0.0, 1.52587890625e-05, 7.62939453125e-06, 3.814697265625e-06, 3.814697265625e-06, 7.62939453125e-06, 1.52587890625e-05, 3.4332275390625e-05, 6.4849853515625e-05, np.float64(0.38704242965930663), np.float64(0.7726832065342846), np.float64(0.6558653214886545), np.float64(0.5102709165468069), np.float64(0.6538713585062765), np.float64(0.11209467707521234), np.float64(0.15610183725474597), np.float64(0.04975060056726416), np.float64(0.048800684974238645), np.float64(0.5240298989537072), np.float64(0.4965833015154212), np.float64(0.49622890692569993), np.float64(0.22453156936924282), np.float64(0.2164261131072401), np.float64(0.21825429325129184), np.float64(0.21293937908013752), np.float64(0.21212215088427241), np.float64(0.5479482654275581), np.float64(0.38255999473930863), np.float64(0.4593798554562464), np.float64(0.37474402717517), np.float64(0.40345580220616045)]
+
+Result_features Length: 46
+
+Best Matching Unit: (31, 6)
+
+Full Label Vector: [ 0.1323073   0.08315535 -0.06389351  0.14412793  0.06202441 -0.15490449
+  0.12437395  0.08031942 -0.09817245  0.15589961 -0.05743694  0.02404258
+ -0.07149977  0.10228348  0.03700444 -0.01354267 -0.21867484  0.04886287
+  0.05577739 -0.14531714 -0.0764462   0.1726803   0.02241349]
+
+Prediction Binary: [1 1 0 1 1 0 0 1 0 1 0 0 0 1 0 0 0 0 0 0 0 1 1]
+
+Significant Labels: [('Paul Cezanne', np.float64(0.1726803037003749)), ('Edgar Degas', np.float64(0.15589960890974433)), ('Salvador Dali', np.float64(0.14412793349170414)), ('Nicholas Roerich', np.float64(0.1323073015355453)), ('Eugene Boudin', np.float64(0.10228348046413796)), ('Pierre Auguste Renoir', np.float64(0.08315534896992707)), ('Ivan Shishkin', np.float64(0.08031942408879811)), ('Pablo Picasso', np.float64(0.062024413954627725)), ('Childe Hassam', np.float64(0.02241348793634823))]
+
+The contributing artists for the generated image were: Vincent Van Gogh
+
+Ground Truth: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Predicted Binary: [1 1 0 1 1 0 0 1 0 1 0 0 0 1 0 0 0 0 0 0 0 1 1]
+
+Accuracy: 0.5652173913043478
+
+Precision: 0.0
+
+Recall: 0.0
+
+F1 Score: 0.0
+
+Random Forest Prediction: [20]
+
+Random Forest Probabilities: [[0.0215 0.0098 0.016  0.0029 0.0041 0.0251 0.0053 0.0256 0.0165 0.0159
+  0.0228 0.0118 0.0153 0.0185 0.0574 0.0141 0.0107 0.0177 0.0256 0.0368
+  0.4098 0.0198 0.197 ]]
+
+Random Forest Binary (threshold=0.05): [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 0 1]
+
+Random Forest Accuracy: 0.8260869565217391
+
+Random Forest Precision: 0.0
+
+Random Forest Recall: 0.0
+
+Random Forest F1 Score: 0.0
+
+  Rank 1: fMartiros Saryan (40.98%)
+  Rank 2: fChilde Hassam (19.70%)
+  Rank 3: fGustave Dore (5.74%)
+  Rank 4: fIvan Aivazovsky (3.68%)
+  Rank 5: fMarc Chagall (2.56%)
+  Rank 6: fIvan Shishkin (2.56%)
+  Rank 7: fClaude Monet (2.51%)
+  Rank 8: fRembrandt (2.28%)
+  Rank 9: fNicholas Roerich (2.15%)
+  Rank 10: fPaul Cezanne (1.98%)
+  Rank 11: fEugene Boudin (1.85%)
+  Rank 12: fCamille Pissarro (1.77%)
+  Rank 13: fPyotr Konchalovsky (1.65%)
+  Rank 14: fVincent Van Gogh (1.60%)
+Selected Artwork: The Merchant Kalashnikov 1868
+Generated Prompt: The Merchant Kalashnikov 1868 by Ilya Repin
+Selected Artwork Artist: Ilya Repin
+Saved 1 images as a grid: The Merchant Kalashnikov 1868 by Ilya Repin.png
+Result_features: [np.float64(0.4999393584488822), np.float64(0.49275970745976877), np.float64(0.5205936855943605), np.float64(0.7235973188722521), 0.045787811279296875, 0.10912704467773438, 0.015583038330078125, 0.013088226318359375, 0.016094207763671875, 0.023967742919921875, 0.1355133056640625, 0.2987098693847656, 0.09531402587890625, 0.115478515625, 0.0752716064453125, 0.019611358642578125, 0.006801605224609375, 0.003833770751953125, 0.002716064453125, 0.00311279296875, 0.002685546875, 0.003376007080078125, 0.00453948974609375, 0.009387969970703125, np.float64(0.6126381790542752), np.float64(0.20173234951920113), np.float64(0.8507899683132487), np.float64(0.48016316023143907), np.float64(0.6129323529865006), np.float64(0.0949275293692955), np.float64(0.14116905771776372), np.float64(0.08154893169525342), np.float64(0.009573325654683516), np.float64(0.498064584074097), np.float64(0.4960730348169956), np.float64(0.499984757776048), np.float64(0.35628145583873966), np.float64(0.378734098901464), np.float64(0.23433696651523558), np.float64(0.34488827348895634), np.float64(0.39340407770192437), np.float64(0.35125083090806974), np.float64(0.7584250010968216), np.float64(0.45326792698381546), np.float64(0.7774345915078967), np.float64(0.5051872390593566)]
+
+Result_features Length: 46
+
+Best Matching Unit: (12, 13)
+
+Full Label Vector: [-0.15849402  0.00072396  0.17499922  0.00262112  0.11718312 -0.19121577
+  0.09257841  0.18137161 -0.00019167 -0.06587366  0.05952554  0.16896072
+ -0.13119943 -0.03909059 -0.13951202 -0.00135805  0.01640732  0.18030256
+ -0.03551016  0.02717774  0.15637835 -0.07249184  0.07069324]
+
+Prediction Binary: [0 0 1 0 1 0 0 1 0 0 0 1 0 0 0 0 0 1 0 1 1 0 1]
+
+Significant Labels: [('Ivan Shishkin', np.float64(0.18137160824421084)), ('Camille Pissarro', np.float64(0.18030255858038657)), ('Vincent Van Gogh', np.float64(0.17499921674693222)), ('Ilya Repin', np.float64(0.168960718984956)), ('Martiros Saryan', np.float64(0.15637834885867744)), ('Pablo Picasso', np.float64(0.11718312222353265)), ('Childe Hassam', np.float64(0.0706932364942424)), ('Ivan Aivazovsky', np.float64(0.02717773636905319))]
+
+The contributing artists for the generated image were: Ilya Repin
+
+Ground Truth: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Predicted Binary: [0 0 1 0 1 0 0 1 0 0 0 1 0 0 0 0 0 1 0 1 1 0 1]
+
+Accuracy: 0.6956521739130435
+
+Precision: 0.125
+
+Recall: 1.0
+
+F1 Score: 0.2222222222222222
+
+Random Forest Prediction: [8]
+
+Random Forest Probabilities: [[0.0051 0.1546 0.0368 0.0103 0.0498 0.0065 0.008  0.0011 0.2077 0.0453
+  0.13   0.0105 0.0183 0.0198 0.0349 0.0392 0.0429 0.0218 0.0661 0.0012
+  0.0033 0.0233 0.0635]]
+
+Random Forest Binary (threshold=0.05): [0 1 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 1 0 0 0 1]
+
+Random Forest Accuracy: 0.7391304347826086
+
+Random Forest Precision: 0.0
+
+Random Forest Recall: 0.0
+
+Random Forest F1 Score: 0.0
+
+  Rank 1: fPyotr Konchalovsky (20.77%)
+  Rank 2: fPierre Auguste Renoir (15.46%)
+  Rank 3: fRembrandt (13.00%)
+  Rank 4: fMarc Chagall (6.61%)
+  Rank 5: fChilde Hassam (6.35%)
+  Rank 6: fPablo Picasso (4.98%)
+  Rank 7: fEdgar Degas (4.53%)
+  Rank 8: fRaphael Kirchner (4.29%)
+  Rank 9: fAlbrecht Durer (3.92%)
+  Rank 10: fVincent Van Gogh (3.68%)
+  Rank 11: fGustave Dore (3.49%)
+  Rank 12: fPaul Cezanne (2.33%)
+  Rank 13: fCamille Pissarro (2.18%)
+  Rank 14: fEugene Boudin (1.98%)
+  Rank 15: fBoris Kustodiev (1.83%)
+  Rank 16: fIlya Repin (1.05%)
+Selected Artwork: The Last Judgment 1511
+Generated Prompt: The Last Judgment 1511 by Albrecht Durer
+Selected Artwork Artist: Albrecht Durer
+Saved 1 images as a grid: The Last Judgment 1511 by Albrecht Durer.png
+Result_features: [np.float64(0.6610332209643006), np.float64(0.5003265183288576), np.float64(0.500202783021755), np.float64(0.6092020601871544), 0.26212310791015625, 0.00028228759765625, 0.015773773193359375, 0.09320449829101562, 0.18456268310546875, 0.16191864013671875, 0.002826690673828125, 0.011951446533203125, 0.028919219970703125, 0.001888275146484375, 0.021083831787109375, 0.0, 0.0003509521484375, 0.005840301513671875, 0.0006866455078125, 0.045162200927734375, 0.00159454345703125, 0.012088775634765625, 0.1040496826171875, 0.04569244384765625, np.float64(0.5746135113972173), np.float64(0.37737617832940173), np.float64(0.6167249463907765), np.float64(0.4817905762702175), np.float64(0.5296283367076677), np.float64(0.304522364445249), np.float64(0.17128020730974758), np.float64(0.14910054421732763), np.float64(0.03464690413016549), np.float64(0.4921236089672764), np.float64(0.49348878634479415), np.float64(0.49904373486923365), np.float64(0.3544584556819342), np.float64(0.3553588884952639), np.float64(0.32715922555485066), np.float64(0.3214416780515152), np.float64(0.29382905108693935), np.float64(0.7580065926830071), np.float64(0.5583045421569117), np.float64(0.6103234972790713), np.float64(0.532306491509146), np.float64(0.5915934497922459)]
+
+Result_features Length: 46
+
+Best Matching Unit: (6, 14)
+
+Full Label Vector: [ 0.03451566 -0.16608337 -0.01735496  0.12212611 -0.20054534 -0.18816203
+ -0.18380086  0.09810635  0.00049539 -0.0556708  -0.16746963  0.09861782
+ -0.07600163 -0.0996521   0.06468038  0.02505821 -0.05842554  0.06008083
+ -0.09714783  0.12519586 -0.11494121 -0.14487017  0.11993425]
+
+Prediction Binary: [0 0 0 1 0 0 0 1 0 0 0 1 0 0 1 0 0 0 0 1 0 0 1]
+
+Significant Labels: [('Ivan Aivazovsky', np.float64(0.125195862817397)), ('Salvador Dali', np.float64(0.12212611243706104)), ('Childe Hassam', np.float64(0.11993424750035507)), ('Ilya Repin', np.float64(0.09861782283555032)), ('Ivan Shishkin', np.float64(0.09810635091591291)), ('Gustave Dore', np.float64(0.06468038171653527))]
+
+The contributing artists for the generated image were: Albrecht Durer
+
+Ground Truth: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+
+Predicted Binary: [0 0 0 1 0 0 0 1 0 0 0 1 0 0 1 0 0 0 0 1 0 0 1]
+
+Accuracy: 0.6956521739130435
+
+Precision: 0.0
+
+Recall: 0.0
+
+F1 Score: 0.0
+
+Random Forest Prediction: [14]
+
+Random Forest Probabilities: [[0.0526 0.044  0.0359 0.0235 0.0425 0.0225 0.0302 0.0169 0.0276 0.0272
+  0.0148 0.035  0.1032 0.042  0.1314 0.0337 0.028  0.0294 0.0657 0.0309
+  0.0264 0.0438 0.0928]]
+
+Random Forest Binary (threshold=0.05): [1 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 1 0 0 0 1]
+
+Random Forest Accuracy: 0.7391304347826086
+
+Random Forest Precision: 0.0
+
+Random Forest Recall: 0.0
+
+Random Forest F1 Score: 0.0
+
+  Rank 1: fGustave Dore (13.14%)
+  Rank 2: fBoris Kustodiev (10.32%)
+  Rank 3: fChilde Hassam (9.28%)
+  Rank 4: fMarc Chagall (6.57%)
+  Rank 5: fNicholas Roerich (5.26%)
+  Rank 6: fPierre Auguste Renoir (4.40%)
+  Rank 7: fPaul Cezanne (4.38%)
+  Rank 8: fPablo Picasso (4.25%)
+  Rank 9: fEugene Boudin (4.20%)
+  Rank 10: fVincent Van Gogh (3.59%)
+  Rank 11: fIlya Repin (3.50%)
+  Rank 12: fAlbrecht Durer (3.37%)
+Selected Artwork: Interior At Menil Hubert 1892
+Generated Prompt: Interior At Menil Hubert 1892 by Edgar Degas
+Selected Artwork Artist: Edgar Degas
+Saved 1 images as a grid: Interior At Menil Hubert 1892 by Edgar Degas.png
+Result_features: [np.float64(0.5150854154682912), np.float64(0.5082649456007345), np.float64(0.527199278982157), np.float64(0.6903298779519693), 0.029529571533203125, 0.043659210205078125, 0.08858871459960938, 0.3965301513671875, 0.1393585205078125, 0.1666717529296875, 0.07849502563476562, 0.0115509033203125, 0.003055572509765625, 0.000606536865234375, 0.000408172607421875, 4.1961669921875e-05, 7.62939453125e-05, 0.0001373291015625, 7.62939453125e-05, 0.00038909912109375, 0.0025177001953125, 0.010528564453125, 0.012363433837890625, 0.015415191650390625, np.float64(0.31512965528453696), np.float64(0.7648856202991899), np.float64(0.28297024328731796), np.float64(0.5604020750005337), np.float64(0.4281693817010285), np.float64(0.3367274015852549), np.float64(0.11580924759532307), np.float64(0.11299935175983844), np.float64(0.0026215558327528704), np.float64(0.4939356244799862), np.float64(0.5048064057061449), np.float64(0.4999961367536739), np.float64(0.2542540068891259), np.float64(0.20392287460817216), np.float64(0.22598266877485768), np.float64(0.24056923643748412), np.float64(0.24192417032923316), np.float64(0.478589222819475), np.float64(0.5389171610672693), np.float64(0.7091936983488234), np.float64(0.7808559352279236), np.float64(0.7701015532585544)]
+
+Result_features Length: 46
+
+Best Matching Unit: (35, 5)
+
+Full Label Vector: [ 0.17593737  0.11635428 -0.06529446 -0.13003199 -0.13942214 -0.16700342
+  0.1750761  -0.00558872  0.18842362  0.11129943  0.18373209  0.14923165
+  0.03374015 -0.11100835 -0.09958438 -0.05207818 -0.19260869  0.06755195
+  0.02233821 -0.16154178  0.13154306  0.13064877 -0.15443828]
+
+Prediction Binary: [1 1 0 0 0 0 1 0 1 1 1 1 0 0 0 0 0 0 0 0 1 1 0]
+
+Significant Labels: [('Pyotr Konchalovsky', np.float64(0.1884236220125807)), ('Rembrandt', np.float64(0.18373208788134932)), ('Nicholas Roerich', np.float64(0.1759373716598829)), ('John Singer Sargent', np.float64(0.17507610360731904)), ('Ilya Repin', np.float64(0.1492316536818149)), ('Martiros Saryan', np.float64(0.1315430551628286)), ('Paul Cezanne', np.float64(0.13064876632898442)), ('Pierre Auguste Renoir', np.float64(0.11635428453546032)), ('Edgar Degas', np.float64(0.1112994324883726))]
+
+The contributing artists for the generated image were: Edgar Degas
+
+Ground Truth: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Predicted Binary: [1 1 0 0 0 0 1 0 1 1 1 1 0 0 0 0 0 0 0 0 1 1 0]
+
+Accuracy: 0.6521739130434783
+
+Precision: 0.1111111111111111
+
+Recall: 1.0
+
+F1 Score: 0.2
+
+Random Forest Prediction: [2]
+
+Random Forest Probabilities: [[0.0124 0.0079 0.2203 0.0291 0.0498 0.0411 0.0413 0.0005 0.0063 0.0206
+  0.0189 0.0696 0.0194 0.0095 0.0317 0.0481 0.0373 0.1861 0.0245 0.0179
+  0.0078 0.0281 0.0718]]
+
+Random Forest Binary (threshold=0.05): [0 0 1 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 1]
+
+Random Forest Accuracy: 0.782608695652174
+
+Random Forest Precision: 0.0
+
+Random Forest Recall: 0.0
+
+Random Forest F1 Score: 0.0
+
+  Rank 1: fVincent Van Gogh (22.03%)
+  Rank 2: fCamille Pissarro (18.61%)
+  Rank 3: fChilde Hassam (7.18%)
+  Rank 4: fIlya Repin (6.96%)
+  Rank 5: fPablo Picasso (4.98%)
+  Rank 6: fAlbrecht Durer (4.81%)
+  Rank 7: fJohn Singer Sargent (4.13%)
+  Rank 8: fClaude Monet (4.11%)
+  Rank 9: fRaphael Kirchner (3.73%)
+  Rank 10: fGustave Dore (3.17%)
+  Rank 11: fSalvador Dali (2.91%)
+  Rank 12: fPaul Cezanne (2.81%)
+  Rank 13: fMarc Chagall (2.45%)
+  Rank 14: fEdgar Degas (2.06%)
+Selected Artwork: The Boulevard Montmartre At Night 1897
+Generated Prompt: The Boulevard Montmartre At Night 1897 by Camille Pissarro
+Selected Artwork Artist: Camille Pissarro
+Saved 1 images as a grid: The Boulevard Montmartre At Night 1897 by Camille Pissarro.png
+Result_features: [np.float64(0.4526707971772973), np.float64(0.5145079961985853), np.float64(0.5019913372414075), np.float64(0.49057702174565865), 0.04174041748046875, 0.10714340209960938, 0.18738174438476562, 0.12709426879882812, 0.03726959228515625, 0.018001556396484375, 0.01456451416015625, 0.015773773193359375, 0.009708404541015625, 0.00527191162109375, 0.00579071044921875, 0.002773284912109375, 0.00441741943359375, 0.008922576904296875, 0.08080291748046875, 0.23967742919921875, 0.02494049072265625, 0.018707275390625, 0.0223236083984375, 0.0276947021484375, np.float64(0.6571302276878445), np.float64(0.21324357918987966), np.float64(0.609390625), np.float64(0.5645326106002437), np.float64(0.3840061078371387), np.float64(0.17515625), np.float64(0.13327133564949353), np.float64(0.08040134126668275), np.float64(0.00030805029296875004), np.float64(0.4810226920409121), np.float64(0.5116028910469289), np.float64(0.5000012413084621), np.float64(0.28062426528590473), np.float64(0.6868620688866791), np.float64(0.5677028332308027), np.float64(0.6073053380627503), np.float64(0.41433433620702853), np.float64(0.42381751134625717), np.float64(0.5047092018629104), np.float64(0.49382165385166427), np.float64(0.49286394905022346), np.float64(0.5029686908901904)]
+
+Result_features Length: 46
+
+Best Matching Unit: (35, 2)
+
+Full Label Vector: [ 0.11179487  0.14007756  0.16820164  0.12890843  0.12650039  0.06437231
+ -0.01682118  0.02043445  0.01418054  0.13017912 -0.09397    -0.05494692
+  0.02295811  0.19472508 -0.00426672 -0.14999528  0.06989616  0.04670925
+  0.13916935  0.14249723 -0.09672157 -0.18255972  0.11444493]
+
+Prediction Binary: [1 1 1 1 1 1 0 0 0 1 0 0 0 1 0 0 1 0 1 1 0 0 1]
+
+Significant Labels: [('Eugene Boudin', np.float64(0.19472508155877882)), ('Vincent Van Gogh', np.float64(0.16820164086346076)), ('Ivan Aivazovsky', np.float64(0.1424972328837516)), ('Pierre Auguste Renoir', np.float64(0.14007755671577124)), ('Marc Chagall', np.float64(0.1391693456358725)), ('Edgar Degas', np.float64(0.1301791220449888)), ('Salvador Dali', np.float64(0.1289084311397538)), ('Pablo Picasso', np.float64(0.1265003898940025)), ('Childe Hassam', np.float64(0.11444492794405803)), ('Nicholas Roerich', np.float64(0.11179487343882599)), ('Raphael Kirchner', np.float64(0.06989616035476887)), ('Claude Monet', np.float64(0.06437231028424091))]
+
+The contributing artists for the generated image were: Camille Pissarro
+
+Ground Truth: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0]
+
+Predicted Binary: [1 1 1 1 1 1 0 0 0 1 0 0 0 1 0 0 1 0 1 1 0 0 1]
+
+Accuracy: 0.43478260869565216
+
+Precision: 0.0
+
+Recall: 0.0
+
+F1 Score: 0.0
+
+Random Forest Prediction: [4]
+
+Random Forest Probabilities: [[0.0124 0.0287 0.0665 0.0168 0.1175 0.0535 0.0129 0.0019 0.0136 0.0128
+  0.0024 0.0599 0.0376 0.1151 0.0933 0.0384 0.0379 0.0752 0.1071 0.0004
+  0.0227 0.0376 0.0358]]
+
+Random Forest Binary (threshold=0.05): [0 0 1 0 1 1 0 0 0 0 0 1 0 1 1 0 0 1 1 0 0 0 0]
+
+Random Forest Accuracy: 0.6956521739130435
+
+Random Forest Precision: 0.125
+
+Random Forest Recall: 1.0
+
+Random Forest F1 Score: 0.2222222222222222
+
+  Rank 1: fPablo Picasso (11.75%)
+  Rank 2: fEugene Boudin (11.51%)
+  Rank 3: fMarc Chagall (10.71%)
+  Rank 4: fGustave Dore (9.33%)
+  Rank 5: fCamille Pissarro (7.52%)
+Selected Artwork: Bench At The Mall 1872
+Generated Prompt: Bench At The Mall 1872 by Ivan Shishkin
+Selected Artwork Artist: Ivan Shishkin
+Saved 1 images as a grid: Bench At The Mall 1872 by Ivan Shishkin.png
+Result_features: [np.float64(0.44734635899410624), np.float64(0.490607182913034), np.float64(0.5272586480853482), np.float64(0.7415792803201466), 0.012577056884765625, 0.01812744140625, 0.039691925048828125, 0.05504608154296875, 0.045955657958984375, 0.07999038696289062, 0.3641204833984375, 0.19429779052734375, 0.04706573486328125, 0.015743255615234375, 0.010326385498046875, 0.004730224609375, 0.00506591796875, 0.006153106689453125, 0.007785797119140625, 0.018352508544921875, 0.024303436279296875, 0.021636962890625, 0.016078948974609375, 0.012950897216796875, np.float64(0.4191453063686499), np.float64(0.8027241112127282), np.float64(0.296059663938089), np.float64(0.51295198880638), np.float64(0.37661714190837037), np.float64(0.25271022277177446), np.float64(0.12734818665704573), np.float64(0.09401331808827416), np.float64(0.029536672402234215), np.float64(0.4958479307224996), np.float64(0.5177871693532219), np.float64(0.5031427015505029), np.float64(0.42392231162056826), np.float64(0.26525389302902724), np.float64(0.33254481148976883), np.float64(0.37139157857236615), np.float64(0.34279404893385385), np.float64(0.3914237484300652), np.float64(0.5286011245659741), np.float64(0.5533224935516533), np.float64(0.4896583310823084), np.float64(0.5210726623284843)]
+
+Result_features Length: 46
+
+Best Matching Unit: (12, 13)
+
+Full Label Vector: [-0.15849402  0.00072396  0.17499922  0.00262112  0.11718312 -0.19121577
+  0.09257841  0.18137161 -0.00019167 -0.06587366  0.05952554  0.16896072
+ -0.13119943 -0.03909059 -0.13951202 -0.00135805  0.01640732  0.18030256
+ -0.03551016  0.02717774  0.15637835 -0.07249184  0.07069324]
+
+Prediction Binary: [0 0 1 0 1 0 0 1 0 0 0 1 0 0 0 0 0 1 0 1 1 0 1]
+
+Significant Labels: [('Ivan Shishkin', np.float64(0.18137160824421084)), ('Camille Pissarro', np.float64(0.18030255858038657)), ('Vincent Van Gogh', np.float64(0.17499921674693222)), ('Ilya Repin', np.float64(0.168960718984956)), ('Martiros Saryan', np.float64(0.15637834885867744)), ('Pablo Picasso', np.float64(0.11718312222353265)), ('Childe Hassam', np.float64(0.0706932364942424)), ('Ivan Aivazovsky', np.float64(0.02717773636905319))]
+
+The contributing artists for the generated image were: Ivan Shishkin
+
+Ground Truth: [0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Predicted Binary: [0 0 1 0 1 0 0 1 0 0 0 1 0 0 0 0 0 1 0 1 1 0 1]
+
+Accuracy: 0.6956521739130435
+
+Precision: 0.125
+
+Recall: 1.0
+
+F1 Score: 0.2222222222222222
+
+Random Forest Prediction: [10]
+
+Random Forest Probabilities: [[0.0015 0.0422 0.0617 0.0163 0.1173 0.0072 0.0027 0.0008 0.0568 0.0138
+  0.2891 0.0097 0.0093 0.014  0.0181 0.0359 0.0534 0.0452 0.0875 0.0018
+  0.0021 0.0166 0.097 ]]
+
+Random Forest Binary (threshold=0.05): [0 0 1 0 1 0 0 0 1 0 1 0 0 0 0 0 1 0 1 0 0 0 1]
+
+Random Forest Accuracy: 0.6521739130434783
+
+Random Forest Precision: 0.0
+
+Random Forest Recall: 0.0
+
+Random Forest F1 Score: 0.0
+
+  Rank 1: fRembrandt (28.91%)
+  Rank 2: fPablo Picasso (11.73%)
+  Rank 3: fChilde Hassam (9.70%)
+  Rank 4: fMarc Chagall (8.75%)
+  Rank 5: fVincent Van Gogh (6.17%)
+  Rank 6: fPyotr Konchalovsky (5.68%)
+  Rank 7: fRaphael Kirchner (5.34%)
+  Rank 8: fCamille Pissarro (4.52%)
+  Rank 9: fPierre Auguste Renoir (4.22%)
+  Rank 10: fAlbrecht Durer (3.59%)
+  Rank 11: fGustave Dore (1.81%)
+  Rank 12: fPaul Cezanne (1.66%)
+  Rank 13: fSalvador Dali (1.63%)
+  Rank 14: fEugene Boudin (1.40%)
+  Rank 15: fEdgar Degas (1.38%)
+  Rank 16: fIlya Repin (0.97%)
+  Rank 17: fBoris Kustodiev (0.93%)
+  Rank 18: fClaude Monet (0.72%)
+  Rank 19: fJohn Singer Sargent (0.27%)
+  Rank 20: fMartiros Saryan (0.21%)
+  Rank 21: fIvan Aivazovsky (0.18%)
+  Rank 22: fNicholas Roerich (0.15%)
+  Rank 23: fIvan Shishkin (0.08%)
+Selected Artwork: Three Acrobates 1926
+Generated Prompt: Three Acrobates 1926 by Marc Chagall
+Selected Artwork Artist: Marc Chagall
+Saved 1 images as a grid: Three Acrobates 1926 by Marc Chagall.png
+Result_features: [np.float64(0.5170725761619659), np.float64(0.5050225217961636), np.float64(0.5048502403856439), np.float64(0.5109214080158837), 0.07638168334960938, 0.08752822875976562, 0.02068328857421875, 0.02909088134765625, 0.16154098510742188, 0.09794998168945312, 0.023357391357421875, 0.02608489990234375, 0.025928497314453125, 0.035137176513671875, 0.06543350219726562, 0.009784698486328125, 0.06031036376953125, 0.056163787841796875, 0.047176361083984375, 0.07973861694335938, 0.02716064453125, 0.018093109130859375, 0.024951934814453125, 0.02750396728515625, np.float64(0.6296855967028906), np.float64(0.5921833334376604), np.float64(0.15384454944070833), np.float64(0.602938904590496), np.float64(0.46266518072317436), np.float64(0.382656796513298), np.float64(0.0933290350281031), np.float64(0.19325394296431656), np.float64(0.07006519670582292), np.float64(0.49037255413302966), np.float64(0.511934609727842), np.float64(0.5121868744511495), np.float64(0.563314112932001), np.float64(0.21815028196249153), np.float64(0.5705519753777082), np.float64(0.2433068176935358), np.float64(0.26941637538467433), np.float64(0.35250236060495344), np.float64(0.7334130236362386), np.float64(0.35502962989913045), np.float64(0.8699924213520361), np.float64(0.8389139756873109)]
+
+Result_features Length: 46
+
+Best Matching Unit: (12, 13)
+
+Full Label Vector: [-0.15849402  0.00072396  0.17499922  0.00262112  0.11718312 -0.19121577
+  0.09257841  0.18137161 -0.00019167 -0.06587366  0.05952554  0.16896072
+ -0.13119943 -0.03909059 -0.13951202 -0.00135805  0.01640732  0.18030256
+ -0.03551016  0.02717774  0.15637835 -0.07249184  0.07069324]
+
+Prediction Binary: [0 0 1 0 1 0 0 1 0 0 0 1 0 0 0 0 0 1 0 1 1 0 1]
+
+Significant Labels: [('Ivan Shishkin', np.float64(0.18137160824421084)), ('Camille Pissarro', np.float64(0.18030255858038657)), ('Vincent Van Gogh', np.float64(0.17499921674693222)), ('Ilya Repin', np.float64(0.168960718984956)), ('Martiros Saryan', np.float64(0.15637834885867744)), ('Pablo Picasso', np.float64(0.11718312222353265)), ('Childe Hassam', np.float64(0.0706932364942424)), ('Ivan Aivazovsky', np.float64(0.02717773636905319))]
+
+The contributing artists for the generated image were: Marc Chagall
+
+Ground Truth: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0]
+
+Predicted Binary: [0 0 1 0 1 0 0 1 0 0 0 1 0 0 0 0 0 1 0 1 1 0 1]
+
+Accuracy: 0.6086956521739131
+
+Precision: 0.0
+
+Recall: 0.0
+
+F1 Score: 0.0
+
+Random Forest Prediction: [18]
+
+Random Forest Probabilities: [[0.022  0.0687 0.0298 0.0171 0.0949 0.0176 0.0136 0.003  0.0625 0.0243
+  0.0278 0.0332 0.0669 0.1172 0.0864 0.0422 0.0355 0.0404 0.1206 0.0038
+  0.0192 0.0277 0.0256]]
+
+Random Forest Binary (threshold=0.05): [0 1 0 0 1 0 0 0 1 0 0 0 1 1 1 0 0 0 1 0 0 0 0]
+
+Random Forest Accuracy: 0.7391304347826086
+
+Random Forest Precision: 0.14285714285714285
+
+Random Forest Recall: 1.0
+
+Random Forest F1 Score: 0.25
+
+  Rank 1: fMarc Chagall (12.06%)
+Selected Artwork: Sea View
+Generated Prompt: Sea View by Ivan Aivazovsky
+Selected Artwork Artist: Ivan Aivazovsky
+Saved 1 images as a grid: Sea View by Ivan Aivazovsky.png
+Result_features: [np.float64(0.5944726838599491), np.float64(0.4901602955951714), np.float64(0.49721440508396336), np.float64(0.417225806722405), 0.00345611572265625, 0.00437164306640625, 0.011119842529296875, 0.01332855224609375, 0.016696929931640625, 0.0378875732421875, 0.06862258911132812, 0.10668182373046875, 0.058429718017578125, 0.0465240478515625, 0.04227447509765625, 0.07983779907226562, 0.14946746826171875, 0.24276351928710938, 0.018856048583984375, 0.026927947998046875, 0.047332763671875, 0.013671875, 0.00762939453125, 0.004119873046875, np.float64(0.4065740193761815), np.float64(0.5433414006839677), np.float64(0.7336852549954875), np.float64(0.5495542619006702), np.float64(0.20055054922474502), np.float64(0.831674061429745), np.float64(0.11341006143481319), np.float64(0.12918388190568728), np.float64(0.05142548304450152), np.float64(0.49734286139022454), np.float64(0.4909698561456935), np.float64(0.4928740561029661), np.float64(0.6117181003470709), np.float64(0.5284994600826333), np.float64(0.37984939827850817), np.float64(0.48825205623139095), np.float64(0.45265934383354867), np.float64(0.6660576927072299), np.float64(0.4257168777747385), np.float64(0.6373659383609085), np.float64(0.7421406734429155), np.float64(0.6423914528426865)]
+
+Result_features Length: 46
+
+Best Matching Unit: (25, 1)
+
+Full Label Vector: [-0.15132815 -0.08309775  0.0739198   0.14162717  0.10019302 -0.01770508
+  0.09009543 -0.17059047  0.06480281 -0.19615144 -0.18038878  0.10258173
+ -0.00891992 -0.17560359 -0.0072318  -0.17432644 -0.06138575 -0.13660287
+ -0.11188401 -0.12135967 -0.05112513 -0.1563239   0.01105831]
+
+Prediction Binary: [0 0 0 1 1 0 0 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0]
+
+Significant Labels: [('Salvador Dali', np.float64(0.14162717462426105)), ('Ilya Repin', np.float64(0.10258173484777379)), ('Pablo Picasso', np.float64(0.10019301719417677)), ('Pyotr Konchalovsky', np.float64(0.0648028129059298))]
+
+The contributing artists for the generated image were: Ivan Aivazovsky
+
+Ground Truth: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0]
+
+Predicted Binary: [0 0 0 1 1 0 0 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0]
+
+Accuracy: 0.782608695652174
+
+Precision: 0.0
+
+Recall: 0.0
+
+F1 Score: 0.0
+
+Random Forest Prediction: [4]
+
+Random Forest Probabilities: [[0.0026 0.0607 0.0185 0.084  0.2963 0.0105 0.0421 0.0045 0.0195 0.06
+  0.0105 0.0039 0.0221 0.0247 0.1117 0.0409 0.0264 0.0123 0.0818 0.0013
+  0.0017 0.0377 0.0263]]
+
+Random Forest Binary (threshold=0.05): [0 1 0 1 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0 0 0 0]
+
+Random Forest Accuracy: 0.6956521739130435
+
+Random Forest Precision: 0.0
+
+Random Forest Recall: 0.0
+
+Random Forest F1 Score: 0.0
+
+  Rank 1: fPablo Picasso (29.63%)
+  Rank 2: fGustave Dore (11.17%)
+  Rank 3: fSalvador Dali (8.40%)
+  Rank 4: fMarc Chagall (8.18%)
+  Rank 5: fPierre Auguste Renoir (6.07%)
+  Rank 6: fEdgar Degas (6.00%)
+  Rank 7: fJohn Singer Sargent (4.21%)
+  Rank 8: fAlbrecht Durer (4.09%)
+  Rank 9: fPaul Cezanne (3.77%)
+  Rank 10: fRaphael Kirchner (2.64%)
+  Rank 11: fChilde Hassam (2.63%)
+  Rank 12: fEugene Boudin (2.47%)
+  Rank 13: fBoris Kustodiev (2.21%)
+  Rank 14: fPyotr Konchalovsky (1.95%)
+  Rank 15: fVincent Van Gogh (1.85%)
+  Rank 16: fCamille Pissarro (1.23%)
+  Rank 17: fRembrandt (1.05%)
+  Rank 18: fClaude Monet (1.05%)
+  Rank 19: fIvan Shishkin (0.45%)
+  Rank 20: fIlya Repin (0.39%)
+  Rank 21: fNicholas Roerich (0.26%)
+  Rank 22: fMartiros Saryan (0.17%)
+  Rank 23: fIvan Aivazovsky (0.13%)
+Selected Artwork: Woman In A Blue Blouse
+Generated Prompt: Woman In A Blue Blouse by Pierre Auguste Renoir
+Selected Artwork Artist: Pierre Auguste Renoir
+Saved 1 images as a grid: Woman In A Blue Blouse by Pierre Auguste Renoir.png
+Result_features: [np.float64(0.541312671640964), np.float64(0.5098191549758232), np.float64(0.5208527031563092), np.float64(0.6128690739842025), 0.024234771728515625, 0.09161376953125, 0.09312820434570312, 0.138336181640625, 0.22885513305664062, 0.115692138671875, 0.0609130859375, 0.021732330322265625, 0.007236480712890625, 0.00147247314453125, 0.001316070556640625, 0.000400543212890625, 0.001224517822265625, 0.0025787353515625, 0.0275726318359375, 0.12716293334960938, 0.025043487548828125, 0.010257720947265625, 0.009258270263671875, 0.01197052001953125, np.float64(0.5758529136759948), np.float64(0.2580358128376273), np.float64(0.5273003925481128), np.float64(0.4179957302321101), np.float64(0.8273609154243715), np.float64(0.44143940912651053), np.float64(0.1598825120775004), np.float64(0.05576440169486166), np.float64(0.025675053201539177), np.float64(0.49716847124885866), np.float64(0.5034209301861094), np.float64(0.500395162612416), np.float64(0.4083466672410518), np.float64(0.2084088852801318), np.float64(0.1773044638665781), np.float64(0.35501171619031824), np.float64(0.2725401282072068), np.float64(0.46503976032958966), np.float64(0.6285058943946946), np.float64(0.6928194232657244), np.float64(0.7675034746944447), np.float64(0.7257334028410898)]
+
+Result_features Length: 46
+
+Best Matching Unit: (6, 14)
+
+Full Label Vector: [ 0.03451566 -0.16608337 -0.01735496  0.12212611 -0.20054534 -0.18816203
+ -0.18380086  0.09810635  0.00049539 -0.0556708  -0.16746963  0.09861782
+ -0.07600163 -0.0996521   0.06468038  0.02505821 -0.05842554  0.06008083
+ -0.09714783  0.12519586 -0.11494121 -0.14487017  0.11993425]
+
+Prediction Binary: [0 0 0 1 0 0 0 1 0 0 0 1 0 0 1 0 0 0 0 1 0 0 1]
+
+Significant Labels: [('Ivan Aivazovsky', np.float64(0.125195862817397)), ('Salvador Dali', np.float64(0.12212611243706104)), ('Childe Hassam', np.float64(0.11993424750035507)), ('Ilya Repin', np.float64(0.09861782283555032)), ('Ivan Shishkin', np.float64(0.09810635091591291)), ('Gustave Dore', np.float64(0.06468038171653527))]
+
+The contributing artists for the generated image were: Pierre Auguste Renoir
+
+Ground Truth: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Predicted Binary: [0 0 0 1 0 0 0 1 0 0 0 1 0 0 1 0 0 0 0 1 0 0 1]
+
+Accuracy: 0.6956521739130435
+
+Precision: 0.0
+
+Recall: 0.0
+
+F1 Score: 0.0
+
+Random Forest Prediction: [17]
+
+Random Forest Probabilities: [[0.0089 0.0167 0.0976 0.043  0.0795 0.0402 0.0134 0.0006 0.0133 0.0098
+  0.0025 0.0631 0.0418 0.0477 0.0311 0.031  0.0485 0.263  0.0547 0.0094
+  0.0061 0.0365 0.0416]]
+
+Random Forest Binary (threshold=0.05): [0 0 1 0 1 0 0 0 0 0 0 1 0 0 0 0 0 1 1 0 0 0 0]
+
+Random Forest Accuracy: 0.7391304347826086
+
+Random Forest Precision: 0.0
+
+Random Forest Recall: 0.0
+
+Random Forest F1 Score: 0.0
+
+  Rank 1: fCamille Pissarro (26.30%)
+  Rank 2: fVincent Van Gogh (9.76%)
+  Rank 3: fPablo Picasso (7.95%)
+  Rank 4: fIlya Repin (6.31%)
+  Rank 5: fMarc Chagall (5.47%)
+  Rank 6: fRaphael Kirchner (4.85%)
+  Rank 7: fEugene Boudin (4.77%)
+  Rank 8: fSalvador Dali (4.30%)
+  Rank 9: fBoris Kustodiev (4.18%)
+  Rank 10: fChilde Hassam (4.16%)
+  Rank 11: fClaude Monet (4.02%)
+  Rank 12: fPaul Cezanne (3.65%)
+  Rank 13: fGustave Dore (3.11%)
+  Rank 14: fAlbrecht Durer (3.10%)
+  Rank 15: fPierre Auguste Renoir (1.67%)
+Selected Artwork: Rain In Early May 1940
+Generated Prompt: Rain In Early May 1940 by Martiros Saryan
+Selected Artwork Artist: Martiros Saryan
+Saved 1 images as a grid: Rain In Early May 1940 by Martiros Saryan.png
+Result_features: [np.float64(0.5557020487511495), np.float64(0.49470845397407276), np.float64(0.5014417476811015), np.float64(0.4827893590737105), 0.01253509521484375, 0.044025421142578125, 0.02240753173828125, 0.017757415771484375, 0.034999847412109375, 0.050628662109375, 0.048839569091796875, 0.054103851318359375, 0.08480072021484375, 0.09334945678710938, 0.06935501098632812, 0.040653228759765625, 0.035305023193359375, 0.045955657958984375, 0.24473190307617188, 0.06897735595703125, 0.015472412109375, 0.0059661865234375, 0.0044708251953125, 0.005664825439453125, np.float64(0.6616111188130188), np.float64(0.1624428541318491), np.float64(0.30413359674986284), np.float64(0.4991964070332751), np.float64(0.5025330005148024), np.float64(0.3635673083516182), np.float64(0.12376307966129993), np.float64(0.09062547048600796), np.float64(0.00886619403454749), np.float64(0.4996835981261208), np.float64(0.4989107090040454), np.float64(0.4989636538993104), np.float64(0.45362267452878324), np.float64(0.6600370163666428), np.float64(0.450148156460329), np.float64(0.34345140516000616), np.float64(0.29596197781796446), np.float64(0.46328243635694494), np.float64(0.7468993671284577), np.float64(0.6347535409810898), np.float64(0.6623271631195958), np.float64(0.4869324172206756)]
+
+Result_features Length: 46
+
+Best Matching Unit: (12, 13)
+
+Full Label Vector: [-0.15849402  0.00072396  0.17499922  0.00262112  0.11718312 -0.19121577
+  0.09257841  0.18137161 -0.00019167 -0.06587366  0.05952554  0.16896072
+ -0.13119943 -0.03909059 -0.13951202 -0.00135805  0.01640732  0.18030256
+ -0.03551016  0.02717774  0.15637835 -0.07249184  0.07069324]
+
+Prediction Binary: [0 0 1 0 1 0 0 1 0 0 0 1 0 0 0 0 0 1 0 1 1 0 1]
+
+Significant Labels: [('Ivan Shishkin', np.float64(0.18137160824421084)), ('Camille Pissarro', np.float64(0.18030255858038657)), ('Vincent Van Gogh', np.float64(0.17499921674693222)), ('Ilya Repin', np.float64(0.168960718984956)), ('Martiros Saryan', np.float64(0.15637834885867744)), ('Pablo Picasso', np.float64(0.11718312222353265)), ('Childe Hassam', np.float64(0.0706932364942424)), ('Ivan Aivazovsky', np.float64(0.02717773636905319))]
+
+The contributing artists for the generated image were: Martiros Saryan
+
+Ground Truth: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0]
+
+Predicted Binary: [0 0 1 0 1 0 0 1 0 0 0 1 0 0 0 0 0 1 0 1 1 0 1]
+
+Accuracy: 0.6956521739130435
+
+Precision: 0.125
+
+Recall: 1.0
+
+F1 Score: 0.2222222222222222
+
+Random Forest Prediction: [4]
+
+Random Forest Probabilities: [[0.0029 0.0726 0.029  0.0376 0.2692 0.0014 0.0178 0.0006 0.046  0.0493
+  0.0223 0.0045 0.034  0.0616 0.0644 0.0302 0.0638 0.0205 0.1198 0.0005
+  0.0039 0.0152 0.0329]]
+
+Random Forest Binary (threshold=0.05): [0 1 0 0 1 0 0 0 0 0 0 0 0 1 1 0 1 0 1 0 0 0 0]
+
+Random Forest Accuracy: 0.6956521739130435
+
+Random Forest Precision: 0.0
+
+Random Forest Recall: 0.0
+
+Random Forest F1 Score: 0.0
+
+  Rank 1: fPablo Picasso (26.92%)
+  Rank 2: fMarc Chagall (11.98%)
+  Rank 3: fPierre Auguste Renoir (7.26%)
+  Rank 4: fGustave Dore (6.44%)
+  Rank 5: fRaphael Kirchner (6.38%)
+  Rank 6: fEugene Boudin (6.16%)
+  Rank 7: fEdgar Degas (4.93%)
+  Rank 8: fPyotr Konchalovsky (4.60%)
+  Rank 9: fSalvador Dali (3.76%)
+  Rank 10: fBoris Kustodiev (3.40%)
+  Rank 11: fChilde Hassam (3.29%)
+  Rank 12: fAlbrecht Durer (3.02%)
+  Rank 13: fVincent Van Gogh (2.90%)
+  Rank 14: fRembrandt (2.23%)
+  Rank 15: fCamille Pissarro (2.05%)
+  Rank 16: fJohn Singer Sargent (1.78%)
+  Rank 17: fPaul Cezanne (1.52%)
+  Rank 18: fIlya Repin (0.45%)
+  Rank 19: fMartiros Saryan (0.39%)
+Selected Artwork: Place Du Theatre Francais 1898
+Generated Prompt: Place Du Theatre Francais 1898 by Camille Pissarro
+Selected Artwork Artist: Camille Pissarro
+Saved 1 images as a grid: Place Du Theatre Francais 1898 by Camille Pissarro.png
+Result_features: [np.float64(0.5105395429762738), np.float64(0.5128694490722436), np.float64(0.5232572217349722), np.float64(0.6400947352525435), 0.02462005615234375, 0.083465576171875, 0.18794631958007812, 0.2884368896484375, 0.25457763671875, 0.046665191650390625, 0.00870513916015625, 0.004772186279296875, 0.004360198974609375, 0.003078460693359375, 0.00484466552734375, 0.00258636474609375, 0.0054779052734375, 0.0092315673828125, 0.011432647705078125, 0.016284942626953125, 0.009807586669921875, 0.00913238525390625, 0.0116119384765625, 0.01296234130859375, np.float64(0.5998326747622498), np.float64(0.10509085058708217), np.float64(0.5735400609942833), np.float64(0.4963053628445725), np.float64(0.4749313828766016), np.float64(0.7758328495049), np.float64(0.14923315200973344), np.float64(0.07644969836310875), np.float64(0.017599357247368986), np.float64(0.4977223814912706), np.float64(0.5061310899353517), np.float64(0.5000848775512662), np.float64(0.22116050820051333), np.float64(0.28521321395349175), np.float64(0.23913148744037377), np.float64(0.1861053779730842), np.float64(0.22751610080405793), np.float64(0.4684896634217898), np.float64(0.6633995214039278), np.float64(0.4914842107759818), np.float64(0.44417090555304756), np.float64(0.592834708674095)]
+
+Result_features Length: 46
+
+Best Matching Unit: (31, 6)
+
+Full Label Vector: [ 0.1323073   0.08315535 -0.06389351  0.14412793  0.06202441 -0.15490449
+  0.12437395  0.08031942 -0.09817245  0.15589961 -0.05743694  0.02404258
+ -0.07149977  0.10228348  0.03700444 -0.01354267 -0.21867484  0.04886287
+  0.05577739 -0.14531714 -0.0764462   0.1726803   0.02241349]
+
+Prediction Binary: [1 1 0 1 1 0 0 1 0 1 0 0 0 1 0 0 0 0 0 0 0 1 1]
+
+Significant Labels: [('Paul Cezanne', np.float64(0.1726803037003749)), ('Edgar Degas', np.float64(0.15589960890974433)), ('Salvador Dali', np.float64(0.14412793349170414)), ('Nicholas Roerich', np.float64(0.1323073015355453)), ('Eugene Boudin', np.float64(0.10228348046413796)), ('Pierre Auguste Renoir', np.float64(0.08315534896992707)), ('Ivan Shishkin', np.float64(0.08031942408879811)), ('Pablo Picasso', np.float64(0.062024413954627725)), ('Childe Hassam', np.float64(0.02241348793634823))]
+
+The contributing artists for the generated image were: Camille Pissarro
+
+Ground Truth: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0]
+
+Predicted Binary: [1 1 0 1 1 0 0 1 0 1 0 0 0 1 0 0 0 0 0 0 0 1 1]
+
+Accuracy: 0.5652173913043478
+
+Precision: 0.0
+
+Recall: 0.0
+
+F1 Score: 0.0
+
+Random Forest Prediction: [17]
+
+Random Forest Probabilities: [[0.0092 0.007  0.144  0.0323 0.0623 0.1238 0.0214 0.0024 0.0031 0.0049
+  0.0038 0.0375 0.0293 0.0526 0.0427 0.0502 0.0175 0.2347 0.0499 0.0062
+  0.0084 0.0118 0.045 ]]
+
+Random Forest Binary (threshold=0.05): [0 0 1 0 1 1 0 0 0 0 0 0 0 1 0 1 0 1 0 0 0 0 0]
+
+Random Forest Accuracy: 0.782608695652174
+
+Random Forest Precision: 0.16666666666666666
+
+Random Forest Recall: 1.0
+
+Random Forest F1 Score: 0.2857142857142857
+
+  Rank 1: fCamille Pissarro (23.47%)
+Selected Artwork: View Of Feodosiya 1845
+Generated Prompt: View Of Feodosiya 1845 by Ivan Aivazovsky
+Selected Artwork Artist: Ivan Aivazovsky
+Saved 1 images as a grid: View Of Feodosiya 1845 by Ivan Aivazovsky.png
+Result_features: [np.float64(0.5560572679910069), np.float64(0.5030140411250189), np.float64(0.518025825866611), np.float64(0.6340722093499691), 0.01940155029296875, 0.039478302001953125, 0.09390640258789062, 0.1309051513671875, 0.2675132751464844, 0.09889602661132812, 0.02140045166015625, 0.030609130859375, 0.0506439208984375, 0.06929779052734375, 0.06482696533203125, 0.03382110595703125, 0.025882720947265625, 0.013336181640625, 0.0089111328125, 0.0086517333984375, 0.00498199462890625, 0.004405975341796875, 0.006267547607421875, 0.006862640380859375, np.float64(0.661492070136206), np.float64(0.23795744228531562), np.float64(0.7266358744087201), np.float64(0.3909250584446312), np.float64(0.621420801638438), np.float64(0.707141579402893), np.float64(0.1366044796963679), np.float64(0.07991416708740957), np.float64(0.02429818296135044), np.float64(0.510130052446431), np.float64(0.49479492075978415), np.float64(0.5010924119427209), np.float64(0.23062081601206272), np.float64(0.42247174017175615), np.float64(0.32058365617051343), np.float64(0.3431518314110441), np.float64(0.28122707288947973), np.float64(0.5749534308556384), np.float64(0.543777445469511), np.float64(0.47700750577864803), np.float64(0.4765933121598205), np.float64(0.4131024395460766)]
+
+Result_features Length: 46
+
+Best Matching Unit: (6, 30)
+
+Full Label Vector: [ 0.20165577  0.19344232  0.07950694  0.12887214 -0.14001873  0.09591752
+  0.05108371 -0.17674637 -0.16739634 -0.16943681  0.09708518 -0.15503931
+ -0.0139631  -0.06188776  0.02185448  0.08934784  0.07993433  0.00671588
+ -0.01543324 -0.0442179   0.15660801 -0.0731949  -0.10412878]
+
+Prediction Binary: [1 1 0 1 0 1 0 0 0 0 1 0 0 0 0 0 1 0 0 0 1 0 0]
+
+Significant Labels: [('Nicholas Roerich', np.float64(0.20165576641374514)), ('Pierre Auguste Renoir', np.float64(0.193442315567956)), ('Martiros Saryan', np.float64(0.15660801211927014)), ('Salvador Dali', np.float64(0.12887213864719685)), ('Rembrandt', np.float64(0.09708518302271833)), ('Claude Monet', np.float64(0.0959175202742961)), ('Raphael Kirchner', np.float64(0.0799343303034332))]
+
+The contributing artists for the generated image were: Ivan Aivazovsky
+
+Ground Truth: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0]
+
+Predicted Binary: [1 1 0 1 0 1 0 0 0 0 1 0 0 0 0 0 1 0 0 0 1 0 0]
+
+Accuracy: 0.6521739130434783
+
+Precision: 0.0
+
+Recall: 0.0
+
+F1 Score: 0.0
+
+Random Forest Prediction: [18]
+
+Random Forest Probabilities: [[0.0136 0.0453 0.0665 0.038  0.0771 0.0613 0.0258 0.0021 0.0269 0.0194
+  0.0092 0.0252 0.0314 0.044  0.0388 0.0461 0.0493 0.0654 0.2179 0.0047
+  0.0122 0.0272 0.0526]]
+
+Random Forest Binary (threshold=0.05): [0 0 1 0 1 1 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 1]
+
+Random Forest Accuracy: 0.6956521739130435
+
+Random Forest Precision: 0.0
+
+Random Forest Recall: 0.0
+
+Random Forest F1 Score: 0.0
+
+  Rank 1: fMarc Chagall (21.79%)
+  Rank 2: fPablo Picasso (7.71%)
+  Rank 3: fVincent Van Gogh (6.65%)
+  Rank 4: fCamille Pissarro (6.54%)
+  Rank 5: fClaude Monet (6.13%)
+  Rank 6: fChilde Hassam (5.26%)
+  Rank 7: fRaphael Kirchner (4.93%)
+  Rank 8: fAlbrecht Durer (4.61%)
+  Rank 9: fPierre Auguste Renoir (4.53%)
+  Rank 10: fEugene Boudin (4.40%)
+  Rank 11: fGustave Dore (3.88%)
+  Rank 12: fSalvador Dali (3.80%)
+  Rank 13: fBoris Kustodiev (3.14%)
+  Rank 14: fPaul Cezanne (2.72%)
+  Rank 15: fPyotr Konchalovsky (2.69%)
+  Rank 16: fJohn Singer Sargent (2.58%)
+  Rank 17: fIlya Repin (2.52%)
+  Rank 18: fEdgar Degas (1.94%)
+  Rank 19: fNicholas Roerich (1.36%)
+  Rank 20: fMartiros Saryan (1.22%)
+  Rank 21: fRembrandt (0.92%)
+  Rank 22: fIvan Aivazovsky (0.47%)
+Selected Artwork: Melisande 1916
+Generated Prompt: Melisande 1916 by Raphael Kirchner
+Selected Artwork Artist: Raphael Kirchner
+Saved 1 images as a grid: Melisande 1916 by Raphael Kirchner.png
+Result_features: [np.float64(0.47852268853458496), np.float64(0.5070482155176298), np.float64(0.5148004386590228), np.float64(0.6727470888304723), 0.003215789794921875, 0.00670623779296875, 0.010799407958984375, 0.6288642883300781, 0.2446746826171875, 0.0353851318359375, 0.003665924072265625, 0.000896453857421875, 0.00049591064453125, 0.000308990478515625, 0.000286102294921875, 0.0001983642578125, 0.000652313232421875, 0.0018157958984375, 0.004863739013671875, 0.00101470947265625, 0.01284027099609375, 0.022808074951171875, 0.011474609375, 0.009033203125, np.float64(0.5039220874096072), np.float64(0.4734248731319011), np.float64(0.25244732993934144), np.float64(0.49295765448218204), np.float64(0.5411223474455416), np.float64(0.635442618067591), np.float64(0.1856090633817607), np.float64(0.023919426046519924), np.float64(0.0011163360033894945), np.float64(0.5001857054806316), np.float64(0.5001576114540942), np.float64(0.4999985263764135), np.float64(0.24210112812239512), np.float64(0.18220875891397506), np.float64(0.6679064386716226), np.float64(0.5764098310250605), np.float64(0.6475773596725881), np.float64(0.43840139887152607), np.float64(0.7953360454323943), np.float64(0.26767277327534134), np.float64(0.320118688428819), np.float64(0.290630826810986)]
+
+Result_features Length: 46
+
+Best Matching Unit: (12, 13)
+
+Full Label Vector: [-0.15849402  0.00072396  0.17499922  0.00262112  0.11718312 -0.19121577
+  0.09257841  0.18137161 -0.00019167 -0.06587366  0.05952554  0.16896072
+ -0.13119943 -0.03909059 -0.13951202 -0.00135805  0.01640732  0.18030256
+ -0.03551016  0.02717774  0.15637835 -0.07249184  0.07069324]
+
+Prediction Binary: [0 0 1 0 1 0 0 1 0 0 0 1 0 0 0 0 0 1 0 1 1 0 1]
+
+Significant Labels: [('Ivan Shishkin', np.float64(0.18137160824421084)), ('Camille Pissarro', np.float64(0.18030255858038657)), ('Vincent Van Gogh', np.float64(0.17499921674693222)), ('Ilya Repin', np.float64(0.168960718984956)), ('Martiros Saryan', np.float64(0.15637834885867744)), ('Pablo Picasso', np.float64(0.11718312222353265)), ('Childe Hassam', np.float64(0.0706932364942424)), ('Ivan Aivazovsky', np.float64(0.02717773636905319))]
+
+The contributing artists for the generated image were: Raphael Kirchner
+
+Ground Truth: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0]
+
+Predicted Binary: [0 0 1 0 1 0 0 1 0 0 0 1 0 0 0 0 0 1 0 1 1 0 1]
+
+Accuracy: 0.6086956521739131
+
+Precision: 0.0
+
+Recall: 0.0
+
+F1 Score: 0.0
+
+Random Forest Prediction: [12]
+
+Random Forest Probabilities: [[0.0367 0.0226 0.0564 0.0186 0.0169 0.0418 0.0468 0.016  0.018  0.0195
+  0.0178 0.0466 0.1935 0.0232 0.0738 0.0239 0.024  0.054  0.0401 0.0765
+  0.0416 0.0338 0.0579]]
+
+Random Forest Binary (threshold=0.05): [0 0 1 0 0 0 0 0 0 0 0 0 1 0 1 0 0 1 0 1 0 0 1]
+
+Random Forest Accuracy: 0.6956521739130435
+
+Random Forest Precision: 0.0
+
+Random Forest Recall: 0.0
+
+Random Forest F1 Score: 0.0
+
+  Rank 1: fBoris Kustodiev (19.35%)
+  Rank 2: fIvan Aivazovsky (7.65%)
+  Rank 3: fGustave Dore (7.38%)
+  Rank 4: fChilde Hassam (5.79%)
+  Rank 5: fVincent Van Gogh (5.64%)
+  Rank 6: fCamille Pissarro (5.40%)
+  Rank 7: fJohn Singer Sargent (4.68%)
+  Rank 8: fIlya Repin (4.66%)
+  Rank 9: fClaude Monet (4.18%)
+  Rank 10: fMartiros Saryan (4.16%)
+  Rank 11: fMarc Chagall (4.01%)
+  Rank 12: fNicholas Roerich (3.67%)
+  Rank 13: fPaul Cezanne (3.38%)
+  Rank 14: fRaphael Kirchner (2.40%)
+Selected Artwork: The Tribe Of Benjamin Stained Glass Window For The Synagogue Of The Hadassh Hebrew University 1962
+Generated Prompt: The Tribe Of Benjamin Stained Glass Window For The Synagogue Of The Hadassh Hebrew University 1962 by Marc Chagall
+Selected Artwork Artist: Marc Chagall
+Saved 1 images as a grid: The Tribe Of Benjamin Stained Glass Window For The Synagogue Of The Hadassh Hebrew University 1962 by Marc Chagall.png
+Result_features: [np.float64(0.5369058411427079), np.float64(0.5083413233727141), np.float64(0.5068091565982833), np.float64(0.5242350181192538), 0.06617355346679688, 0.24219131469726562, 0.07818984985351562, 0.033283233642578125, 0.044219970703125, 0.047481536865234375, 0.048297882080078125, 0.034099578857421875, 0.03142547607421875, 0.009860992431640625, 0.02490997314453125, 0.00812530517578125, 0.029445648193359375, 0.032474517822265625, 0.036960601806640625, 0.062061309814453125, 0.07756805419921875, 0.034931182861328125, 0.029880523681640625, 0.02841949462890625, np.float64(0.5138739698112923), np.float64(0.34270710953568184), np.float64(0.6800703779088275), np.float64(0.5250233512582189), np.float64(0.355254982444576), np.float64(0.6552983699523287), np.float64(0.20036386929658254), np.float64(0.1305015109715012), np.float64(0.050150284883194896), np.float64(0.4976218091810357), np.float64(0.5419313820389261), np.float64(0.49878463113869587), np.float64(0.18677873813948365), np.float64(0.5529880756616897), np.float64(0.537751236405358), np.float64(0.33947700403185993), np.float64(0.11530715528052694), np.float64(0.3284404895448069), np.float64(0.6968262684688472), np.float64(0.6997755939769291), np.float64(0.7603312687367968), np.float64(0.45989025578878745)]
+
+Result_features Length: 46
+
+Best Matching Unit: (13, 5)
+
+Full Label Vector: [ 0.15001582 -0.11031765  0.02347182  0.13902105  0.15754824 -0.08984389
+ -0.16729034 -0.11291278  0.18827458 -0.01585662 -0.0344119  -0.20577764
+ -0.18974773  0.07129335  0.03796223  0.03191936 -0.16468322 -0.0625211
+  0.13200709 -0.13738725  0.1617292  -0.15996878 -0.13982231]
+
+Prediction Binary: [1 0 0 1 1 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 1 0 0]
+
+Significant Labels: [('Pyotr Konchalovsky', np.float64(0.18827457690336177)), ('Martiros Saryan', np.float64(0.1617292005905069)), ('Pablo Picasso', np.float64(0.15754824112218846)), ('Nicholas Roerich', np.float64(0.15001582216551868)), ('Salvador Dali', np.float64(0.13902104671649432)), ('Marc Chagall', np.float64(0.13200709438456934)), ('Eugene Boudin', np.float64(0.0712933544213412))]
+
+The contributing artists for the generated image were: Marc Chagall
+
+Ground Truth: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0]
+
+Predicted Binary: [1 0 0 1 1 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 1 0 0]
+
+Accuracy: 0.7391304347826086
+
+Precision: 0.14285714285714285
+
+Recall: 1.0
+
+F1 Score: 0.25
+
+Random Forest Prediction: [18]
+
+Random Forest Probabilities: [[0.009  0.0958 0.0409 0.0167 0.0958 0.0608 0.0078 0.0011 0.0388 0.0101
+  0.0105 0.0314 0.033  0.1273 0.0735 0.0595 0.0467 0.0406 0.134  0.0036
+  0.0121 0.0311 0.0199]]
+
+Random Forest Binary (threshold=0.05): [0 1 0 0 1 1 0 0 0 0 0 0 0 1 1 1 0 0 1 0 0 0 0]
+
+Random Forest Accuracy: 0.7391304347826086
+
+Random Forest Precision: 0.14285714285714285
+
+Random Forest Recall: 1.0
+
+Random Forest F1 Score: 0.25
+
+  Rank 1: fMarc Chagall (13.40%)
+Selected Artwork: Leviathan Job 40 21 1967
+Generated Prompt: Leviathan Job 40 21 1967 by Salvador Dali
+Selected Artwork Artist: Salvador Dali
+Saved 1 images as a grid: Leviathan Job 40 21 1967 by Salvador Dali.png
+Result_features: [np.float64(0.506946481079378), np.float64(0.48322725800064126), np.float64(0.5116777773511372), np.float64(0.6925050543254201), 0.02864837646484375, 0.0210113525390625, 0.00498199462890625, 0.008861541748046875, 0.03240966796875, 0.11734771728515625, 0.1284027099609375, 0.24368667602539062, 0.14901351928710938, 0.0612945556640625, 0.044246673583984375, 0.03919219970703125, 0.058807373046875, 0.038318634033203125, 0.013004302978515625, 0.0020751953125, 0.0002899169921875, 0.000919342041015625, 0.00457763671875, 0.002910614013671875, np.float64(0.5063904291013123), np.float64(0.5236412624709916), np.float64(0.5093270367583835), np.float64(0.535533969728305), np.float64(0.132493278873648), np.float64(0.9067830368658641), np.float64(0.1167429125116612), np.float64(0.0835207287880066), np.float64(0.13533490854680041), np.float64(0.49717743197948766), np.float64(0.510118816845787), np.float64(0.49082781518403357), np.float64(0.4424890990319258), np.float64(0.3157653488406828), np.float64(0.36900849194700946), np.float64(0.36760324877378164), np.float64(0.3842114409003109), np.float64(0.5998285326452736), np.float64(0.4259985821410439), np.float64(0.3018202965657878), np.float64(0.2164821692504137), np.float64(0.31514898887824466)]
+
+Result_features Length: 46
+
+Best Matching Unit: (6, 30)
+
+Full Label Vector: [ 0.20165577  0.19344232  0.07950694  0.12887214 -0.14001873  0.09591752
+  0.05108371 -0.17674637 -0.16739634 -0.16943681  0.09708518 -0.15503931
+ -0.0139631  -0.06188776  0.02185448  0.08934784  0.07993433  0.00671588
+ -0.01543324 -0.0442179   0.15660801 -0.0731949  -0.10412878]
+
+Prediction Binary: [1 1 0 1 0 1 0 0 0 0 1 0 0 0 0 0 1 0 0 0 1 0 0]
+
+Significant Labels: [('Nicholas Roerich', np.float64(0.20165576641374514)), ('Pierre Auguste Renoir', np.float64(0.193442315567956)), ('Martiros Saryan', np.float64(0.15660801211927014)), ('Salvador Dali', np.float64(0.12887213864719685)), ('Rembrandt', np.float64(0.09708518302271833)), ('Claude Monet', np.float64(0.0959175202742961)), ('Raphael Kirchner', np.float64(0.0799343303034332))]
+
+The contributing artists for the generated image were: Salvador Dali
+
+Ground Truth: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Predicted Binary: [1 1 0 1 0 1 0 0 0 0 1 0 0 0 0 0 1 0 0 0 1 0 0]
+
+Accuracy: 0.7391304347826086
+
+Precision: 0.14285714285714285
+
+Recall: 1.0
+
+F1 Score: 0.25
+
+Random Forest Prediction: [1]
+
+Random Forest Probabilities: [[0.004  0.2178 0.0219 0.0125 0.0754 0.0039 0.0142 0.0008 0.131  0.0745
+  0.0934 0.0044 0.0133 0.0138 0.0286 0.0451 0.0378 0.024  0.0798 0.0016
+  0.0017 0.0304 0.0701]]
+
+Random Forest Binary (threshold=0.05): [0 1 0 0 1 0 0 0 1 1 1 0 0 0 0 0 0 0 1 0 0 0 1]
+
+Random Forest Accuracy: 0.6521739130434783
+
+Random Forest Precision: 0.0
+
+Random Forest Recall: 0.0
+
+Random Forest F1 Score: 0.0
+
+  Rank 1: fPierre Auguste Renoir (21.78%)
+  Rank 2: fPyotr Konchalovsky (13.10%)
+  Rank 3: fRembrandt (9.34%)
+  Rank 4: fMarc Chagall (7.98%)
+  Rank 5: fPablo Picasso (7.54%)
+  Rank 6: fEdgar Degas (7.45%)
+  Rank 7: fChilde Hassam (7.01%)
+  Rank 8: fAlbrecht Durer (4.51%)
+  Rank 9: fRaphael Kirchner (3.78%)
+  Rank 10: fPaul Cezanne (3.04%)
+  Rank 11: fGustave Dore (2.86%)
+  Rank 12: fCamille Pissarro (2.40%)
+  Rank 13: fVincent Van Gogh (2.19%)
+  Rank 14: fJohn Singer Sargent (1.42%)
+  Rank 15: fEugene Boudin (1.38%)
+  Rank 16: fBoris Kustodiev (1.33%)
+  Rank 17: fSalvador Dali (1.25%)
+Selected Artwork: The Temptation Of Jesus
+Generated Prompt: The Temptation Of Jesus by Gustave Dore
+Selected Artwork Artist: Gustave Dore
+Saved 1 images as a grid: The Temptation Of Jesus by Gustave Dore.png
+Result_features: [np.float64(0.511597587753422), np.float64(0.5000836484014537), np.float64(0.4999359423251121), np.float64(0.6212800385468547), 0.07165145874023438, 0.00016021728515625, 0.001438140869140625, 0.005054473876953125, 0.5245780944824219, 0.06581497192382812, 0.000213623046875, 0.001651763916015625, 0.054355621337890625, 0.00142669677734375, 0.055065155029296875, 1.52587890625e-05, 0.000293731689453125, 0.002971649169921875, 0.000331878662109375, 0.09255218505859375, 0.001163482666015625, 0.00966644287109375, 0.10697174072265625, 0.0046234130859375, np.float64(0.5186551565459189), np.float64(0.19217707627295685), np.float64(0.8643070888896335), np.float64(0.4969738195631119), np.float64(0.35037370911171567), np.float64(0.7029797884347986), np.float64(0.16004526600740818), np.float64(0.03885571849778589), np.float64(0.06330193107885308), np.float64(0.4912844963005125), np.float64(0.5017672491504184), np.float64(0.4912396750845171), np.float64(0.39495021529767116), np.float64(0.3185771192570707), np.float64(0.5211351858793015), np.float64(0.3668461522606915), np.float64(0.4257383936427048), np.float64(0.47885172563102646), np.float64(0.6156329238525426), np.float64(0.4877575792601674), np.float64(0.5683108357225191), np.float64(0.42698443718025797)]
+
+Result_features Length: 46
+
+Best Matching Unit: (8, 7)
+
+Full Label Vector: [-0.12313939  0.00153667  0.08798634  0.11434719 -0.20817612  0.00209518
+ -0.11034823  0.15625476 -0.14466115  0.06937519 -0.09749998 -0.05978998
+  0.18361512 -0.10817534 -0.16879367 -0.1795123   0.00192347  0.05906214
+ -0.0719801   0.07929595 -0.1829512   0.14892898  0.13193804]
+
+Prediction Binary: [0 0 0 1 0 0 0 1 0 1 0 0 1 0 0 0 0 0 0 1 0 1 1]
+
+Significant Labels: [('Boris Kustodiev', np.float64(0.1836151194887671)), ('Ivan Shishkin', np.float64(0.156254758877546)), ('Paul Cezanne', np.float64(0.148928984973041)), ('Childe Hassam', np.float64(0.13193804153075597)), ('Salvador Dali', np.float64(0.11434719362197382)), ('Ivan Aivazovsky', np.float64(0.0792959502501974)), ('Edgar Degas', np.float64(0.06937519393606394))]
+
+The contributing artists for the generated image were: Gustave Dore
+
+Ground Truth: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Predicted Binary: [0 0 0 1 0 0 0 1 0 1 0 0 1 0 0 0 0 0 0 1 0 1 1]
+
+Accuracy: 0.6521739130434783
+
+Precision: 0.0
+
+Recall: 0.0
+
+F1 Score: 0.0
+
+Random Forest Prediction: [14]
+
+Random Forest Probabilities: [[0.067  0.0529 0.0189 0.0156 0.0291 0.0242 0.0243 0.0398 0.0561 0.0274
+  0.0374 0.0298 0.0682 0.0369 0.1493 0.0315 0.0253 0.021  0.0466 0.0259
+  0.0345 0.0571 0.0812]]
+
+Random Forest Binary (threshold=0.05): [1 1 0 0 0 0 0 0 1 0 0 0 1 0 1 0 0 0 0 0 0 1 1]
+
+Random Forest Accuracy: 0.7391304347826086
+
+Random Forest Precision: 0.14285714285714285
+
+Random Forest Recall: 1.0
+
+Random Forest F1 Score: 0.25
+
+  Rank 1: fGustave Dore (14.93%)
+Selected Artwork: Ruth Gleaning 1960
+Generated Prompt: Ruth Gleaning 1960 by Marc Chagall
+Selected Artwork Artist: Marc Chagall
+Saved 1 images as a grid: Ruth Gleaning 1960 by Marc Chagall.png
+Result_features: [np.float64(0.5714719794231141), np.float64(0.5000549161280629), np.float64(0.5023339926207795), np.float64(0.5986704645161236), 0.00707244873046875, 0.004619598388671875, 0.007495880126953125, 0.0529327392578125, 0.37546539306640625, 0.19651412963867188, 0.030055999755859375, 0.012538909912109375, 0.0106658935546875, 0.006870269775390625, 0.005733489990234375, 0.001697540283203125, 0.0055694580078125, 0.018215179443359375, 0.18798828125, 0.0269927978515625, 0.006061553955078125, 0.02744293212890625, 0.012035369873046875, 0.004032135009765625, np.float64(0.5151932730160248), np.float64(0.4954803022227167), np.float64(0.5088383746708488), np.float64(0.4797553515407745), np.float64(0.5064319761098031), np.float64(0.9681143872947645), np.float64(0.11158889683264737), np.float64(0.2318149113259709), np.float64(0.0770137928370585), np.float64(0.4944512240194131), np.float64(0.5023391261198927), np.float64(0.4987010801480543), np.float64(0.48857255898434715), np.float64(0.2750351492548455), np.float64(0.21378606987310736), np.float64(0.4473777311217709), np.float64(0.5476128124088061), np.float64(0.4711096277851922), np.float64(0.7215425642248905), np.float64(0.4975502243275873), np.float64(0.4256478468845112), np.float64(0.3754617059906469)]
+
+Result_features Length: 46
+
+Best Matching Unit: (6, 30)
+
+Full Label Vector: [ 0.20165577  0.19344232  0.07950694  0.12887214 -0.14001873  0.09591752
+  0.05108371 -0.17674637 -0.16739634 -0.16943681  0.09708518 -0.15503931
+ -0.0139631  -0.06188776  0.02185448  0.08934784  0.07993433  0.00671588
+ -0.01543324 -0.0442179   0.15660801 -0.0731949  -0.10412878]
+
+Prediction Binary: [1 1 0 1 0 1 0 0 0 0 1 0 0 0 0 0 1 0 0 0 1 0 0]
+
+Significant Labels: [('Nicholas Roerich', np.float64(0.20165576641374514)), ('Pierre Auguste Renoir', np.float64(0.193442315567956)), ('Martiros Saryan', np.float64(0.15660801211927014)), ('Salvador Dali', np.float64(0.12887213864719685)), ('Rembrandt', np.float64(0.09708518302271833)), ('Claude Monet', np.float64(0.0959175202742961)), ('Raphael Kirchner', np.float64(0.0799343303034332))]
+
+The contributing artists for the generated image were: Marc Chagall
+
+Ground Truth: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0]
+
+Predicted Binary: [1 1 0 1 0 1 0 0 0 0 1 0 0 0 0 0 1 0 0 0 1 0 0]
+
+Accuracy: 0.6521739130434783
+
+Precision: 0.0
+
+Recall: 0.0
+
+F1 Score: 0.0
+
+Random Forest Prediction: [14]
+
+Random Forest Probabilities: [[0.013  0.0187 0.0573 0.0624 0.0893 0.0158 0.0361 0.015  0.0267 0.0573
+  0.0218 0.0362 0.0724 0.0579 0.1019 0.0451 0.0342 0.0359 0.0696 0.0083
+  0.0191 0.0527 0.0533]]
+
+Random Forest Binary (threshold=0.05): [0 0 1 1 1 0 0 0 0 1 0 0 1 1 1 0 0 0 1 0 0 1 1]
+
+Random Forest Accuracy: 0.6086956521739131
+
+Random Forest Precision: 0.1
+
+Random Forest Recall: 1.0
+
+Random Forest F1 Score: 0.18181818181818182
+
+  Rank 1: fGustave Dore (10.19%)
+  Rank 2: fPablo Picasso (8.93%)
+  Rank 3: fBoris Kustodiev (7.24%)
+  Rank 4: fMarc Chagall (6.96%)
+Selected Artwork: The New York Window
+Generated Prompt: The New York Window by Childe Hassam
+Selected Artwork Artist: Childe Hassam
+Saved 1 images as a grid: The New York Window by Childe Hassam.png
+Result_features: [np.float64(0.5932082392923244), np.float64(0.5078272455896576), np.float64(0.5039659657586495), np.float64(0.5302926533319277), 0.08596420288085938, 0.10381317138671875, 0.05605316162109375, 0.03615570068359375, 0.10616302490234375, 0.17140960693359375, 0.02941131591796875, 0.016025543212890625, 0.010807037353515625, 0.0084991455078125, 0.0100555419921875, 0.012790679931640625, 0.02802276611328125, 0.06458282470703125, 0.10202789306640625, 0.0283966064453125, 0.02495574951171875, 0.029232025146484375, 0.0322418212890625, 0.043392181396484375, np.float64(0.4607120179668075), np.float64(0.48758843987548806), np.float64(0.9089456127707897), np.float64(0.46528971190523905), np.float64(0.5532367323149456), np.float64(0.45468299593815514), np.float64(0.10727923723399194), np.float64(0.24602975363683305), np.float64(0.024016718537902073), np.float64(0.5016226875561822), np.float64(0.47133860743839595), np.float64(0.4984300097095191), np.float64(0.3847410896181477), np.float64(0.41247851967361304), np.float64(0.5901684609521969), np.float64(0.5813490115545482), np.float64(0.41163751430594653), np.float64(0.7570549548756225), np.float64(0.36551634296353125), np.float64(0.4386937700865082), np.float64(0.6058720201596476), np.float64(0.6137329782257216)]
+
+Result_features Length: 46
+
+Best Matching Unit: (6, 30)
+
+Full Label Vector: [ 0.20165577  0.19344232  0.07950694  0.12887214 -0.14001873  0.09591752
+  0.05108371 -0.17674637 -0.16739634 -0.16943681  0.09708518 -0.15503931
+ -0.0139631  -0.06188776  0.02185448  0.08934784  0.07993433  0.00671588
+ -0.01543324 -0.0442179   0.15660801 -0.0731949  -0.10412878]
+
+Prediction Binary: [1 1 0 1 0 1 0 0 0 0 1 0 0 0 0 0 1 0 0 0 1 0 0]
+
+Significant Labels: [('Nicholas Roerich', np.float64(0.20165576641374514)), ('Pierre Auguste Renoir', np.float64(0.193442315567956)), ('Martiros Saryan', np.float64(0.15660801211927014)), ('Salvador Dali', np.float64(0.12887213864719685)), ('Rembrandt', np.float64(0.09708518302271833)), ('Claude Monet', np.float64(0.0959175202742961)), ('Raphael Kirchner', np.float64(0.0799343303034332))]
+
+The contributing artists for the generated image were: Childe Hassam
+
+Ground Truth: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1]
+
+Predicted Binary: [1 1 0 1 0 1 0 0 0 0 1 0 0 0 0 0 1 0 0 0 1 0 0]
+
+Accuracy: 0.6521739130434783
+
+Precision: 0.0
+
+Recall: 0.0
+
+F1 Score: 0.0
+
+Random Forest Prediction: [18]
+
+Random Forest Probabilities: [[0.0273 0.032  0.0355 0.0336 0.1192 0.0177 0.0156 0.002  0.0111 0.0195
+  0.0038 0.0885 0.0542 0.1154 0.082  0.0424 0.0225 0.0552 0.1212 0.0041
+  0.0108 0.0721 0.0143]]
+
+Random Forest Binary (threshold=0.05): [0 0 0 0 1 0 0 0 0 0 0 1 1 1 1 0 0 1 1 0 0 1 0]
+
+Random Forest Accuracy: 0.6086956521739131
+
+Random Forest Precision: 0.0
+
+Random Forest Recall: 0.0
+
+Random Forest F1 Score: 0.0
+
+  Rank 1: fMarc Chagall (12.12%)
+  Rank 2: fPablo Picasso (11.92%)
+  Rank 3: fEugene Boudin (11.54%)
+  Rank 4: fIlya Repin (8.85%)
+  Rank 5: fGustave Dore (8.20%)
+  Rank 6: fPaul Cezanne (7.21%)
+  Rank 7: fCamille Pissarro (5.52%)
+  Rank 8: fBoris Kustodiev (5.42%)
+  Rank 9: fAlbrecht Durer (4.24%)
+  Rank 10: fVincent Van Gogh (3.55%)
+  Rank 11: fSalvador Dali (3.36%)
+  Rank 12: fPierre Auguste Renoir (3.20%)
+  Rank 13: fNicholas Roerich (2.73%)
+  Rank 14: fRaphael Kirchner (2.25%)
+  Rank 15: fEdgar Degas (1.95%)
+  Rank 16: fClaude Monet (1.77%)
+  Rank 17: fJohn Singer Sargent (1.56%)
+  Rank 18: fChilde Hassam (1.43%)
+Selected Artwork: Portrait Of Zinaida Kozhukhovskaya 1906
+Generated Prompt: Portrait Of Zinaida Kozhukhovskaya 1906 by Pyotr Konchalovsky
+Selected Artwork Artist: Pyotr Konchalovsky
+Saved 1 images as a grid: Portrait Of Zinaida Kozhukhovskaya 1906 by Pyotr Konchalovsky.png
+Result_features: [np.float64(0.5079797846864565), np.float64(0.4898196185171335), np.float64(0.5078930416025291), np.float64(0.7065260814045147), 0.059185028076171875, 0.029491424560546875, 0.01320648193359375, 0.00864410400390625, 0.0128936767578125, 0.031932830810546875, 0.017391204833984375, 0.082427978515625, 0.31993865966796875, 0.12731552124023438, 0.01573944091796875, 0.00498199462890625, 0.0052642822265625, 0.0066680908203125, 0.01418304443359375, 0.0330963134765625, 0.04095458984375, 0.0507049560546875, 0.068939208984375, 0.057041168212890625, np.float64(0.3778153167980859), np.float64(0.7344141835907227), np.float64(0.3448184060870347), np.float64(0.45068791711183676), np.float64(0.5846173914011524), np.float64(0.5479370841575256), np.float64(0.17613418821330676), np.float64(0.05825176484090269), np.float64(0.00990561673493445), np.float64(0.5334622197784838), np.float64(0.49839905846094373), np.float64(0.4998128975084446), np.float64(0.4356016467814873), np.float64(0.673771966673709), np.float64(0.23821655534317068), np.float64(0.31497750026080196), np.float64(0.32509743202559094), np.float64(0.5248626005770852), np.float64(0.4671389475690454), np.float64(0.7070513322408656), np.float64(0.3847490055039735), np.float64(0.46588326638202954)]
+
+Result_features Length: 46
+
+Best Matching Unit: (12, 13)
+
+Full Label Vector: [-0.15849402  0.00072396  0.17499922  0.00262112  0.11718312 -0.19121577
+  0.09257841  0.18137161 -0.00019167 -0.06587366  0.05952554  0.16896072
+ -0.13119943 -0.03909059 -0.13951202 -0.00135805  0.01640732  0.18030256
+ -0.03551016  0.02717774  0.15637835 -0.07249184  0.07069324]
+
+Prediction Binary: [0 0 1 0 1 0 0 1 0 0 0 1 0 0 0 0 0 1 0 1 1 0 1]
+
+Significant Labels: [('Ivan Shishkin', np.float64(0.18137160824421084)), ('Camille Pissarro', np.float64(0.18030255858038657)), ('Vincent Van Gogh', np.float64(0.17499921674693222)), ('Ilya Repin', np.float64(0.168960718984956)), ('Martiros Saryan', np.float64(0.15637834885867744)), ('Pablo Picasso', np.float64(0.11718312222353265)), ('Childe Hassam', np.float64(0.0706932364942424)), ('Ivan Aivazovsky', np.float64(0.02717773636905319))]
+
+The contributing artists for the generated image were: Pyotr Konchalovsky
+
+Ground Truth: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Predicted Binary: [0 0 1 0 1 0 0 1 0 0 0 1 0 0 0 0 0 1 0 1 1 0 1]
+
+Accuracy: 0.6086956521739131
+
+Precision: 0.0
+
+Recall: 0.0
+
+F1 Score: 0.0
+
+Random Forest Prediction: [1]
+
+Random Forest Probabilities: [[0.0175 0.1686 0.024  0.0079 0.0677 0.0111 0.006  0.0041 0.0769 0.0454
+  0.0498 0.0111 0.0416 0.0399 0.0695 0.0447 0.022  0.0221 0.1591 0.0049
+  0.0082 0.0429 0.055 ]]
+
+Random Forest Binary (threshold=0.05): [0 1 0 0 1 0 0 0 1 0 0 0 0 0 1 0 0 0 1 0 0 0 1]
+
+Random Forest Accuracy: 0.782608695652174
+
+Random Forest Precision: 0.16666666666666666
+
+Random Forest Recall: 1.0
+
+Random Forest F1 Score: 0.2857142857142857
+
+  Rank 1: fPierre Auguste Renoir (16.86%)
+  Rank 2: fMarc Chagall (15.91%)
+  Rank 3: fPyotr Konchalovsky (7.69%)
+Selected Artwork: From Arcadia 1
+Generated Prompt: From Arcadia 1 by Raphael Kirchner
+Selected Artwork Artist: Raphael Kirchner
+Saved 1 images as a grid: From Arcadia 1 by Raphael Kirchner.png
+Result_features: [np.float64(0.6013951704063546), np.float64(0.5084324725188047), np.float64(0.49953016561833097), np.float64(0.3748062823417624), 0.03295135498046875, 0.23679351806640625, 0.005176544189453125, 0.02007293701171875, 0.033935546875, 0.030391693115234375, 0.017696380615234375, 0.025142669677734375, 0.0223388671875, 0.008697509765625, 0.02117156982421875, 0.031948089599609375, 0.021457672119140625, 0.4642829895019531, 0.006153106689453125, 0.006999969482421875, 0.00251007080078125, 0.0032958984375, 0.003932952880859375, 0.0050506591796875, np.float64(0.6649895766516998), np.float64(0.42603275913164523), np.float64(0.05898848820221622), np.float64(0.46983278728562505), np.float64(0.5873076963869378), np.float64(0.43879189005733504), np.float64(0.08038124370464372), np.float64(0.20952870250351205), np.float64(0.055577728876724616), np.float64(0.4995569506615551), np.float64(0.4864086505030537), np.float64(0.5019209650905111), np.float64(0.6543050367157234), np.float64(0.17503789032874056), np.float64(0.6088086958184223), np.float64(0.5161868520392949), np.float64(0.046018081991473274), np.float64(0.6174126395247723), np.float64(0.5628522765490945), np.float64(0.6172755950657827), np.float64(0.6423223053179784), np.float64(0.6495226663080301)]
+
+Result_features Length: 46
+
+Best Matching Unit: (6, 14)
+
+Full Label Vector: [ 0.03451566 -0.16608337 -0.01735496  0.12212611 -0.20054534 -0.18816203
+ -0.18380086  0.09810635  0.00049539 -0.0556708  -0.16746963  0.09861782
+ -0.07600163 -0.0996521   0.06468038  0.02505821 -0.05842554  0.06008083
+ -0.09714783  0.12519586 -0.11494121 -0.14487017  0.11993425]
+
+Prediction Binary: [0 0 0 1 0 0 0 1 0 0 0 1 0 0 1 0 0 0 0 1 0 0 1]
+
+Significant Labels: [('Ivan Aivazovsky', np.float64(0.125195862817397)), ('Salvador Dali', np.float64(0.12212611243706104)), ('Childe Hassam', np.float64(0.11993424750035507)), ('Ilya Repin', np.float64(0.09861782283555032)), ('Ivan Shishkin', np.float64(0.09810635091591291)), ('Gustave Dore', np.float64(0.06468038171653527))]
+
+The contributing artists for the generated image were: Raphael Kirchner
+
+Ground Truth: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0]
+
+Predicted Binary: [0 0 0 1 0 0 0 1 0 0 0 1 0 0 1 0 0 0 0 1 0 0 1]
+
+Accuracy: 0.6956521739130435
+
+Precision: 0.0
+
+Recall: 0.0
+
+F1 Score: 0.0
+
+Random Forest Prediction: [14]
+
+Random Forest Probabilities: [[0.0114 0.0653 0.0186 0.0383 0.1397 0.0179 0.0479 0.0158 0.0319 0.0297
+  0.0068 0.0147 0.0791 0.0623 0.1583 0.0414 0.0183 0.0195 0.0795 0.0092
+  0.0121 0.044  0.0383]]
+
+Random Forest Binary (threshold=0.05): [0 1 0 0 1 0 0 0 0 0 0 0 1 1 1 0 0 0 1 0 0 0 0]
+
+Random Forest Accuracy: 0.6956521739130435
+
+Random Forest Precision: 0.0
+
+Random Forest Recall: 0.0
+
+Random Forest F1 Score: 0.0
+
+  Rank 1: fGustave Dore (15.83%)
+  Rank 2: fPablo Picasso (13.97%)
+  Rank 3: fMarc Chagall (7.95%)
+  Rank 4: fBoris Kustodiev (7.91%)
+  Rank 5: fPierre Auguste Renoir (6.53%)
+  Rank 6: fEugene Boudin (6.23%)
+  Rank 7: fJohn Singer Sargent (4.79%)
+  Rank 8: fPaul Cezanne (4.40%)
+  Rank 9: fAlbrecht Durer (4.14%)
+  Rank 10: fChilde Hassam (3.83%)
+  Rank 11: fSalvador Dali (3.83%)
+  Rank 12: fPyotr Konchalovsky (3.19%)
+  Rank 13: fEdgar Degas (2.97%)
+  Rank 14: fCamille Pissarro (1.95%)
+  Rank 15: fVincent Van Gogh (1.86%)
+  Rank 16: fRaphael Kirchner (1.83%)
+Selected Artwork: Don Quixote 88
+Generated Prompt: Don Quixote 88 by Gustave Dore
+Selected Artwork Artist: Gustave Dore
+Saved 1 images as a grid: Don Quixote 88 by Gustave Dore.png
+Result_features: [np.float64(0.43823849662028996), np.float64(0.5000369751262015), np.float64(0.4998289906771723), np.float64(0.47876269509845476), 0.0524139404296875, 0.00046539306640625, 0.003082275390625, 0.0129241943359375, 0.3110923767089844, 0.049945831298828125, 0.00124359130859375, 0.005100250244140625, 0.048160552978515625, 0.00331878662109375, 0.18282699584960938, 3.814697265625e-06, 0.0009613037109375, 0.023899078369140625, 0.001552581787109375, 0.19950103759765625, 0.00337982177734375, 0.017547607421875, 0.07270050048828125, 0.00988006591796875, np.float64(0.4968717130744605), np.float64(0.5286901226687389), np.float64(0.4561988131693248), np.float64(0.4450610473280565), np.float64(0.777323083846105), np.float64(0.15247265966125845), np.float64(0.12948630029333785), np.float64(0.09879729914977842), np.float64(0.1371964092893523), np.float64(0.4977811433897769), np.float64(0.5042721608565212), np.float64(0.523298025981701), np.float64(0.45602060766730457), np.float64(0.5284520752567723), np.float64(0.5316555846308922), np.float64(0.5275505851716683), np.float64(0.48102333830858063), np.float64(0.5096076109763882), np.float64(0.361786731244237), np.float64(0.3586233392708369), np.float64(0.40978541927371165), np.float64(0.3676817132057393)]
+
+Result_features Length: 46
+
+Best Matching Unit: (12, 13)
+
+Full Label Vector: [-0.15849402  0.00072396  0.17499922  0.00262112  0.11718312 -0.19121577
+  0.09257841  0.18137161 -0.00019167 -0.06587366  0.05952554  0.16896072
+ -0.13119943 -0.03909059 -0.13951202 -0.00135805  0.01640732  0.18030256
+ -0.03551016  0.02717774  0.15637835 -0.07249184  0.07069324]
+
+Prediction Binary: [0 0 1 0 1 0 0 1 0 0 0 1 0 0 0 0 0 1 0 1 1 0 1]
+
+Significant Labels: [('Ivan Shishkin', np.float64(0.18137160824421084)), ('Camille Pissarro', np.float64(0.18030255858038657)), ('Vincent Van Gogh', np.float64(0.17499921674693222)), ('Ilya Repin', np.float64(0.168960718984956)), ('Martiros Saryan', np.float64(0.15637834885867744)), ('Pablo Picasso', np.float64(0.11718312222353265)), ('Childe Hassam', np.float64(0.0706932364942424)), ('Ivan Aivazovsky', np.float64(0.02717773636905319))]
+
+The contributing artists for the generated image were: Gustave Dore
+
+Ground Truth: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Predicted Binary: [0 0 1 0 1 0 0 1 0 0 0 1 0 0 0 0 0 1 0 1 1 0 1]
+
+Accuracy: 0.6086956521739131
+
+Precision: 0.0
+
+Recall: 0.0
+
+F1 Score: 0.0
+
+Random Forest Prediction: [14]
+
+Random Forest Probabilities: [[0.0642 0.051  0.018  0.0131 0.0409 0.0223 0.0222 0.0279 0.0527 0.034
+  0.0344 0.0434 0.0652 0.0494 0.1706 0.0297 0.0206 0.0242 0.0462 0.0148
+  0.0298 0.065  0.0604]]
+
+Random Forest Binary (threshold=0.05): [1 1 0 0 0 0 0 0 1 0 0 0 1 0 1 0 0 0 0 0 0 1 1]
+
+Random Forest Accuracy: 0.7391304347826086
+
+Random Forest Precision: 0.14285714285714285
+
+Random Forest Recall: 1.0
+
+Random Forest F1 Score: 0.25
+
+  Rank 1: fGustave Dore (17.06%)
+Selected Artwork: The Lamentation Over The Dead Christ
+Generated Prompt: The Lamentation Over The Dead Christ by Rembrandt
+Selected Artwork Artist: Rembrandt
+Saved 1 images as a grid: The Lamentation Over The Dead Christ by Rembrandt.png
+Result_features: [np.float64(0.5232637465099129), np.float64(0.5102592229153202), np.float64(0.5262625167005288), np.float64(0.6882322885681146), 0.002532958984375, 0.00762939453125, 0.2145233154296875, 0.3892974853515625, 0.3098411560058594, 0.039386749267578125, 0.005931854248046875, 0.006557464599609375, 0.01117706298828125, 0.007694244384765625, 0.003116607666015625, 0.00028228759765625, 0.000431060791015625, 0.000362396240234375, 0.0001068115234375, 0.000263214111328125, 4.1961669921875e-05, 6.866455078125e-05, 0.0003509521484375, 0.00040435791015625, np.float64(0.46196070813927004), np.float64(0.45932732752964334), np.float64(0.6902869279404414), np.float64(0.3895673114913357), np.float64(0.721465976062708), np.float64(0.13698955009035682), np.float64(0.1893168807529942), np.float64(0.09270023541619823), np.float64(0.028808050921246095), np.float64(0.5394308475695455), np.float64(0.5054744765111716), np.float64(0.5001000117881441), np.float64(0.2086774852201525), np.float64(0.1816963337884386), np.float64(0.19012540551552976), np.float64(0.1832352901727491), np.float64(0.1942557144498199), np.float64(0.7026296181027932), np.float64(0.3798220986307483), np.float64(0.42462318632342827), np.float64(0.44527414476553745), np.float64(0.5873516274400163)]
+
+Result_features Length: 46
+
+Best Matching Unit: (31, 6)
+
+Full Label Vector: [ 0.1323073   0.08315535 -0.06389351  0.14412793  0.06202441 -0.15490449
+  0.12437395  0.08031942 -0.09817245  0.15589961 -0.05743694  0.02404258
+ -0.07149977  0.10228348  0.03700444 -0.01354267 -0.21867484  0.04886287
+  0.05577739 -0.14531714 -0.0764462   0.1726803   0.02241349]
+
+Prediction Binary: [1 1 0 1 1 0 0 1 0 1 0 0 0 1 0 0 0 0 0 0 0 1 1]
+
+Significant Labels: [('Paul Cezanne', np.float64(0.1726803037003749)), ('Edgar Degas', np.float64(0.15589960890974433)), ('Salvador Dali', np.float64(0.14412793349170414)), ('Nicholas Roerich', np.float64(0.1323073015355453)), ('Eugene Boudin', np.float64(0.10228348046413796)), ('Pierre Auguste Renoir', np.float64(0.08315534896992707)), ('Ivan Shishkin', np.float64(0.08031942408879811)), ('Pablo Picasso', np.float64(0.062024413954627725)), ('Childe Hassam', np.float64(0.02241348793634823))]
+
+The contributing artists for the generated image were: Rembrandt
+
+Ground Truth: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Predicted Binary: [1 1 0 1 1 0 0 1 0 1 0 0 0 1 0 0 0 0 0 0 0 1 1]
+
+Accuracy: 0.5652173913043478
+
+Precision: 0.0
+
+Recall: 0.0
+
+F1 Score: 0.0
+
+Random Forest Prediction: [5]
+
+Random Forest Probabilities: [[0.0384 0.0167 0.0555 0.0319 0.0285 0.1388 0.0218 0.0021 0.0108 0.0273
+  0.031  0.0132 0.0231 0.0068 0.0443 0.1079 0.0237 0.0946 0.0444 0.0569
+  0.0421 0.0256 0.1146]]
+
+Random Forest Binary (threshold=0.05): [0 0 1 0 0 1 0 0 0 0 0 0 0 0 0 1 0 1 0 1 0 0 1]
+
+Random Forest Accuracy: 0.6956521739130435
+
+Random Forest Precision: 0.0
+
+Random Forest Recall: 0.0
+
+Random Forest F1 Score: 0.0
+
+  Rank 1: fClaude Monet (13.88%)
+  Rank 2: fChilde Hassam (11.46%)
+  Rank 3: fAlbrecht Durer (10.79%)
+  Rank 4: fCamille Pissarro (9.46%)
+  Rank 5: fIvan Aivazovsky (5.69%)
+  Rank 6: fVincent Van Gogh (5.55%)
+  Rank 7: fMarc Chagall (4.44%)
+  Rank 8: fGustave Dore (4.43%)
+  Rank 9: fMartiros Saryan (4.21%)
+  Rank 10: fNicholas Roerich (3.84%)
+  Rank 11: fSalvador Dali (3.19%)
+  Rank 12: fRembrandt (3.10%)
+Selected Artwork: Portrait Of The Artist S Wife Anna Burnazyan 1882
+Generated Prompt: Portrait Of The Artist S Wife Anna Burnazyan 1882 by Ivan Aivazovsky
+Selected Artwork Artist: Ivan Aivazovsky
+Saved 1 images as a grid: Portrait Of The Artist S Wife Anna Burnazyan 1882 by Ivan Aivazovsky.png
+Result_features: [np.float64(0.5480545016517795), np.float64(0.48566682343979645), np.float64(0.5146859377485409), np.float64(0.6081089597179923), 0.001308441162109375, 0.000904083251953125, 0.003997802734375, 0.00775146484375, 0.029659271240234375, 0.10114288330078125, 0.0826263427734375, 0.24700164794921875, 0.10890960693359375, 0.06686782836914062, 0.058994293212890625, 0.05211639404296875, 0.07575607299804688, 0.08813095092773438, 0.061954498291015625, 0.009326934814453125, 0.00104522705078125, 0.000667572021484375, 0.000698089599609375, 0.001140594482421875, np.float64(0.4116985681457463), np.float64(0.7855682736474991), np.float64(0.14908887117692782), np.float64(0.3879052041645975), np.float64(0.5204849049233933), np.float64(0.6719358652525216), np.float64(0.10006119980688034), np.float64(0.1188142329113538), np.float64(0.0488667707312766), np.float64(0.5140297843492704), np.float64(0.48940735724963325), np.float64(0.4978439751364594), np.float64(0.44148637480843356), np.float64(0.4511422572268879), np.float64(0.4940151910177271), np.float64(0.6423103600799185), np.float64(0.5946679659150094), np.float64(0.6192892885850675), np.float64(0.4801910652318119), np.float64(0.55428291134579), np.float64(0.2633504407134853), np.float64(0.2988915961912248)]
+
+Result_features Length: 46
+
+Best Matching Unit: (6, 30)
+
+Full Label Vector: [ 0.20165577  0.19344232  0.07950694  0.12887214 -0.14001873  0.09591752
+  0.05108371 -0.17674637 -0.16739634 -0.16943681  0.09708518 -0.15503931
+ -0.0139631  -0.06188776  0.02185448  0.08934784  0.07993433  0.00671588
+ -0.01543324 -0.0442179   0.15660801 -0.0731949  -0.10412878]
+
+Prediction Binary: [1 1 0 1 0 1 0 0 0 0 1 0 0 0 0 0 1 0 0 0 1 0 0]
+
+Significant Labels: [('Nicholas Roerich', np.float64(0.20165576641374514)), ('Pierre Auguste Renoir', np.float64(0.193442315567956)), ('Martiros Saryan', np.float64(0.15660801211927014)), ('Salvador Dali', np.float64(0.12887213864719685)), ('Rembrandt', np.float64(0.09708518302271833)), ('Claude Monet', np.float64(0.0959175202742961)), ('Raphael Kirchner', np.float64(0.0799343303034332))]
+
+The contributing artists for the generated image were: Ivan Aivazovsky
+
+Ground Truth: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0]
+
+Predicted Binary: [1 1 0 1 0 1 0 0 0 0 1 0 0 0 0 0 1 0 0 0 1 0 0]
+
+Accuracy: 0.6521739130434783
+
+Precision: 0.0
+
+Recall: 0.0
+
+F1 Score: 0.0
+
+Random Forest Prediction: [22]
+
+Random Forest Probabilities: [[0.0041 0.1001 0.0347 0.0516 0.105  0.0079 0.0255 0.0009 0.0738 0.0833
+  0.0821 0.0058 0.0087 0.0126 0.0464 0.0418 0.0477 0.0246 0.0867 0.0058
+  0.0006 0.031  0.1193]]
+
+Random Forest Binary (threshold=0.05): [0 1 0 1 1 0 0 0 1 1 1 0 0 0 0 0 0 0 1 0 0 0 1]
+
+Random Forest Accuracy: 0.6086956521739131
+
+Random Forest Precision: 0.0
+
+Random Forest Recall: 0.0
+
+Random Forest F1 Score: 0.0
+
+  Rank 1: fChilde Hassam (11.93%)
+  Rank 2: fPablo Picasso (10.50%)
+  Rank 3: fPierre Auguste Renoir (10.01%)
+  Rank 4: fMarc Chagall (8.67%)
+  Rank 5: fEdgar Degas (8.33%)
+  Rank 6: fRembrandt (8.21%)
+  Rank 7: fPyotr Konchalovsky (7.38%)
+  Rank 8: fSalvador Dali (5.16%)
+  Rank 9: fRaphael Kirchner (4.77%)
+  Rank 10: fGustave Dore (4.64%)
+  Rank 11: fAlbrecht Durer (4.18%)
+  Rank 12: fVincent Van Gogh (3.47%)
+  Rank 13: fPaul Cezanne (3.10%)
+  Rank 14: fJohn Singer Sargent (2.55%)
+  Rank 15: fCamille Pissarro (2.46%)
+  Rank 16: fEugene Boudin (1.26%)
+  Rank 17: fBoris Kustodiev (0.87%)
+  Rank 18: fClaude Monet (0.79%)
+  Rank 19: fIvan Aivazovsky (0.58%)
+Selected Artwork: Ebb On Sunset
+Generated Prompt: Ebb On Sunset by Eugene Boudin
+Selected Artwork Artist: Eugene Boudin
+Saved 1 images as a grid: Ebb On Sunset by Eugene Boudin.png
+Result_features: [np.float64(0.5075337800592163), np.float64(0.5107989081749826), np.float64(0.5159975997666855), np.float64(0.613916489059206), 0.12091064453125, 0.14857864379882812, 0.16220855712890625, 0.11721038818359375, 0.23870468139648438, 0.043865203857421875, 0.000751495361328125, 0.000396728515625, 0.00017547607421875, 6.866455078125e-05, 0.0001220703125, 7.62939453125e-06, 7.62939453125e-06, 1.52587890625e-05, 3.814697265625e-06, 0.000141143798828125, 0.0003204345703125, 0.00983428955078125, 0.061504364013671875, 0.09517288208007812, np.float64(0.3733858558761291), np.float64(0.6976699083830377), np.float64(0.16393859557595994), np.float64(0.5984370805302887), np.float64(0.34442861995095503), np.float64(0.2494228662353923), np.float64(0.15975086791934737), np.float64(0.07469768215099622), np.float64(0.000553495933425993), np.float64(0.5097929555588749), np.float64(0.5043775075473782), np.float64(0.5000008909812969), np.float64(0.3351672877305343), np.float64(0.19896465178897285), np.float64(0.24773978674451655), np.float64(0.1484374467468348), np.float64(0.20785181349883836), np.float64(0.448402437712321), np.float64(0.6002015254509884), np.float64(0.7451433518939717), np.float64(0.47541242066227335), np.float64(0.5926728928959752)]
+
+Result_features Length: 46
+
+Best Matching Unit: (6, 14)
+
+Full Label Vector: [ 0.03451566 -0.16608337 -0.01735496  0.12212611 -0.20054534 -0.18816203
+ -0.18380086  0.09810635  0.00049539 -0.0556708  -0.16746963  0.09861782
+ -0.07600163 -0.0996521   0.06468038  0.02505821 -0.05842554  0.06008083
+ -0.09714783  0.12519586 -0.11494121 -0.14487017  0.11993425]
+
+Prediction Binary: [0 0 0 1 0 0 0 1 0 0 0 1 0 0 1 0 0 0 0 1 0 0 1]
+
+Significant Labels: [('Ivan Aivazovsky', np.float64(0.125195862817397)), ('Salvador Dali', np.float64(0.12212611243706104)), ('Childe Hassam', np.float64(0.11993424750035507)), ('Ilya Repin', np.float64(0.09861782283555032)), ('Ivan Shishkin', np.float64(0.09810635091591291)), ('Gustave Dore', np.float64(0.06468038171653527))]
+
+The contributing artists for the generated image were: Eugene Boudin
+
+Ground Truth: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Predicted Binary: [0 0 0 1 0 0 0 1 0 0 0 1 0 0 1 0 0 0 0 1 0 0 1]
+
+Accuracy: 0.6956521739130435
+
+Precision: 0.0
+
+Recall: 0.0
+
+F1 Score: 0.0
+
+Random Forest Prediction: [17]
+
+Random Forest Probabilities: [[0.025  0.0232 0.0792 0.0047 0.0276 0.052  0.0534 0.0031 0.0355 0.0358
+  0.0119 0.1316 0.0272 0.0156 0.0357 0.02   0.0415 0.1558 0.041  0.0106
+  0.0974 0.0204 0.0518]]
+
+Random Forest Binary (threshold=0.05): [0 0 1 0 0 1 1 0 0 0 0 1 0 0 0 0 0 1 0 0 1 0 1]
+
+Random Forest Accuracy: 0.6521739130434783
+
+Random Forest Precision: 0.0
+
+Random Forest Recall: 0.0
+
+Random Forest F1 Score: 0.0
+
+  Rank 1: fCamille Pissarro (15.58%)
+  Rank 2: fIlya Repin (13.16%)
+  Rank 3: fMartiros Saryan (9.74%)
+  Rank 4: fVincent Van Gogh (7.92%)
+  Rank 5: fJohn Singer Sargent (5.34%)
+  Rank 6: fClaude Monet (5.20%)
+  Rank 7: fChilde Hassam (5.18%)
+  Rank 8: fRaphael Kirchner (4.15%)
+  Rank 9: fMarc Chagall (4.10%)
+  Rank 10: fEdgar Degas (3.58%)
+  Rank 11: fGustave Dore (3.57%)
+  Rank 12: fPyotr Konchalovsky (3.55%)
+  Rank 13: fPablo Picasso (2.76%)
+  Rank 14: fBoris Kustodiev (2.72%)
+  Rank 15: fNicholas Roerich (2.50%)
+  Rank 16: fPierre Auguste Renoir (2.32%)
+  Rank 17: fPaul Cezanne (2.04%)
+  Rank 18: fAlbrecht Durer (2.00%)
+  Rank 19: fEugene Boudin (1.56%)
+Selected Artwork: Le Havre The Regatta Festival 1869
+Generated Prompt: Le Havre The Regatta Festival 1869 by Eugene Boudin
+Selected Artwork Artist: Eugene Boudin
+Saved 1 images as a grid: Le Havre The Regatta Festival 1869 by Eugene Boudin.png
+Result_features: [np.float64(0.6253912555807505), np.float64(0.5020257489793577), np.float64(0.5030894996644387), np.float64(0.5451459354926436), 0.04120635986328125, 0.02779388427734375, 0.043346405029296875, 0.07209014892578125, 0.14984130859375, 0.17364501953125, 0.03411865234375, 0.010372161865234375, 0.007053375244140625, 0.00365447998046875, 0.006252288818359375, 0.001125335693359375, 0.004009246826171875, 0.007686614990234375, 0.012363433837890625, 0.1165618896484375, 0.17962646484375, 0.0477752685546875, 0.037708282470703125, 0.023769378662109375, np.float64(0.6994407440407201), np.float64(0.2288925248921049), np.float64(0.6069165966178798), np.float64(0.452873166206572), np.float64(0.563803353837313), np.float64(0.3166704781447785), np.float64(0.12683355427724033), np.float64(0.08845975833840133), np.float64(0.001630343275944252), np.float64(0.49671555135545337), np.float64(0.4970265015949382), np.float64(0.5000023011009311), np.float64(0.2504011976870907), np.float64(0.7888365219242104), np.float64(0.7625809594969659), np.float64(0.24821185709415), np.float64(0.596493080035393), np.float64(0.5927737575126597), np.float64(0.6695728652801959), np.float64(0.6817205439532664), np.float64(0.7094549386817528), np.float64(0.5512108304585163)]
+
+Result_features Length: 46
+
+Best Matching Unit: (8, 7)
+
+Full Label Vector: [-0.12313939  0.00153667  0.08798634  0.11434719 -0.20817612  0.00209518
+ -0.11034823  0.15625476 -0.14466115  0.06937519 -0.09749998 -0.05978998
+  0.18361512 -0.10817534 -0.16879367 -0.1795123   0.00192347  0.05906214
+ -0.0719801   0.07929595 -0.1829512   0.14892898  0.13193804]
+
+Prediction Binary: [0 0 0 1 0 0 0 1 0 1 0 0 1 0 0 0 0 0 0 1 0 1 1]
+
+Significant Labels: [('Boris Kustodiev', np.float64(0.1836151194887671)), ('Ivan Shishkin', np.float64(0.156254758877546)), ('Paul Cezanne', np.float64(0.148928984973041)), ('Childe Hassam', np.float64(0.13193804153075597)), ('Salvador Dali', np.float64(0.11434719362197382)), ('Ivan Aivazovsky', np.float64(0.0792959502501974)), ('Edgar Degas', np.float64(0.06937519393606394))]
+
+The contributing artists for the generated image were: Eugene Boudin
+
+Ground Truth: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Predicted Binary: [0 0 0 1 0 0 0 1 0 1 0 0 1 0 0 0 0 0 0 1 0 1 1]
+
+Accuracy: 0.6521739130434783
+
+Precision: 0.0
+
+Recall: 0.0
+
+F1 Score: 0.0
+
+Random Forest Prediction: [4]
+
+Random Forest Probabilities: [[0.0137 0.0113 0.1154 0.0523 0.2005 0.011  0.0566 0.0062 0.0087 0.024
+  0.0098 0.0556 0.0322 0.0653 0.0643 0.014  0.038  0.0577 0.0875 0.0019
+  0.0043 0.0368 0.0329]]
+
+Random Forest Binary (threshold=0.05): [0 0 1 1 1 0 1 0 0 0 0 1 0 1 1 0 0 1 1 0 0 0 0]
+
+Random Forest Accuracy: 0.6521739130434783
+
+Random Forest Precision: 0.1111111111111111
+
+Random Forest Recall: 1.0
+
+Random Forest F1 Score: 0.2
+
+  Rank 1: fPablo Picasso (20.05%)
+  Rank 2: fVincent Van Gogh (11.54%)
+  Rank 3: fMarc Chagall (8.75%)
+  Rank 4: fEugene Boudin (6.53%)
+Selected Artwork: Still Life Oranges Stretcher And Carpet 1946
+Generated Prompt: Still Life Oranges Stretcher And Carpet 1946 by Pyotr Konchalovsky
+Selected Artwork Artist: Pyotr Konchalovsky
+Saved 1 images as a grid: Still Life Oranges Stretcher And Carpet 1946 by Pyotr Konchalovsky.png
+Result_features: [np.float64(0.5289630134638432), np.float64(0.506122378918314), np.float64(0.5098351244653525), np.float64(0.4608402614432112), 0.013820648193359375, 0.026157379150390625, 0.0985565185546875, 0.16686248779296875, 0.10330581665039062, 0.06801223754882812, 0.01700592041015625, 0.007434844970703125, 0.0088043212890625, 0.016674041748046875, 0.04122161865234375, 0.0372467041015625, 0.048015594482421875, 0.10860824584960938, 0.148712158203125, 0.04962921142578125, 0.01421356201171875, 0.0088653564453125, 0.007602691650390625, 0.009250640869140625, np.float64(0.2890205329246905), np.float64(0.7173365357966802), np.float64(0.27293958934583934), np.float64(0.501136347413219), np.float64(0.5080596668853153), np.float64(0.4123320256132756), np.float64(0.11470729806468846), np.float64(0.13105120503042625), np.float64(0.004737117981369638), np.float64(0.509603864570692), np.float64(0.47904598559781836), np.float64(0.49992045704569094), np.float64(0.5727459894298567), np.float64(0.27800273372377726), np.float64(0.14343220940104934), np.float64(0.7006291555434191), np.float64(0.6878114685013739), np.float64(0.4355151920421543), np.float64(0.6397541183826247), np.float64(0.5997283012346697), np.float64(0.46790833345395816), np.float64(0.4235810952165796)]
+
+Result_features Length: 46
+
+Best Matching Unit: (35, 5)
+
+Full Label Vector: [ 0.17593737  0.11635428 -0.06529446 -0.13003199 -0.13942214 -0.16700342
+  0.1750761  -0.00558872  0.18842362  0.11129943  0.18373209  0.14923165
+  0.03374015 -0.11100835 -0.09958438 -0.05207818 -0.19260869  0.06755195
+  0.02233821 -0.16154178  0.13154306  0.13064877 -0.15443828]
+
+Prediction Binary: [1 1 0 0 0 0 1 0 1 1 1 1 0 0 0 0 0 0 0 0 1 1 0]
+
+Significant Labels: [('Pyotr Konchalovsky', np.float64(0.1884236220125807)), ('Rembrandt', np.float64(0.18373208788134932)), ('Nicholas Roerich', np.float64(0.1759373716598829)), ('John Singer Sargent', np.float64(0.17507610360731904)), ('Ilya Repin', np.float64(0.1492316536818149)), ('Martiros Saryan', np.float64(0.1315430551628286)), ('Paul Cezanne', np.float64(0.13064876632898442)), ('Pierre Auguste Renoir', np.float64(0.11635428453546032)), ('Edgar Degas', np.float64(0.1112994324883726))]
+
+The contributing artists for the generated image were: Pyotr Konchalovsky
+
+Ground Truth: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Predicted Binary: [1 1 0 0 0 0 1 0 1 1 1 1 0 0 0 0 0 0 0 0 1 1 0]
+
+Accuracy: 0.6521739130434783
+
+Precision: 0.1111111111111111
+
+Recall: 1.0
+
+F1 Score: 0.2
+
+Random Forest Prediction: [18]
+
+Random Forest Probabilities: [[0.0093 0.0214 0.0419 0.0442 0.1122 0.023  0.0468 0.0013 0.0188 0.0309
+  0.0057 0.0378 0.0342 0.1183 0.0669 0.0606 0.0351 0.0454 0.1497 0.006
+  0.0281 0.0236 0.0388]]
+
+Random Forest Binary (threshold=0.05): [0 0 0 0 1 0 0 0 0 0 0 0 0 1 1 1 0 0 1 0 0 0 0]
+
+Random Forest Accuracy: 0.7391304347826086
+
+Random Forest Precision: 0.0
+
+Random Forest Recall: 0.0
+
+Random Forest F1 Score: 0.0
+
+  Rank 1: fMarc Chagall (14.97%)
+  Rank 2: fEugene Boudin (11.83%)
+  Rank 3: fPablo Picasso (11.22%)
+  Rank 4: fGustave Dore (6.69%)
+  Rank 5: fAlbrecht Durer (6.06%)
+  Rank 6: fJohn Singer Sargent (4.68%)
+  Rank 7: fCamille Pissarro (4.54%)
+  Rank 8: fSalvador Dali (4.42%)
+  Rank 9: fVincent Van Gogh (4.19%)
+  Rank 10: fChilde Hassam (3.88%)
+  Rank 11: fIlya Repin (3.78%)
+  Rank 12: fRaphael Kirchner (3.51%)
+  Rank 13: fBoris Kustodiev (3.42%)
+  Rank 14: fEdgar Degas (3.09%)
+  Rank 15: fMartiros Saryan (2.81%)
+  Rank 16: fPaul Cezanne (2.36%)
+  Rank 17: fClaude Monet (2.30%)
+  Rank 18: fPierre Auguste Renoir (2.14%)
+  Rank 19: fPyotr Konchalovsky (1.88%)
+Selected Artwork: Field At Eragny 1885
+Generated Prompt: Field At Eragny 1885 by Camille Pissarro
+Selected Artwork Artist: Camille Pissarro
+Saved 1 images as a grid: Field At Eragny 1885 by Camille Pissarro.png
+Result_features: [np.float64(0.5450964237445477), np.float64(0.49020532467929756), np.float64(0.5305693599088663), np.float64(0.7480489265119449), 0.008319854736328125, 0.008060455322265625, 0.023426055908203125, 0.0627288818359375, 0.13319015502929688, 0.21345901489257812, 0.3506889343261719, 0.10526657104492188, 0.013027191162109375, 0.00445556640625, 0.004726409912109375, 0.00055694580078125, 0.001712799072265625, 0.00347137451171875, 0.0097808837890625, 0.02754974365234375, 0.01300048828125, 0.00630950927734375, 0.005809783935546875, 0.004459381103515625, np.float64(0.37497460658027826), np.float64(0.7799014060224119), np.float64(0.3275817793931732), np.float64(0.5121896124241377), np.float64(0.46254819608479675), np.float64(0.5979102232707242), np.float64(0.1484362033190704), np.float64(0.10715182118327132), np.float64(0.004194877323241857), np.float64(0.4994212454492541), np.float64(0.4885034636465868), np.float64(0.5000199669045221), np.float64(0.32613467702053256), np.float64(0.32306872677992016), np.float64(0.36148353779566533), np.float64(0.31259193663127127), np.float64(0.2973860061410034), np.float64(0.6273651536222535), np.float64(0.41850758599988147), np.float64(0.3110749963996275), np.float64(0.4241915805590069), np.float64(0.5291698177476378)]
+
+Result_features Length: 46
+
+Best Matching Unit: (12, 13)
+
+Full Label Vector: [-0.15849402  0.00072396  0.17499922  0.00262112  0.11718312 -0.19121577
+  0.09257841  0.18137161 -0.00019167 -0.06587366  0.05952554  0.16896072
+ -0.13119943 -0.03909059 -0.13951202 -0.00135805  0.01640732  0.18030256
+ -0.03551016  0.02717774  0.15637835 -0.07249184  0.07069324]
+
+Prediction Binary: [0 0 1 0 1 0 0 1 0 0 0 1 0 0 0 0 0 1 0 1 1 0 1]
+
+Significant Labels: [('Ivan Shishkin', np.float64(0.18137160824421084)), ('Camille Pissarro', np.float64(0.18030255858038657)), ('Vincent Van Gogh', np.float64(0.17499921674693222)), ('Ilya Repin', np.float64(0.168960718984956)), ('Martiros Saryan', np.float64(0.15637834885867744)), ('Pablo Picasso', np.float64(0.11718312222353265)), ('Childe Hassam', np.float64(0.0706932364942424)), ('Ivan Aivazovsky', np.float64(0.02717773636905319))]
+
+The contributing artists for the generated image were: Camille Pissarro
+
+Ground Truth: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0]
+
+Predicted Binary: [0 0 1 0 1 0 0 1 0 0 0 1 0 0 0 0 0 1 0 1 1 0 1]
+
+Accuracy: 0.6956521739130435
+
+Precision: 0.125
+
+Recall: 1.0
+
+F1 Score: 0.2222222222222222
+
+Random Forest Prediction: [2]
+
+Random Forest Probabilities: [[0.0055 0.0236 0.1405 0.0521 0.0949 0.0146 0.0165 0.0025 0.0264 0.0208
+  0.0427 0.0226 0.018  0.0188 0.0336 0.0447 0.1048 0.0673 0.0635 0.0143
+  0.0044 0.0338 0.1341]]
+
+Random Forest Binary (threshold=0.05): [0 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 0 0 1]
+
+Random Forest Accuracy: 0.7391304347826086
+
+Random Forest Precision: 0.14285714285714285
+
+Random Forest Recall: 1.0
+
+Random Forest F1 Score: 0.25
+
+  Rank 1: fVincent Van Gogh (14.05%)
+  Rank 2: fChilde Hassam (13.41%)
+  Rank 3: fRaphael Kirchner (10.48%)
+  Rank 4: fPablo Picasso (9.49%)
+  Rank 5: fCamille Pissarro (6.73%)
+Selected Artwork: Don Quixote 44
+Generated Prompt: Don Quixote 44 by Gustave Dore
+Selected Artwork Artist: Gustave Dore
+Saved 1 images as a grid: Don Quixote 44 by Gustave Dore.png
+Result_features: [np.float64(0.5625062771906272), np.float64(0.49998583474191055), np.float64(0.5000031382472), np.float64(0.603504244492874), 0.07294845581054688, 0.00112152099609375, 0.001800537109375, 0.01412200927734375, 0.3389701843261719, 0.10430145263671875, 0.00399017333984375, 0.022247314453125, 0.10818862915039062, 0.0125732421875, 0.09067535400390625, 0.00026702880859375, 0.002780914306640625, 0.012485504150390625, 0.004489898681640625, 0.08385086059570312, 0.00815582275390625, 0.021831512451171875, 0.08232879638671875, 0.01287078857421875, np.float64(0.5416431398364472), np.float64(0.42291007983413237), np.float64(0.0825851825105042), np.float64(0.49208305411727493), np.float64(0.5075023592053783), np.float64(0.5769788384103641), np.float64(0.19755149291174423), np.float64(0.10163202054744709), np.float64(0.0014138111388252404), np.float64(0.4899026970362478), np.float64(0.5052363764681326), np.float64(0.49998811706773916), np.float64(0.4437181253060573), np.float64(0.3870436416088442), np.float64(0.45683398803146674), np.float64(0.5705428900737846), np.float64(0.3760338187183076), np.float64(0.6904219039613836), np.float64(0.33744960434903687), np.float64(0.42978045057621395), np.float64(0.4933922165847891), np.float64(0.29231224447493986)]
+
+Result_features Length: 46
+
+Best Matching Unit: (6, 30)
+
+Full Label Vector: [ 0.20165577  0.19344232  0.07950694  0.12887214 -0.14001873  0.09591752
+  0.05108371 -0.17674637 -0.16739634 -0.16943681  0.09708518 -0.15503931
+ -0.0139631  -0.06188776  0.02185448  0.08934784  0.07993433  0.00671588
+ -0.01543324 -0.0442179   0.15660801 -0.0731949  -0.10412878]
+
+Prediction Binary: [1 1 0 1 0 1 0 0 0 0 1 0 0 0 0 0 1 0 0 0 1 0 0]
+
+Significant Labels: [('Nicholas Roerich', np.float64(0.20165576641374514)), ('Pierre Auguste Renoir', np.float64(0.193442315567956)), ('Martiros Saryan', np.float64(0.15660801211927014)), ('Salvador Dali', np.float64(0.12887213864719685)), ('Rembrandt', np.float64(0.09708518302271833)), ('Claude Monet', np.float64(0.0959175202742961)), ('Raphael Kirchner', np.float64(0.0799343303034332))]
+
+The contributing artists for the generated image were: Gustave Dore
+
+Ground Truth: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Predicted Binary: [1 1 0 1 0 1 0 0 0 0 1 0 0 0 0 0 1 0 0 0 1 0 0]
+
+Accuracy: 0.6521739130434783
+
+Precision: 0.0
+
+Recall: 0.0
+
+F1 Score: 0.0
+
+Random Forest Prediction: [14]
+
+Random Forest Probabilities: [[0.0478 0.0529 0.0222 0.0183 0.0462 0.0165 0.0208 0.0255 0.0406 0.0316
+  0.0252 0.0262 0.0725 0.0474 0.1614 0.0421 0.023  0.0206 0.0694 0.0178
+  0.0195 0.0752 0.0773]]
+
+Random Forest Binary (threshold=0.05): [0 1 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 1 0 0 1 1]
+
+Random Forest Accuracy: 0.782608695652174
+
+Random Forest Precision: 0.16666666666666666
+
+Random Forest Recall: 1.0
+
+Random Forest F1 Score: 0.2857142857142857
+
+  Rank 1: fGustave Dore (16.14%)
+Selected Artwork: Paradise Lost 10
+Generated Prompt: Paradise Lost 10 by Gustave Dore
+Selected Artwork Artist: Gustave Dore
+Saved 1 images as a grid: Paradise Lost 10 by Gustave Dore.png
+Result_features: [np.float64(0.5129642602054628), np.float64(0.49819273631417826), np.float64(0.4999901610254361), np.float64(0.5172777441321093), 0.006359100341796875, 0.000431060791015625, 0.00159454345703125, 0.00390625, 0.026042938232421875, 0.013965606689453125, 0.001636505126953125, 0.0230560302734375, 0.26828765869140625, 0.16134262084960938, 0.27837371826171875, 0.007022857666015625, 0.07845687866210938, 0.058147430419921875, 0.028472900390625, 0.033748626708984375, 0.00116729736328125, 0.00196075439453125, 0.00490570068359375, 0.00112152099609375, np.float64(0.35416317447050916), np.float64(0.6391593341057797), np.float64(0.9444589432171935), np.float64(0.4339819528360913), np.float64(0.5525675436205016), np.float64(0.9209054530352011), np.float64(0.10685019240266538), np.float64(0.1799245767447475), np.float64(0.005499214397685131), np.float64(0.5101890973289528), np.float64(0.45926550158297647), np.float64(0.49971773031036626), np.float64(0.4937922950238727), np.float64(0.5278411301407044), np.float64(0.5748724315270284), np.float64(0.4806628324025355), np.float64(0.45578852864400876), np.float64(0.5659731742978884), np.float64(0.45356804779506094), np.float64(0.37991513734461513), np.float64(0.5571320970433978), np.float64(0.6567439325908198)]
+
+Result_features Length: 46
+
+Best Matching Unit: (6, 30)
+
+Full Label Vector: [ 0.20165577  0.19344232  0.07950694  0.12887214 -0.14001873  0.09591752
+  0.05108371 -0.17674637 -0.16739634 -0.16943681  0.09708518 -0.15503931
+ -0.0139631  -0.06188776  0.02185448  0.08934784  0.07993433  0.00671588
+ -0.01543324 -0.0442179   0.15660801 -0.0731949  -0.10412878]
+
+Prediction Binary: [1 1 0 1 0 1 0 0 0 0 1 0 0 0 0 0 1 0 0 0 1 0 0]
+
+Significant Labels: [('Nicholas Roerich', np.float64(0.20165576641374514)), ('Pierre Auguste Renoir', np.float64(0.193442315567956)), ('Martiros Saryan', np.float64(0.15660801211927014)), ('Salvador Dali', np.float64(0.12887213864719685)), ('Rembrandt', np.float64(0.09708518302271833)), ('Claude Monet', np.float64(0.0959175202742961)), ('Raphael Kirchner', np.float64(0.0799343303034332))]
+
+The contributing artists for the generated image were: Gustave Dore
+
+Ground Truth: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Predicted Binary: [1 1 0 1 0 1 0 0 0 0 1 0 0 0 0 0 1 0 0 0 1 0 0]
+
+Accuracy: 0.6521739130434783
+
+Precision: 0.0
+
+Recall: 0.0
+
+F1 Score: 0.0
+
+Random Forest Prediction: [14]
+
+Random Forest Probabilities: [[0.0233 0.0631 0.0141 0.0215 0.1091 0.0084 0.023  0.0586 0.0636 0.0641
+  0.0272 0.0111 0.0556 0.026  0.1217 0.0362 0.0267 0.013  0.0777 0.0076
+  0.0117 0.0722 0.0645]]
+
+Random Forest Binary (threshold=0.05): [0 1 0 0 1 0 0 1 1 1 0 0 1 0 1 0 0 0 1 0 0 1 1]
+
+Random Forest Accuracy: 0.6086956521739131
+
+Random Forest Precision: 0.1
+
+Random Forest Recall: 1.0
+
+Random Forest F1 Score: 0.18181818181818182
+
+  Rank 1: fGustave Dore (12.17%)
+Selected Artwork: Fish Drying Barn Seen From A Height 1882(1)
+Generated Prompt: Fish Drying Barn Seen From A Height 1882(1) by Vincent Van Gogh
+Selected Artwork Artist: Vincent Van Gogh
+Saved 1 images as a grid: Fish Drying Barn Seen From A Height 1882(1) by Vincent Van Gogh.png
+Result_features: [np.float64(0.5103768987764096), np.float64(0.4895896131819652), np.float64(0.5192280028539811), np.float64(0.7088747992561829), 0.003376007080078125, 0.003208160400390625, 0.003688812255859375, 0.007038116455078125, 0.0797576904296875, 0.2817535400390625, 0.23498916625976562, 0.16354751586914062, 0.03624725341796875, 0.017589569091796875, 0.015186309814453125, 0.010955810546875, 0.01236724853515625, 0.02678680419921875, 0.065093994140625, 0.025997161865234375, 0.00470733642578125, 0.00266265869140625, 0.00266265869140625, 0.002384185791015625, np.float64(0.5976801532148328), np.float64(0.12197745301109421), np.float64(0.8508515571635928), np.float64(0.47049196402138604), np.float64(0.5136221794491825), np.float64(0.9072278966017759), np.float64(0.12085087461287877), np.float64(0.09207445495104284), np.float64(0.015691546461649747), np.float64(0.5034584522761731), np.float64(0.4943890699899586), np.float64(0.4985894708942592), np.float64(0.3067218984532169), np.float64(0.582868135462749), np.float64(0.4569416857603877), np.float64(0.40155984927134775), np.float64(0.4284910564123549), np.float64(0.45083805483440964), np.float64(0.6676680624636804), np.float64(0.656433645521379), np.float64(0.4933789008189483), np.float64(0.4234409925865846)]
+
+Result_features Length: 46
+
+Best Matching Unit: (6, 30)
+
+Full Label Vector: [ 0.20165577  0.19344232  0.07950694  0.12887214 -0.14001873  0.09591752
+  0.05108371 -0.17674637 -0.16739634 -0.16943681  0.09708518 -0.15503931
+ -0.0139631  -0.06188776  0.02185448  0.08934784  0.07993433  0.00671588
+ -0.01543324 -0.0442179   0.15660801 -0.0731949  -0.10412878]
+
+Prediction Binary: [1 1 0 1 0 1 0 0 0 0 1 0 0 0 0 0 1 0 0 0 1 0 0]
+
+Significant Labels: [('Nicholas Roerich', np.float64(0.20165576641374514)), ('Pierre Auguste Renoir', np.float64(0.193442315567956)), ('Martiros Saryan', np.float64(0.15660801211927014)), ('Salvador Dali', np.float64(0.12887213864719685)), ('Rembrandt', np.float64(0.09708518302271833)), ('Claude Monet', np.float64(0.0959175202742961)), ('Raphael Kirchner', np.float64(0.0799343303034332))]
+
+The contributing artists for the generated image were: Vincent Van Gogh
+
+Ground Truth: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Predicted Binary: [1 1 0 1 0 1 0 0 0 0 1 0 0 0 0 0 1 0 0 0 1 0 0]
+
+Accuracy: 0.6521739130434783
+
+Precision: 0.0
+
+Recall: 0.0
+
+F1 Score: 0.0
+
+Random Forest Prediction: [2]
+
+Random Forest Probabilities: [[0.0025 0.0392 0.1553 0.0391 0.1293 0.0027 0.0132 0.0046 0.054  0.0267
+  0.1342 0.006  0.0091 0.0112 0.0227 0.0197 0.1307 0.0417 0.0574 0.0032
+  0.0008 0.0161 0.0806]]
+
+Random Forest Binary (threshold=0.05): [0 0 1 0 1 0 0 0 1 0 1 0 0 0 0 0 1 0 1 0 0 0 1]
+
+Random Forest Accuracy: 0.7391304347826086
+
+Random Forest Precision: 0.14285714285714285
+
+Random Forest Recall: 1.0
+
+Random Forest F1 Score: 0.25
+
+  Rank 1: fVincent Van Gogh (15.53%)
+Selected Artwork: Vegetable Gardens In Montmartre 1887 2
+Generated Prompt: Vegetable Gardens In Montmartre 1887 2 by Vincent Van Gogh
+Selected Artwork Artist: Vincent Van Gogh
+Saved 1 images as a grid: Vegetable Gardens In Montmartre 1887 2 by Vincent Van Gogh.png
+Result_features: [np.float64(0.5065780353997806), np.float64(0.4925779397548264), np.float64(0.5341146208096093), np.float64(0.7860517365273911), 0.000888824462890625, 0.044071197509765625, 0.08127975463867188, 0.09263229370117188, 0.07075881958007812, 0.09766769409179688, 0.22089767456054688, 0.2866020202636719, 0.07733154296875, 0.01318359375, 0.00617218017578125, 0.001575469970703125, 0.0017242431640625, 0.001300811767578125, 0.000812530517578125, 0.001190185546875, 0.0003204345703125, 0.0005035400390625, 0.000705718994140625, 0.0003814697265625, np.float64(0.5293931900210879), np.float64(0.17528229384179325), np.float64(0.8623760686681642), np.float64(0.5041942349853024), np.float64(0.5760479365785638), np.float64(0.5978918396055626), np.float64(0.13604025964996525), np.float64(0.093490708082794), np.float64(0.030407011978089732), np.float64(0.50820925291883), np.float64(0.4910229987394615), np.float64(0.49934592751160317), np.float64(0.24153977848738606), np.float64(0.3639162704490203), np.float64(0.3369907577139408), np.float64(0.33474558008146316), np.float64(0.29323590958383755), np.float64(0.5229020003605775), np.float64(0.5846621246234457), np.float64(0.41399914088480483), np.float64(0.46503243131682404), np.float64(0.3708943739080016)]
+
+Result_features Length: 46
+
+Best Matching Unit: (12, 13)
+
+Full Label Vector: [-0.15849402  0.00072396  0.17499922  0.00262112  0.11718312 -0.19121577
+  0.09257841  0.18137161 -0.00019167 -0.06587366  0.05952554  0.16896072
+ -0.13119943 -0.03909059 -0.13951202 -0.00135805  0.01640732  0.18030256
+ -0.03551016  0.02717774  0.15637835 -0.07249184  0.07069324]
+
+Prediction Binary: [0 0 1 0 1 0 0 1 0 0 0 1 0 0 0 0 0 1 0 1 1 0 1]
+
+Significant Labels: [('Ivan Shishkin', np.float64(0.18137160824421084)), ('Camille Pissarro', np.float64(0.18030255858038657)), ('Vincent Van Gogh', np.float64(0.17499921674693222)), ('Ilya Repin', np.float64(0.168960718984956)), ('Martiros Saryan', np.float64(0.15637834885867744)), ('Pablo Picasso', np.float64(0.11718312222353265)), ('Childe Hassam', np.float64(0.0706932364942424)), ('Ivan Aivazovsky', np.float64(0.02717773636905319))]
+
+The contributing artists for the generated image were: Vincent Van Gogh
+
+Ground Truth: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Predicted Binary: [0 0 1 0 1 0 0 1 0 0 0 1 0 0 0 0 0 1 0 1 1 0 1]
+
+Accuracy: 0.6956521739130435
+
+Precision: 0.125
+
+Recall: 1.0
+
+F1 Score: 0.2222222222222222
+
+Random Forest Prediction: [22]
+
+Random Forest Probabilities: [[0.013  0.0132 0.075  0.0485 0.0501 0.0352 0.0106 0.001  0.048  0.0273
+  0.034  0.0071 0.0125 0.0065 0.0387 0.0665 0.1007 0.1049 0.0771 0.0111
+  0.0056 0.0451 0.1683]]
+
+Random Forest Binary (threshold=0.05): [0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 1 1 1 1 0 0 0 1]
+
+Random Forest Accuracy: 0.7391304347826086
+
+Random Forest Precision: 0.14285714285714285
+
+Random Forest Recall: 1.0
+
+Random Forest F1 Score: 0.25
+
+  Rank 1: fChilde Hassam (16.83%)
+  Rank 2: fCamille Pissarro (10.49%)
+  Rank 3: fRaphael Kirchner (10.07%)
+  Rank 4: fMarc Chagall (7.71%)
+  Rank 5: fVincent Van Gogh (7.50%)
+Selected Artwork: The Seine Estuary At Honfluer
+Generated Prompt: The Seine Estuary At Honfluer by Claude Monet
+Selected Artwork Artist: Claude Monet
+Saved 1 images as a grid: The Seine Estuary At Honfluer by Claude Monet.png
+Result_features: [np.float64(0.5795363907114653), np.float64(0.48784782485174194), np.float64(0.5089482325814482), np.float64(0.5872354110966409), 0.003757476806640625, 0.002262115478515625, 0.004940032958984375, 0.01025390625, 0.0356292724609375, 0.09864044189453125, 0.216796875, 0.18973922729492188, 0.02715301513671875, 0.01784515380859375, 0.01914215087890625, 0.018161773681640625, 0.02863311767578125, 0.05292510986328125, 0.17153167724609375, 0.07675552368164062, 0.01385498046875, 0.005268096923828125, 0.004261016845703125, 0.00244903564453125, np.float64(0.3527606543567901), np.float64(0.6877995726551718), np.float64(0.3888706583198708), np.float64(0.37925019763924805), np.float64(0.6532482001074367), np.float64(0.07425345819870759), np.float64(0.1508223549095199), np.float64(0.08156978832018387), np.float64(0.0003975875470474756), np.float64(0.5394194684197875), np.float64(0.4961398950106412), np.float64(0.5000000767256187), np.float64(0.5812987697588711), np.float64(0.3520686348450166), np.float64(0.3599235427481752), np.float64(0.641791837250715), np.float64(0.4968393642467864), np.float64(0.6883958010010729), np.float64(0.44291589138502374), np.float64(0.6090228588146369), np.float64(0.571503818637167), np.float64(0.29593103115548375)]
+
+Result_features Length: 46
+
+Best Matching Unit: (12, 13)
+
+Full Label Vector: [-0.15849402  0.00072396  0.17499922  0.00262112  0.11718312 -0.19121577
+  0.09257841  0.18137161 -0.00019167 -0.06587366  0.05952554  0.16896072
+ -0.13119943 -0.03909059 -0.13951202 -0.00135805  0.01640732  0.18030256
+ -0.03551016  0.02717774  0.15637835 -0.07249184  0.07069324]
+
+Prediction Binary: [0 0 1 0 1 0 0 1 0 0 0 1 0 0 0 0 0 1 0 1 1 0 1]
+
+Significant Labels: [('Ivan Shishkin', np.float64(0.18137160824421084)), ('Camille Pissarro', np.float64(0.18030255858038657)), ('Vincent Van Gogh', np.float64(0.17499921674693222)), ('Ilya Repin', np.float64(0.168960718984956)), ('Martiros Saryan', np.float64(0.15637834885867744)), ('Pablo Picasso', np.float64(0.11718312222353265)), ('Childe Hassam', np.float64(0.0706932364942424)), ('Ivan Aivazovsky', np.float64(0.02717773636905319))]
+
+The contributing artists for the generated image were: Claude Monet
+
+Ground Truth: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Predicted Binary: [0 0 1 0 1 0 0 1 0 0 0 1 0 0 0 0 0 1 0 1 1 0 1]
+
+Accuracy: 0.6086956521739131
+
+Precision: 0.0
+
+Recall: 0.0
+
+F1 Score: 0.0
+
+Random Forest Prediction: [4]
+
+Random Forest Probabilities: [[0.0024 0.0899 0.0471 0.0459 0.2275 0.0039 0.0201 0.0021 0.078  0.0426
+  0.0706 0.0095 0.0251 0.0274 0.06   0.0283 0.0393 0.0242 0.0724 0.0017
+  0.0046 0.0292 0.0482]]
+
+Random Forest Binary (threshold=0.05): [0 1 0 0 1 0 0 0 1 0 1 0 0 0 1 0 0 0 1 0 0 0 0]
+
+Random Forest Accuracy: 0.6956521739130435
+
+Random Forest Precision: 0.0
+
+Random Forest Recall: 0.0
+
+Random Forest F1 Score: 0.0
+
+  Rank 1: fPablo Picasso (22.75%)
+  Rank 2: fPierre Auguste Renoir (8.99%)
+  Rank 3: fPyotr Konchalovsky (7.80%)
+  Rank 4: fMarc Chagall (7.24%)
+  Rank 5: fRembrandt (7.06%)
+  Rank 6: fGustave Dore (6.00%)
+  Rank 7: fChilde Hassam (4.82%)
+  Rank 8: fVincent Van Gogh (4.71%)
+  Rank 9: fSalvador Dali (4.59%)
+  Rank 10: fEdgar Degas (4.26%)
+  Rank 11: fRaphael Kirchner (3.93%)
+  Rank 12: fPaul Cezanne (2.92%)
+  Rank 13: fAlbrecht Durer (2.83%)
+  Rank 14: fEugene Boudin (2.74%)
+  Rank 15: fBoris Kustodiev (2.51%)
+  Rank 16: fCamille Pissarro (2.42%)
+  Rank 17: fJohn Singer Sargent (2.01%)
+  Rank 18: fIlya Repin (0.95%)
+  Rank 19: fMartiros Saryan (0.46%)
+  Rank 20: fClaude Monet (0.39%)
+Selected Artwork: Girl With A Sickle 1885
+Generated Prompt: Girl With A Sickle 1885 by John Singer Sargent
+Selected Artwork Artist: John Singer Sargent
+Saved 1 images as a grid: Girl With A Sickle 1885 by John Singer Sargent.png
+Result_features: [np.float64(0.4477090778199978), np.float64(0.49846314411326575), np.float64(0.5186168374082245), np.float64(0.6833695419887517), 0.045318603515625, 0.02445220947265625, 0.029415130615234375, 0.04576873779296875, 0.12025833129882812, 0.24274444580078125, 0.20801544189453125, 0.054378509521484375, 0.00101470947265625, 0.000263214111328125, 0.000335693359375, 3.0517578125e-05, 0.000171661376953125, 0.000263214111328125, 0.00048828125, 0.001552581787109375, 0.004856109619140625, 0.032833099365234375, 0.07593154907226562, 0.111907958984375, np.float64(0.5736709777355228), np.float64(0.1431041274268328), np.float64(0.6423658144539501), np.float64(0.5533656096583172), np.float64(0.3436769535400367), np.float64(0.39677424944550066), np.float64(0.16782252070564996), np.float64(0.06406922224589552), np.float64(0.023131768037302294), np.float64(0.4847600248793946), np.float64(0.5080294532327035), np.float64(0.4999530570097012), np.float64(0.281397077236419), np.float64(0.7279509851728284), np.float64(0.5979046214641209), np.float64(0.5560552246727875), np.float64(0.1905782054179913), np.float64(0.5141113671046735), np.float64(0.24254547075404628), np.float64(0.39381486591375275), np.float64(0.49050912618649645), np.float64(0.5010026872244107)]
+
+Result_features Length: 46
+
+Best Matching Unit: (6, 30)
+
+Full Label Vector: [ 0.20165577  0.19344232  0.07950694  0.12887214 -0.14001873  0.09591752
+  0.05108371 -0.17674637 -0.16739634 -0.16943681  0.09708518 -0.15503931
+ -0.0139631  -0.06188776  0.02185448  0.08934784  0.07993433  0.00671588
+ -0.01543324 -0.0442179   0.15660801 -0.0731949  -0.10412878]
+
+Prediction Binary: [1 1 0 1 0 1 0 0 0 0 1 0 0 0 0 0 1 0 0 0 1 0 0]
+
+Significant Labels: [('Nicholas Roerich', np.float64(0.20165576641374514)), ('Pierre Auguste Renoir', np.float64(0.193442315567956)), ('Martiros Saryan', np.float64(0.15660801211927014)), ('Salvador Dali', np.float64(0.12887213864719685)), ('Rembrandt', np.float64(0.09708518302271833)), ('Claude Monet', np.float64(0.0959175202742961)), ('Raphael Kirchner', np.float64(0.0799343303034332))]
+
+The contributing artists for the generated image were: John Singer Sargent
+
+Ground Truth: [0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Predicted Binary: [1 1 0 1 0 1 0 0 0 0 1 0 0 0 0 0 1 0 0 0 1 0 0]
+
+Accuracy: 0.6521739130434783
+
+Precision: 0.0
+
+Recall: 0.0
+
+F1 Score: 0.0
+
+Random Forest Prediction: [22]
+
+Random Forest Probabilities: [[0.012  0.0376 0.0801 0.0164 0.0288 0.0286 0.0258 0.0246 0.0283 0.028
+  0.0395 0.0969 0.0584 0.0184 0.0385 0.0315 0.0889 0.0508 0.0438 0.0181
+  0.0358 0.0292 0.14  ]]
+
+Random Forest Binary (threshold=0.05): [0 0 1 0 0 0 0 0 0 0 0 1 1 0 0 0 1 1 0 0 0 0 1]
+
+Random Forest Accuracy: 0.6956521739130435
+
+Random Forest Precision: 0.0
+
+Random Forest Recall: 0.0
+
+Random Forest F1 Score: 0.0
+
+  Rank 1: fChilde Hassam (14.00%)
+  Rank 2: fIlya Repin (9.69%)
+  Rank 3: fRaphael Kirchner (8.89%)
+  Rank 4: fVincent Van Gogh (8.01%)
+  Rank 5: fBoris Kustodiev (5.84%)
+  Rank 6: fCamille Pissarro (5.08%)
+  Rank 7: fMarc Chagall (4.38%)
+  Rank 8: fRembrandt (3.95%)
+  Rank 9: fGustave Dore (3.85%)
+  Rank 10: fPierre Auguste Renoir (3.76%)
+  Rank 11: fMartiros Saryan (3.58%)
+  Rank 12: fAlbrecht Durer (3.15%)
+  Rank 13: fPaul Cezanne (2.92%)
+  Rank 14: fPablo Picasso (2.88%)
+  Rank 15: fClaude Monet (2.86%)
+  Rank 16: fPyotr Konchalovsky (2.83%)
+  Rank 17: fEdgar Degas (2.80%)
+  Rank 18: fJohn Singer Sargent (2.58%)
+Selected Artwork: Anemones
+Generated Prompt: Anemones by Pierre Auguste Renoir
+Selected Artwork Artist: Pierre Auguste Renoir
+Saved 1 images as a grid: Anemones by Pierre Auguste Renoir.png
+Result_features: [np.float64(0.49013285435022086), np.float64(0.5143924132448714), np.float64(0.5207369838157597), np.float64(0.6314954258344335), 0.028598785400390625, 0.148345947265625, 0.15839767456054688, 0.098114013671875, 0.1471710205078125, 0.14772796630859375, 0.061981201171875, 0.034481048583984375, 0.017955780029296875, 0.009796142578125, 0.009410858154296875, 0.00638580322265625, 0.012470245361328125, 0.028656005859375, 0.025547027587890625, 0.024974822998046875, 0.00598907470703125, 0.005298614501953125, 0.010784149169921875, 0.017913818359375, np.float64(0.5783340597482418), np.float64(0.3455963237369797), np.float64(0.08685775117846964), np.float64(0.44669974855578864), np.float64(0.6265922556743933), np.float64(0.04653113694913396), np.float64(0.167082385068088), np.float64(0.09957541585462253), np.float64(0.0040026939141111564), np.float64(0.49129893233487665), np.float64(0.488224538559583), np.float64(0.5000432940829187), np.float64(0.2150953418150703), np.float64(0.4076138571804631), np.float64(0.3128081138651002), np.float64(0.2507544879165514), np.float64(0.28115550890212976), np.float64(0.5038256752320454), np.float64(0.4680476657934313), np.float64(0.5296056291692651), np.float64(0.31690079986517794), np.float64(0.555129104009488)]
+
+Result_features Length: 46
+
+Best Matching Unit: (6, 14)
+
+Full Label Vector: [ 0.03451566 -0.16608337 -0.01735496  0.12212611 -0.20054534 -0.18816203
+ -0.18380086  0.09810635  0.00049539 -0.0556708  -0.16746963  0.09861782
+ -0.07600163 -0.0996521   0.06468038  0.02505821 -0.05842554  0.06008083
+ -0.09714783  0.12519586 -0.11494121 -0.14487017  0.11993425]
+
+Prediction Binary: [0 0 0 1 0 0 0 1 0 0 0 1 0 0 1 0 0 0 0 1 0 0 1]
+
+Significant Labels: [('Ivan Aivazovsky', np.float64(0.125195862817397)), ('Salvador Dali', np.float64(0.12212611243706104)), ('Childe Hassam', np.float64(0.11993424750035507)), ('Ilya Repin', np.float64(0.09861782283555032)), ('Ivan Shishkin', np.float64(0.09810635091591291)), ('Gustave Dore', np.float64(0.06468038171653527))]
+
+The contributing artists for the generated image were: Pierre Auguste Renoir
+
+Ground Truth: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Predicted Binary: [0 0 0 1 0 0 0 1 0 0 0 1 0 0 1 0 0 0 0 1 0 0 1]
+
+Accuracy: 0.6956521739130435
+
+Precision: 0.0
+
+Recall: 0.0
+
+F1 Score: 0.0
+
+Random Forest Prediction: [18]
+
+Random Forest Probabilities: [[0.014  0.0422 0.0797 0.0247 0.0565 0.0909 0.0087 0.0043 0.0148 0.0054
+  0.005  0.0265 0.0803 0.0662 0.0376 0.0882 0.0665 0.1043 0.106  0.007
+  0.0036 0.0163 0.0513]]
+
+Random Forest Binary (threshold=0.05): [0 0 1 0 1 1 0 0 0 0 0 0 1 1 0 1 1 1 1 0 0 0 1]
+
+Random Forest Accuracy: 0.5217391304347826
+
+Random Forest Precision: 0.0
+
+Random Forest Recall: 0.0
+
+Random Forest F1 Score: 0.0
+
+  Rank 1: fMarc Chagall (10.60%)
+  Rank 2: fCamille Pissarro (10.43%)
+  Rank 3: fClaude Monet (9.09%)
+  Rank 4: fAlbrecht Durer (8.82%)
+  Rank 5: fBoris Kustodiev (8.03%)
+  Rank 6: fVincent Van Gogh (7.97%)
+  Rank 7: fRaphael Kirchner (6.65%)
+  Rank 8: fEugene Boudin (6.62%)
+  Rank 9: fPablo Picasso (5.65%)
+  Rank 10: fChilde Hassam (5.13%)
+  Rank 11: fPierre Auguste Renoir (4.22%)
+Selected Artwork: Roger Freeing Angelica St George And The Damsel
+Generated Prompt: Roger Freeing Angelica St George And The Damsel by Salvador Dali
+Selected Artwork Artist: Salvador Dali
+Saved 1 images as a grid: Roger Freeing Angelica St George And The Damsel by Salvador Dali.png
+Result_features: [np.float64(0.565660317958414), np.float64(0.49524499315897913), np.float64(0.508229495014555), np.float64(0.542530600570025), 0.000274658203125, 0.00201416015625, 0.07960891723632812, 0.09197616577148438, 0.09293365478515625, 0.046520233154296875, 0.03815460205078125, 0.054782867431640625, 0.08791351318359375, 0.14162826538085938, 0.13294219970703125, 0.10871124267578125, 0.1148681640625, 0.007503509521484375, 4.57763671875e-05, 4.9591064453125e-05, 1.52587890625e-05, 1.52587890625e-05, 3.814697265625e-06, 3.814697265625e-05, np.float64(0.48603866553243746), np.float64(0.17179722874931394), np.float64(0.8672531330493363), np.float64(0.5011309875308162), np.float64(0.46954958064626784), np.float64(0.2227225796265108), np.float64(0.16342331312381983), np.float64(0.03797622810609099), np.float64(0.024876817310489154), np.float64(0.5010610236559784), np.float64(0.5041547762022051), np.float64(0.5008548571769315), np.float64(0.3869354552051972), np.float64(0.3982448355311743), np.float64(0.5208792913454335), np.float64(0.44493362430439326), np.float64(0.3806843239929491), np.float64(0.4962994062812384), np.float64(0.6477722546100257), np.float64(0.7206056059143947), np.float64(0.7195025000304678), np.float64(0.6833208749880002)]
+
+Result_features Length: 46
+
+Best Matching Unit: (6, 14)
+
+Full Label Vector: [ 0.03451566 -0.16608337 -0.01735496  0.12212611 -0.20054534 -0.18816203
+ -0.18380086  0.09810635  0.00049539 -0.0556708  -0.16746963  0.09861782
+ -0.07600163 -0.0996521   0.06468038  0.02505821 -0.05842554  0.06008083
+ -0.09714783  0.12519586 -0.11494121 -0.14487017  0.11993425]
+
+Prediction Binary: [0 0 0 1 0 0 0 1 0 0 0 1 0 0 1 0 0 0 0 1 0 0 1]
+
+Significant Labels: [('Ivan Aivazovsky', np.float64(0.125195862817397)), ('Salvador Dali', np.float64(0.12212611243706104)), ('Childe Hassam', np.float64(0.11993424750035507)), ('Ilya Repin', np.float64(0.09861782283555032)), ('Ivan Shishkin', np.float64(0.09810635091591291)), ('Gustave Dore', np.float64(0.06468038171653527))]
+
+The contributing artists for the generated image were: Salvador Dali
+
+Ground Truth: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Predicted Binary: [0 0 0 1 0 0 0 1 0 0 0 1 0 0 1 0 0 0 0 1 0 0 1]
+
+Accuracy: 0.782608695652174
+
+Precision: 0.16666666666666666
+
+Recall: 1.0
+
+F1 Score: 0.2857142857142857
+
+Random Forest Prediction: [9]
+
+Random Forest Probabilities: [[0.0074 0.0357 0.0249 0.0744 0.0545 0.0155 0.0725 0.0016 0.0953 0.1399
+  0.0299 0.0182 0.015  0.0103 0.0494 0.0567 0.0229 0.0245 0.0942 0.018
+  0.0061 0.0633 0.0698]]
+
+Random Forest Binary (threshold=0.05): [0 0 0 1 1 0 1 0 1 1 0 0 0 0 0 1 0 0 1 0 0 1 1]
+
+Random Forest Accuracy: 0.6521739130434783
+
+Random Forest Precision: 0.1111111111111111
+
+Random Forest Recall: 1.0
+
+Random Forest F1 Score: 0.2
+
+  Rank 1: fEdgar Degas (13.99%)
+  Rank 2: fPyotr Konchalovsky (9.53%)
+  Rank 3: fMarc Chagall (9.42%)
+  Rank 4: fSalvador Dali (7.44%)
+Selected Artwork: Three Arrows 1923
+Generated Prompt: Three Arrows 1923 by Nicholas Roerich
+Selected Artwork Artist: Nicholas Roerich
+Saved 1 images as a grid: Three Arrows 1923 by Nicholas Roerich.png
+Result_features: [np.float64(0.5563968460614691), np.float64(0.5026009602820684), np.float64(0.4893499352087121), np.float64(0.5707418739599806), 0.009639739990234375, 0.0130767822265625, 0.020320892333984375, 0.01319122314453125, 0.013935089111328125, 0.041900634765625, 0.17600631713867188, 0.1024627685546875, 0.08397674560546875, 0.029666900634765625, 0.005420684814453125, 0.004123687744140625, 0.0048675537109375, 0.00676727294921875, 0.017566680908203125, 0.10337066650390625, 0.3016510009765625, 0.0317840576171875, 0.011447906494140625, 0.008823394775390625, np.float64(0.6434703820352659), np.float64(0.23380447118617986), np.float64(0.4349554854269294), np.float64(0.4093414058280282), np.float64(0.6487114321987529), np.float64(0.7342159277504106), np.float64(0.13892427161115542), np.float64(0.07285222108256124), np.float64(0.00329890087098197), np.float64(0.5026307379962816), np.float64(0.49627136372377056), np.float64(0.49994901709682754), np.float64(0.5109131890437507), np.float64(0.6719366652170798), np.float64(0.47782735990525393), np.float64(0.44082119778300344), np.float64(0.7777742487428998), np.float64(0.5245048811239119), np.float64(0.6123357794541495), np.float64(0.6448398494300966), np.float64(0.7242351358787564), np.float64(0.47605795714369614)]
+
+Result_features Length: 46
+
+Best Matching Unit: (12, 13)
+
+Full Label Vector: [-0.15849402  0.00072396  0.17499922  0.00262112  0.11718312 -0.19121577
+  0.09257841  0.18137161 -0.00019167 -0.06587366  0.05952554  0.16896072
+ -0.13119943 -0.03909059 -0.13951202 -0.00135805  0.01640732  0.18030256
+ -0.03551016  0.02717774  0.15637835 -0.07249184  0.07069324]
+
+Prediction Binary: [0 0 1 0 1 0 0 1 0 0 0 1 0 0 0 0 0 1 0 1 1 0 1]
+
+Significant Labels: [('Ivan Shishkin', np.float64(0.18137160824421084)), ('Camille Pissarro', np.float64(0.18030255858038657)), ('Vincent Van Gogh', np.float64(0.17499921674693222)), ('Ilya Repin', np.float64(0.168960718984956)), ('Martiros Saryan', np.float64(0.15637834885867744)), ('Pablo Picasso', np.float64(0.11718312222353265)), ('Childe Hassam', np.float64(0.0706932364942424)), ('Ivan Aivazovsky', np.float64(0.02717773636905319))]
+
+The contributing artists for the generated image were: Nicholas Roerich
+
+Ground Truth: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Predicted Binary: [0 0 1 0 1 0 0 1 0 0 0 1 0 0 0 0 0 1 0 1 1 0 1]
+
+Accuracy: 0.6086956521739131
+
+Precision: 0.0
+
+Recall: 0.0
+
+F1 Score: 0.0
+
+Random Forest Prediction: [4]
+
+Random Forest Probabilities: [[0.0063 0.0649 0.0341 0.0311 0.1966 0.0115 0.0188 0.0032 0.0188 0.0435
+  0.0203 0.0285 0.0483 0.0422 0.1671 0.0258 0.0252 0.0334 0.0985 0.0017
+  0.0046 0.0385 0.0371]]
+
+Random Forest Binary (threshold=0.05): [0 1 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0]
+
+Random Forest Accuracy: 0.782608695652174
+
+Random Forest Precision: 0.0
+
+Random Forest Recall: 0.0
+
+Random Forest F1 Score: 0.0
+
+  Rank 1: fPablo Picasso (19.66%)
+  Rank 2: fGustave Dore (16.71%)
+  Rank 3: fMarc Chagall (9.85%)
+  Rank 4: fPierre Auguste Renoir (6.49%)
+  Rank 5: fBoris Kustodiev (4.83%)
+  Rank 6: fEdgar Degas (4.35%)
+  Rank 7: fEugene Boudin (4.22%)
+  Rank 8: fPaul Cezanne (3.85%)
+  Rank 9: fChilde Hassam (3.71%)
+  Rank 10: fVincent Van Gogh (3.41%)
+  Rank 11: fCamille Pissarro (3.34%)
+  Rank 12: fSalvador Dali (3.11%)
+  Rank 13: fIlya Repin (2.85%)
+  Rank 14: fAlbrecht Durer (2.58%)
+  Rank 15: fRaphael Kirchner (2.52%)
+  Rank 16: fRembrandt (2.03%)
+  Rank 17: fPyotr Konchalovsky (1.88%)
+  Rank 18: fJohn Singer Sargent (1.88%)
+  Rank 19: fClaude Monet (1.15%)
+  Rank 20: fNicholas Roerich (0.63%)
+Selected Artwork: The Eagle
+Generated Prompt: The Eagle by Gustave Dore
+Selected Artwork Artist: Gustave Dore
+Saved 1 images as a grid: The Eagle by Gustave Dore.png
+Result_features: [np.float64(0.5356914153350152), np.float64(0.49782588448716114), np.float64(0.5268299961582183), np.float64(0.7515548056031005), 0.009166717529296875, 0.002559661865234375, 0.004871368408203125, 0.020175933837890625, 0.2610740661621094, 0.6766242980957031, 0.012004852294921875, 0.002105712890625, 0.0012664794921875, 0.000408172607421875, 0.000957489013671875, 4.1961669921875e-05, 0.00023651123046875, 0.00046539306640625, 0.00140380859375, 0.001773834228515625, 0.0003814697265625, 0.000995635986328125, 0.002197265625, 0.00128936767578125, np.float64(0.7788004021043986), np.float64(0.4124340468189215), np.float64(0.12696326310407702), np.float64(0.5535277626888775), np.float64(0.39448231193851846), np.float64(0.5755084708351128), np.float64(0.10344879358355652), np.float64(0.07742833973153818), np.float64(0.09523520623089442), np.float64(0.4917581781025602), np.float64(0.5082170592560956), np.float64(0.48493030591936037), np.float64(0.2618479755495723), np.float64(0.26597852617193724), np.float64(0.2583364581317516), np.float64(0.23806278581159682), np.float64(0.26867653170153866), np.float64(0.4709183511065099), np.float64(0.5828436690522748), np.float64(0.6047659376543062), np.float64(0.4543025330761086), np.float64(0.2889446964295117)]
+
+Result_features Length: 46
+
+Best Matching Unit: (6, 14)
+
+Full Label Vector: [ 0.03451566 -0.16608337 -0.01735496  0.12212611 -0.20054534 -0.18816203
+ -0.18380086  0.09810635  0.00049539 -0.0556708  -0.16746963  0.09861782
+ -0.07600163 -0.0996521   0.06468038  0.02505821 -0.05842554  0.06008083
+ -0.09714783  0.12519586 -0.11494121 -0.14487017  0.11993425]
+
+Prediction Binary: [0 0 0 1 0 0 0 1 0 0 0 1 0 0 1 0 0 0 0 1 0 0 1]
+
+Significant Labels: [('Ivan Aivazovsky', np.float64(0.125195862817397)), ('Salvador Dali', np.float64(0.12212611243706104)), ('Childe Hassam', np.float64(0.11993424750035507)), ('Ilya Repin', np.float64(0.09861782283555032)), ('Ivan Shishkin', np.float64(0.09810635091591291)), ('Gustave Dore', np.float64(0.06468038171653527))]
+
+The contributing artists for the generated image were: Gustave Dore
+
+Ground Truth: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Predicted Binary: [0 0 0 1 0 0 0 1 0 0 0 1 0 0 1 0 0 0 0 1 0 0 1]
+
+Accuracy: 0.782608695652174
+
+Precision: 0.16666666666666666
+
+Recall: 1.0
+
+F1 Score: 0.2857142857142857
+
+Random Forest Prediction: [22]
+
+Random Forest Probabilities: [[0.01   0.0089 0.0726 0.041  0.0266 0.0268 0.0463 0.0102 0.0167 0.0148
+  0.0752 0.0379 0.047  0.0181 0.0701 0.0473 0.0398 0.0428 0.0217 0.0898
+  0.0313 0.0507 0.1544]]
+
+Random Forest Binary (threshold=0.05): [0 0 1 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 1 0 1 1]
+
+Random Forest Accuracy: 0.782608695652174
+
+Random Forest Precision: 0.16666666666666666
+
+Random Forest Recall: 1.0
+
+Random Forest F1 Score: 0.2857142857142857
+
+  Rank 1: fChilde Hassam (15.44%)
+  Rank 2: fIvan Aivazovsky (8.98%)
+  Rank 3: fRembrandt (7.52%)
+  Rank 4: fVincent Van Gogh (7.26%)
+  Rank 5: fGustave Dore (7.01%)
+Selected Artwork: In The Hut 1878
+Generated Prompt: In The Hut 1878 by Ilya Repin
+Selected Artwork Artist: Ilya Repin
+Saved 1 images as a grid: In The Hut 1878 by Ilya Repin.png
+Result_features: [np.float64(0.470473623300513), np.float64(0.497427915380547), np.float64(0.5265659733872576), np.float64(0.702587406538363), 0.03934478759765625, 0.0544891357421875, 0.06603622436523438, 0.10530471801757812, 0.19176483154296875, 0.19075393676757812, 0.15137481689453125, 0.068756103515625, 0.02364349365234375, 0.0191192626953125, 0.0125274658203125, 0.004253387451171875, 0.005401611328125, 0.005001068115234375, 0.00537109375, 0.00951385498046875, 0.00768280029296875, 0.009243011474609375, 0.01329803466796875, 0.017120361328125, np.float64(0.5174123977159047), np.float64(0.6035167492984378), np.float64(0.14422515210745987), np.float64(0.5344916326967658), np.float64(0.510581584591215), np.float64(0.21587019979719005), np.float64(0.1801479955891987), np.float64(0.08326981318809909), np.float64(0.01978730717116769), np.float64(0.485505075581706), np.float64(0.5087448055896714), np.float64(0.501153329702802), np.float64(0.3005076752458621), np.float64(0.29625622537843466), np.float64(0.22953577840865655), np.float64(0.21734672532774788), np.float64(0.3223169101982129), np.float64(0.40049923737631), np.float64(0.6325519915649872), np.float64(0.5306546220130529), np.float64(0.5027307765848169), np.float64(0.4121782385978532)]
+
+Result_features Length: 46
+
+Best Matching Unit: (12, 13)
+
+Full Label Vector: [-0.15849402  0.00072396  0.17499922  0.00262112  0.11718312 -0.19121577
+  0.09257841  0.18137161 -0.00019167 -0.06587366  0.05952554  0.16896072
+ -0.13119943 -0.03909059 -0.13951202 -0.00135805  0.01640732  0.18030256
+ -0.03551016  0.02717774  0.15637835 -0.07249184  0.07069324]
+
+Prediction Binary: [0 0 1 0 1 0 0 1 0 0 0 1 0 0 0 0 0 1 0 1 1 0 1]
+
+Significant Labels: [('Ivan Shishkin', np.float64(0.18137160824421084)), ('Camille Pissarro', np.float64(0.18030255858038657)), ('Vincent Van Gogh', np.float64(0.17499921674693222)), ('Ilya Repin', np.float64(0.168960718984956)), ('Martiros Saryan', np.float64(0.15637834885867744)), ('Pablo Picasso', np.float64(0.11718312222353265)), ('Childe Hassam', np.float64(0.0706932364942424)), ('Ivan Aivazovsky', np.float64(0.02717773636905319))]
+
+The contributing artists for the generated image were: Ilya Repin
+
+Ground Truth: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Predicted Binary: [0 0 1 0 1 0 0 1 0 0 0 1 0 0 0 0 0 1 0 1 1 0 1]
+
+Accuracy: 0.6956521739130435
+
+Precision: 0.125
+
+Recall: 1.0
+
+F1 Score: 0.2222222222222222
+
+Random Forest Prediction: [4]
+
+Random Forest Probabilities: [[0.0038 0.0308 0.1126 0.0426 0.1192 0.0364 0.0113 0.0023 0.0342 0.0149
+  0.0548 0.0375 0.0176 0.0173 0.0221 0.0649 0.0771 0.0934 0.0766 0.0048
+  0.0122 0.0329 0.0807]]
+
+Random Forest Binary (threshold=0.05): [0 0 1 0 1 0 0 0 0 0 1 0 0 0 0 1 1 1 1 0 0 0 1]
+
+Random Forest Accuracy: 0.6086956521739131
+
+Random Forest Precision: 0.0
+
+Random Forest Recall: 0.0
+
+Random Forest F1 Score: 0.0
+
+  Rank 1: fPablo Picasso (11.92%)
+  Rank 2: fVincent Van Gogh (11.26%)
+  Rank 3: fCamille Pissarro (9.34%)
+  Rank 4: fChilde Hassam (8.07%)
+  Rank 5: fRaphael Kirchner (7.71%)
+  Rank 6: fMarc Chagall (7.66%)
+  Rank 7: fAlbrecht Durer (6.49%)
+  Rank 8: fRembrandt (5.48%)
+  Rank 9: fSalvador Dali (4.26%)
+  Rank 10: fIlya Repin (3.75%)
+Selected Artwork: Old Oak 1866
+Generated Prompt: Old Oak 1866 by Ivan Shishkin
+Selected Artwork Artist: Ivan Shishkin
+Saved 1 images as a grid: Old Oak 1866 by Ivan Shishkin.png
+Result_features: [np.float64(0.48623034721006486), np.float64(0.4850331029295641), np.float64(0.5263062872879782), np.float64(0.802019922003879), 0.00608062744140625, 0.008731842041015625, 0.01751708984375, 0.02336883544921875, 0.039638519287109375, 0.09598159790039062, 0.3560676574707031, 0.3420219421386719, 0.049625396728515625, 0.012943267822265625, 0.008331298828125, 0.001811981201171875, 0.003139495849609375, 0.003932952880859375, 0.003284454345703125, 0.008327484130859375, 0.0060882568359375, 0.00482940673828125, 0.00489044189453125, 0.003387451171875, np.float64(0.5632420487119849), np.float64(0.294310429746256), np.float64(0.22662562719927018), np.float64(0.43416656687425564), np.float64(0.8280155776546116), np.float64(0.2335762372931057), np.float64(0.15519751210298086), np.float64(0.042101066090198605), np.float64(0.013684432551598938), np.float64(0.49494586810225555), np.float64(0.49982273381786985), np.float64(0.5017295924514558), np.float64(0.34230947337944656), np.float64(0.373107186106221), np.float64(0.3980789043081622), np.float64(0.3582426441830618), np.float64(0.36555895647955344), np.float64(0.42583833786474656), np.float64(0.7529245642727858), np.float64(0.4103833970212681), np.float64(0.6218654798664576), np.float64(0.4386281953718254)]
+
+Result_features Length: 46
+
+Best Matching Unit: (12, 13)
+
+Full Label Vector: [-0.15849402  0.00072396  0.17499922  0.00262112  0.11718312 -0.19121577
+  0.09257841  0.18137161 -0.00019167 -0.06587366  0.05952554  0.16896072
+ -0.13119943 -0.03909059 -0.13951202 -0.00135805  0.01640732  0.18030256
+ -0.03551016  0.02717774  0.15637835 -0.07249184  0.07069324]
+
+Prediction Binary: [0 0 1 0 1 0 0 1 0 0 0 1 0 0 0 0 0 1 0 1 1 0 1]
+
+Significant Labels: [('Ivan Shishkin', np.float64(0.18137160824421084)), ('Camille Pissarro', np.float64(0.18030255858038657)), ('Vincent Van Gogh', np.float64(0.17499921674693222)), ('Ilya Repin', np.float64(0.168960718984956)), ('Martiros Saryan', np.float64(0.15637834885867744)), ('Pablo Picasso', np.float64(0.11718312222353265)), ('Childe Hassam', np.float64(0.0706932364942424)), ('Ivan Aivazovsky', np.float64(0.02717773636905319))]
+
+The contributing artists for the generated image were: Ivan Shishkin
+
+Ground Truth: [0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Predicted Binary: [0 0 1 0 1 0 0 1 0 0 0 1 0 0 0 0 0 1 0 1 1 0 1]
+
+Accuracy: 0.6956521739130435
+
+Precision: 0.125
+
+Recall: 1.0
+
+F1 Score: 0.2222222222222222
+
+Random Forest Prediction: [10]
+
+Random Forest Probabilities: [[0.0158 0.0326 0.0699 0.0185 0.0623 0.0068 0.0043 0.0009 0.0487 0.0154
+  0.2336 0.0394 0.0112 0.0073 0.0189 0.044  0.0726 0.0387 0.0733 0.0049
+  0.0022 0.0231 0.1556]]
+
+Random Forest Binary (threshold=0.05): [0 0 1 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0 1 0 0 0 1]
+
+Random Forest Accuracy: 0.6956521739130435
+
+Random Forest Precision: 0.0
+
+Random Forest Recall: 0.0
+
+Random Forest F1 Score: 0.0
+
+  Rank 1: fRembrandt (23.36%)
+  Rank 2: fChilde Hassam (15.56%)
+  Rank 3: fMarc Chagall (7.33%)
+  Rank 4: fRaphael Kirchner (7.26%)
+  Rank 5: fVincent Van Gogh (6.99%)
+  Rank 6: fPablo Picasso (6.23%)
+  Rank 7: fPyotr Konchalovsky (4.87%)
+  Rank 8: fAlbrecht Durer (4.40%)
+  Rank 9: fIlya Repin (3.94%)
+  Rank 10: fCamille Pissarro (3.87%)
+  Rank 11: fPierre Auguste Renoir (3.26%)
+  Rank 12: fPaul Cezanne (2.31%)
+  Rank 13: fGustave Dore (1.89%)
+  Rank 14: fSalvador Dali (1.85%)
+  Rank 15: fNicholas Roerich (1.58%)
+  Rank 16: fEdgar Degas (1.54%)
+  Rank 17: fBoris Kustodiev (1.12%)
+  Rank 18: fEugene Boudin (0.73%)
+  Rank 19: fClaude Monet (0.68%)
+  Rank 20: fIvan Aivazovsky (0.49%)
+  Rank 21: fJohn Singer Sargent (0.43%)
+  Rank 22: fMartiros Saryan (0.22%)
+  Rank 23: fIvan Shishkin (0.09%)
+Selected Artwork: Bust Of A Young Woman 1913
+Generated Prompt: Bust Of A Young Woman 1913 by Pierre Auguste Renoir
+Selected Artwork Artist: Pierre Auguste Renoir
+Saved 1 images as a grid: Bust Of A Young Woman 1913 by Pierre Auguste Renoir.png
+Result_features: [np.float64(0.5120638145848431), np.float64(0.521299626758635), np.float64(0.5315190090539901), np.float64(0.6648080654806268), 0.03549957275390625, 0.11475753784179688, 0.2968254089355469, 0.21648788452148438, 0.09262466430664062, 0.1143035888671875, 0.06404495239257812, 0.016872406005859375, 0.00689697265625, 0.002475738525390625, 0.00167083740234375, 0.00051116943359375, 0.00095367431640625, 0.00098419189453125, 0.00067138671875, 0.000614166259765625, 0.0001220703125, 0.001163482666015625, 0.009899139404296875, 0.02262115478515625, np.float64(0.4757005014907417), np.float64(0.6830746867573692), np.float64(0.1868602990439286), np.float64(0.5652889292813056), np.float64(0.33139335428382705), np.float64(0.8295672978986347), np.float64(0.14224042678489981), np.float64(0.06892027318100419), np.float64(0.038943568835329574), np.float64(0.4945854813371644), np.float64(0.496807646253851), np.float64(0.498560814673489), np.float64(0.2201665423259364), np.float64(0.1527913559730981), np.float64(0.23423358097857824), np.float64(0.3215630568343769), np.float64(0.12330922298568595), np.float64(0.3637865512888549), np.float64(0.6704126229336818), np.float64(0.6076011337319902), np.float64(0.47611572524291773), np.float64(0.6078148544198072)]
+
+Result_features Length: 46
+
+Best Matching Unit: (12, 13)
+
+Full Label Vector: [-0.15849402  0.00072396  0.17499922  0.00262112  0.11718312 -0.19121577
+  0.09257841  0.18137161 -0.00019167 -0.06587366  0.05952554  0.16896072
+ -0.13119943 -0.03909059 -0.13951202 -0.00135805  0.01640732  0.18030256
+ -0.03551016  0.02717774  0.15637835 -0.07249184  0.07069324]
+
+Prediction Binary: [0 0 1 0 1 0 0 1 0 0 0 1 0 0 0 0 0 1 0 1 1 0 1]
+
+Significant Labels: [('Ivan Shishkin', np.float64(0.18137160824421084)), ('Camille Pissarro', np.float64(0.18030255858038657)), ('Vincent Van Gogh', np.float64(0.17499921674693222)), ('Ilya Repin', np.float64(0.168960718984956)), ('Martiros Saryan', np.float64(0.15637834885867744)), ('Pablo Picasso', np.float64(0.11718312222353265)), ('Childe Hassam', np.float64(0.0706932364942424)), ('Ivan Aivazovsky', np.float64(0.02717773636905319))]
+
+The contributing artists for the generated image were: Pierre Auguste Renoir
+
+Ground Truth: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Predicted Binary: [0 0 1 0 1 0 0 1 0 0 0 1 0 0 0 0 0 1 0 1 1 0 1]
+
+Accuracy: 0.6086956521739131
+
+Precision: 0.0
+
+Recall: 0.0
+
+F1 Score: 0.0
+
+Random Forest Prediction: [17]
+
+Random Forest Probabilities: [[0.0145 0.007  0.0454 0.0231 0.0494 0.1858 0.0059 0.0011 0.0094 0.0062
+  0.0017 0.032  0.0346 0.0107 0.0462 0.1016 0.0212 0.2502 0.0222 0.0152
+  0.0109 0.0226 0.0831]]
+
+Random Forest Binary (threshold=0.05): [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 1]
+
+Random Forest Accuracy: 0.782608695652174
+
+Random Forest Precision: 0.0
+
+Random Forest Recall: 0.0
+
+Random Forest F1 Score: 0.0
+
+  Rank 1: fCamille Pissarro (25.02%)
+  Rank 2: fClaude Monet (18.58%)
+  Rank 3: fAlbrecht Durer (10.16%)
+  Rank 4: fChilde Hassam (8.31%)
+  Rank 5: fPablo Picasso (4.94%)
+  Rank 6: fGustave Dore (4.62%)
+  Rank 7: fVincent Van Gogh (4.54%)
+  Rank 8: fBoris Kustodiev (3.46%)
+  Rank 9: fIlya Repin (3.20%)
+  Rank 10: fSalvador Dali (2.31%)
+  Rank 11: fPaul Cezanne (2.26%)
+  Rank 12: fMarc Chagall (2.22%)
+  Rank 13: fRaphael Kirchner (2.12%)
+  Rank 14: fIvan Aivazovsky (1.52%)
+  Rank 15: fNicholas Roerich (1.45%)
+  Rank 16: fMartiros Saryan (1.09%)
+  Rank 17: fEugene Boudin (1.07%)
+  Rank 18: fPyotr Konchalovsky (0.94%)
+  Rank 19: fPierre Auguste Renoir (0.70%)
+Selected Artwork: Venus Charles Martel
+Generated Prompt: Venus Charles Martel by Gustave Dore
+Selected Artwork Artist: Gustave Dore
+Saved 1 images as a grid: Venus Charles Martel by Gustave Dore.png
+Result_features: [np.float64(0.5697788115974122), np.float64(0.49767893023021825), np.float64(0.507797702802582), np.float64(0.790985932688023), 0.00240325927734375, 0.0002288818359375, 0.001750946044921875, 0.00689697265625, 0.02666473388671875, 0.5828781127929688, 0.32331085205078125, 0.028533935546875, 0.0118255615234375, 0.003978729248046875, 0.00394439697265625, 0.0001678466796875, 0.00080108642578125, 0.001556396484375, 0.00054168701171875, 0.00246429443359375, 0.000213623046875, 0.000457763671875, 0.00098419189453125, 0.000396728515625, np.float64(0.4495882573049772), np.float64(0.7530410618855207), np.float64(0.23841129451756507), np.float64(0.4855976272786168), np.float64(0.5023319957545062), np.float64(0.4467779895621633), np.float64(0.14277470539862028), np.float64(0.14997381378712477), np.float64(0.05909929340515094), np.float64(0.4925029821816528), np.float64(0.46556805770469645), np.float64(0.5005424165171231), np.float64(0.29923015668951664), np.float64(0.29388991073729503), np.float64(0.3214892827408943), np.float64(0.2850265476844863), np.float64(0.31446667267022593), np.float64(0.5263535849325593), np.float64(0.5274701676332555), np.float64(0.6985770357517919), np.float64(0.5207984187521625), np.float64(0.7941750211603007)]
+
+Result_features Length: 46
+
+Best Matching Unit: (35, 5)
+
+Full Label Vector: [ 0.17593737  0.11635428 -0.06529446 -0.13003199 -0.13942214 -0.16700342
+  0.1750761  -0.00558872  0.18842362  0.11129943  0.18373209  0.14923165
+  0.03374015 -0.11100835 -0.09958438 -0.05207818 -0.19260869  0.06755195
+  0.02233821 -0.16154178  0.13154306  0.13064877 -0.15443828]
+
+Prediction Binary: [1 1 0 0 0 0 1 0 1 1 1 1 0 0 0 0 0 0 0 0 1 1 0]
+
+Significant Labels: [('Pyotr Konchalovsky', np.float64(0.1884236220125807)), ('Rembrandt', np.float64(0.18373208788134932)), ('Nicholas Roerich', np.float64(0.1759373716598829)), ('John Singer Sargent', np.float64(0.17507610360731904)), ('Ilya Repin', np.float64(0.1492316536818149)), ('Martiros Saryan', np.float64(0.1315430551628286)), ('Paul Cezanne', np.float64(0.13064876632898442)), ('Pierre Auguste Renoir', np.float64(0.11635428453546032)), ('Edgar Degas', np.float64(0.1112994324883726))]
+
+The contributing artists for the generated image were: Gustave Dore
+
+Ground Truth: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Predicted Binary: [1 1 0 0 0 0 1 0 1 1 1 1 0 0 0 0 0 0 0 0 1 1 0]
+
+Accuracy: 0.5652173913043478
+
+Precision: 0.0
+
+Recall: 0.0
+
+F1 Score: 0.0
+
+Random Forest Prediction: [22]
+
+Random Forest Probabilities: [[0.0241 0.0174 0.0396 0.0406 0.0205 0.0114 0.0256 0.0276 0.0361 0.0225
+  0.0522 0.0123 0.0607 0.0156 0.0662 0.0588 0.0481 0.0434 0.0597 0.0528
+  0.0314 0.0763 0.1571]]
+
+Random Forest Binary (threshold=0.05): [0 0 0 0 0 0 0 0 0 0 1 0 1 0 1 1 0 0 1 1 0 1 1]
+
+Random Forest Accuracy: 0.6956521739130435
+
+Random Forest Precision: 0.125
+
+Random Forest Recall: 1.0
+
+Random Forest F1 Score: 0.2222222222222222
+
+  Rank 1: fChilde Hassam (15.71%)
+  Rank 2: fPaul Cezanne (7.63%)
+  Rank 3: fGustave Dore (6.62%)
+Selected Artwork: Landscape With House In The Woods In Saint Thomas Antilles
+Generated Prompt: Landscape With House In The Woods In Saint Thomas Antilles by Camille Pissarro
+Selected Artwork Artist: Camille Pissarro
+Saved 1 images as a grid: Landscape With House In The Woods In Saint Thomas Antilles by Camille Pissarro.png
+Result_features: [np.float64(0.47812765946404356), np.float64(0.4980513762716027), np.float64(0.528987568209039), np.float64(0.7445061313677898), 0.010089874267578125, 0.02706146240234375, 0.0832061767578125, 0.10734939575195312, 0.19030380249023438, 0.24219131469726562, 0.2908439636230469, 0.0264739990234375, 0.004299163818359375, 0.001598358154296875, 0.00122833251953125, 0.000553131103515625, 0.00144195556640625, 0.002849578857421875, 0.00127410888671875, 0.000827789306640625, 0.0004425048828125, 0.00055694580078125, 0.00189971923828125, 0.0055084228515625, np.float64(0.6249898070322288), np.float64(0.3121392778430171), np.float64(0.20864525049722035), np.float64(0.45077389905789733), np.float64(0.46308208829010516), np.float64(0.844113648549075), np.float64(0.13943747775724344), np.float64(0.11752451849233235), np.float64(0.01607561172540643), np.float64(0.5081339845163174), np.float64(0.5016674056239814), np.float64(0.5000211465314037), np.float64(0.24941686928429047), np.float64(0.28068587010524154), np.float64(0.31185126068546715), np.float64(0.23341169051117336), np.float64(0.25255953634125894), np.float64(0.44657192653747824), np.float64(0.5515441287272538), np.float64(0.5657867408409033), np.float64(0.3753687011654793), np.float64(0.5997187798574685)]
+
+Result_features Length: 46
+
+Best Matching Unit: (6, 30)
+
+Full Label Vector: [ 0.20165577  0.19344232  0.07950694  0.12887214 -0.14001873  0.09591752
+  0.05108371 -0.17674637 -0.16739634 -0.16943681  0.09708518 -0.15503931
+ -0.0139631  -0.06188776  0.02185448  0.08934784  0.07993433  0.00671588
+ -0.01543324 -0.0442179   0.15660801 -0.0731949  -0.10412878]
+
+Prediction Binary: [1 1 0 1 0 1 0 0 0 0 1 0 0 0 0 0 1 0 0 0 1 0 0]
+
+Significant Labels: [('Nicholas Roerich', np.float64(0.20165576641374514)), ('Pierre Auguste Renoir', np.float64(0.193442315567956)), ('Martiros Saryan', np.float64(0.15660801211927014)), ('Salvador Dali', np.float64(0.12887213864719685)), ('Rembrandt', np.float64(0.09708518302271833)), ('Claude Monet', np.float64(0.0959175202742961)), ('Raphael Kirchner', np.float64(0.0799343303034332))]
+
+The contributing artists for the generated image were: Camille Pissarro
+
+Ground Truth: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0]
+
+Predicted Binary: [1 1 0 1 0 1 0 0 0 0 1 0 0 0 0 0 1 0 0 0 1 0 0]
+
+Accuracy: 0.6521739130434783
+
+Precision: 0.0
+
+Recall: 0.0
+
+F1 Score: 0.0
+
+Random Forest Prediction: [2]
+
+Random Forest Probabilities: [[0.0091 0.0064 0.1326 0.0692 0.0752 0.0727 0.019  0.0016 0.0134 0.011
+  0.0387 0.029  0.0169 0.0065 0.0256 0.0778 0.0921 0.086  0.0471 0.0157
+  0.0047 0.0338 0.1159]]
+
+Random Forest Binary (threshold=0.05): [0 0 1 1 1 1 0 0 0 0 0 0 0 0 0 1 1 1 0 0 0 0 1]
+
+Random Forest Accuracy: 0.6956521739130435
+
+Random Forest Precision: 0.125
+
+Random Forest Recall: 1.0
+
+Random Forest F1 Score: 0.2222222222222222
+
+  Rank 1: fVincent Van Gogh (13.26%)
+  Rank 2: fChilde Hassam (11.59%)
+  Rank 3: fRaphael Kirchner (9.21%)
+  Rank 4: fCamille Pissarro (8.60%)
+Selected Artwork: Milarepa The One Who Harkened 1925
+Generated Prompt: Milarepa The One Who Harkened 1925 by Nicholas Roerich
+Selected Artwork Artist: Nicholas Roerich
+Saved 1 images as a grid: Milarepa The One Who Harkened 1925 by Nicholas Roerich.png
+Result_features: [np.float64(0.6001200101766752), np.float64(0.4981543464312252), np.float64(0.4771113132590834), np.float64(0.3055941988663209), 0.01096343994140625, 0.00809478759765625, 0.012973785400390625, 0.016998291015625, 0.027446746826171875, 0.05472564697265625, 0.00931549072265625, 0.00128173828125, 0.00145721435546875, 0.00146484375, 0.003414154052734375, 0.003082275390625, 0.010986328125, 0.3795967102050781, 0.15378570556640625, 0.17031097412109375, 0.055065155029296875, 0.05541229248046875, 0.013973236083984375, 0.00965118408203125, np.float64(0.4985618576911307), np.float64(0.7387003655247233), np.float64(0.4823264722453579), np.float64(0.38081779625898915), np.float64(0.3085277179214109), np.float64(0.7349689786348864), np.float64(0.12551562589714718), np.float64(0.05059716263399882), np.float64(0.1334880477080867), np.float64(0.5151020805278389), np.float64(0.5035197298777734), np.float64(0.4866580514362312), np.float64(0.6948037546305683), np.float64(0.6851287211360755), np.float64(0.5646747389954709), np.float64(0.6876589023695481), np.float64(0.711489271243981), np.float64(0.4311674812561317), np.float64(0.8146333778137187), np.float64(0.6348507557882193), np.float64(0.6252452213096292), np.float64(0.6667888466571855)]
+
+Result_features Length: 46
+
+Best Matching Unit: (35, 5)
+
+Full Label Vector: [ 0.17593737  0.11635428 -0.06529446 -0.13003199 -0.13942214 -0.16700342
+  0.1750761  -0.00558872  0.18842362  0.11129943  0.18373209  0.14923165
+  0.03374015 -0.11100835 -0.09958438 -0.05207818 -0.19260869  0.06755195
+  0.02233821 -0.16154178  0.13154306  0.13064877 -0.15443828]
+
+Prediction Binary: [1 1 0 0 0 0 1 0 1 1 1 1 0 0 0 0 0 0 0 0 1 1 0]
+
+Significant Labels: [('Pyotr Konchalovsky', np.float64(0.1884236220125807)), ('Rembrandt', np.float64(0.18373208788134932)), ('Nicholas Roerich', np.float64(0.1759373716598829)), ('John Singer Sargent', np.float64(0.17507610360731904)), ('Ilya Repin', np.float64(0.1492316536818149)), ('Martiros Saryan', np.float64(0.1315430551628286)), ('Paul Cezanne', np.float64(0.13064876632898442)), ('Pierre Auguste Renoir', np.float64(0.11635428453546032)), ('Edgar Degas', np.float64(0.1112994324883726))]
+
+The contributing artists for the generated image were: Nicholas Roerich
+
+Ground Truth: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Predicted Binary: [1 1 0 0 0 0 1 0 1 1 1 1 0 0 0 0 0 0 0 0 1 1 0]
+
+Accuracy: 0.6521739130434783
+
+Precision: 0.1111111111111111
+
+Recall: 1.0
+
+F1 Score: 0.2
+
+Random Forest Prediction: [14]
+
+Random Forest Probabilities: [[1.020e-02 3.800e-03 1.600e-03 1.600e-02 1.246e-01 1.080e-02 3.400e-02
+  2.500e-03 4.400e-03 3.630e-02 2.400e-03 1.010e-02 3.740e-02 3.760e-02
+  5.981e-01 2.520e-02 4.100e-03 4.400e-03 7.500e-03 2.000e-04 6.700e-03
+  1.770e-02 4.400e-03]]
+
+Random Forest Binary (threshold=0.05): [0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0]
+
+Random Forest Accuracy: 0.8695652173913043
+
+Random Forest Precision: 0.0
+
+Random Forest Recall: 0.0
+
+Random Forest F1 Score: 0.0
+
+  Rank 1: fGustave Dore (59.81%)
+  Rank 2: fPablo Picasso (12.46%)
+  Rank 3: fEugene Boudin (3.76%)
+  Rank 4: fBoris Kustodiev (3.74%)
+  Rank 5: fEdgar Degas (3.63%)
+  Rank 6: fJohn Singer Sargent (3.40%)
+  Rank 7: fAlbrecht Durer (2.52%)
+  Rank 8: fPaul Cezanne (1.77%)
+  Rank 9: fSalvador Dali (1.60%)
+  Rank 10: fClaude Monet (1.08%)
+  Rank 11: fNicholas Roerich (1.02%)
+Selected Artwork: Nude
+Generated Prompt: Nude by Edgar Degas
+Selected Artwork Artist: Edgar Degas
+Saved 1 images as a grid: Nude by Edgar Degas.png
+Result_features: [np.float64(0.5639435724327332), np.float64(0.5106262790890175), np.float64(0.5270755603415226), np.float64(0.6772941457685197), 0.03234100341796875, 0.20068740844726562, 0.15745925903320312, 0.06834793090820312, 0.097625732421875, 0.28350067138671875, 0.06876373291015625, 0.02032470703125, 0.004909515380859375, 0.002716064453125, 0.001895904541015625, 0.000598907470703125, 0.00048065185546875, 0.000408172607421875, 0.0002899169921875, 0.001255035400390625, 0.00264739990234375, 0.011768341064453125, 0.0203704833984375, 0.023609161376953125, np.float64(0.49980918284902726), np.float64(0.5340796998482787), np.float64(0.41951188118486155), np.float64(0.43827798432043763), np.float64(0.7446514002014363), np.float64(0.1120291136731498), np.float64(0.09186836554499687), np.float64(0.15086069847601688), np.float64(0.11369121452918254), np.float64(0.5012105667765309), np.float64(0.48131686328164347), np.float64(0.519747828300038), np.float64(0.30544229092953173), np.float64(0.1470754741643283), np.float64(0.27286789800026034), np.float64(0.2963215892480344), np.float64(0.270040623807271), np.float64(0.5707435200643479), np.float64(0.5270567422382987), np.float64(0.6276327267096962), np.float64(0.745287291748951), np.float64(0.4210055483412662)]
+
+Result_features Length: 46
+
+Best Matching Unit: (6, 14)
+
+Full Label Vector: [ 0.03451566 -0.16608337 -0.01735496  0.12212611 -0.20054534 -0.18816203
+ -0.18380086  0.09810635  0.00049539 -0.0556708  -0.16746963  0.09861782
+ -0.07600163 -0.0996521   0.06468038  0.02505821 -0.05842554  0.06008083
+ -0.09714783  0.12519586 -0.11494121 -0.14487017  0.11993425]
+
+Prediction Binary: [0 0 0 1 0 0 0 1 0 0 0 1 0 0 1 0 0 0 0 1 0 0 1]
+
+Significant Labels: [('Ivan Aivazovsky', np.float64(0.125195862817397)), ('Salvador Dali', np.float64(0.12212611243706104)), ('Childe Hassam', np.float64(0.11993424750035507)), ('Ilya Repin', np.float64(0.09861782283555032)), ('Ivan Shishkin', np.float64(0.09810635091591291)), ('Gustave Dore', np.float64(0.06468038171653527))]
+
+The contributing artists for the generated image were: Edgar Degas
+
+Ground Truth: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Predicted Binary: [0 0 0 1 0 0 0 1 0 0 0 1 0 0 1 0 0 0 0 1 0 0 1]
+
+Accuracy: 0.6956521739130435
+
+Precision: 0.0
+
+Recall: 0.0
+
+F1 Score: 0.0
+
+Random Forest Prediction: [17]
+
+Random Forest Probabilities: [[0.0183 0.0183 0.0767 0.0186 0.0493 0.057  0.0104 0.0011 0.0153 0.0081
+  0.0091 0.0452 0.0736 0.0145 0.0788 0.0575 0.0409 0.2121 0.0542 0.0152
+  0.0075 0.0358 0.0825]]
+
+Random Forest Binary (threshold=0.05): [0 0 1 0 0 1 0 0 0 0 0 0 1 0 1 1 0 1 1 0 0 0 1]
+
+Random Forest Accuracy: 0.6086956521739131
+
+Random Forest Precision: 0.0
+
+Random Forest Recall: 0.0
+
+Random Forest F1 Score: 0.0
+
+  Rank 1: fCamille Pissarro (21.21%)
+  Rank 2: fChilde Hassam (8.25%)
+  Rank 3: fGustave Dore (7.88%)
+  Rank 4: fVincent Van Gogh (7.67%)
+  Rank 5: fBoris Kustodiev (7.36%)
+  Rank 6: fAlbrecht Durer (5.75%)
+  Rank 7: fClaude Monet (5.70%)
+  Rank 8: fMarc Chagall (5.42%)
+  Rank 9: fPablo Picasso (4.93%)
+  Rank 10: fIlya Repin (4.52%)
+  Rank 11: fRaphael Kirchner (4.09%)
+  Rank 12: fPaul Cezanne (3.58%)
+  Rank 13: fSalvador Dali (1.86%)
+  Rank 14: fPierre Auguste Renoir (1.83%)
+  Rank 15: fNicholas Roerich (1.83%)
+  Rank 16: fPyotr Konchalovsky (1.53%)
+  Rank 17: fIvan Aivazovsky (1.52%)
+  Rank 18: fEugene Boudin (1.45%)
+  Rank 19: fJohn Singer Sargent (1.04%)
+  Rank 20: fRembrandt (0.91%)
+  Rank 21: fEdgar Degas (0.81%)
+Selected Artwork: Adams And St Helen S Early Morning
+Generated Prompt: Adams And St Helen S Early Morning by Childe Hassam
+Selected Artwork Artist: Childe Hassam
+Saved 1 images as a grid: Adams And St Helen S Early Morning by Childe Hassam.png
+Result_features: [np.float64(0.554522324932923), np.float64(0.497976428062848), np.float64(0.5208514040797065), np.float64(0.6612320978376763), 0.00157928466796875, 0.002597808837890625, 0.01027679443359375, 0.092987060546875, 0.3593292236328125, 0.17270660400390625, 0.08473587036132812, 0.049800872802734375, 0.0358123779296875, 0.02667999267578125, 0.022739410400390625, 0.02251434326171875, 0.034008026123046875, 0.06742477416992188, 0.01015472412109375, 0.002696990966796875, 0.001178741455078125, 0.000946044921875, 0.000980377197265625, 0.000850677490234375, np.float64(0.6862282849750508), np.float64(0.18723025922475403), np.float64(0.4249145701267829), np.float64(0.4905115880844576), np.float64(0.5020066071633779), np.float64(0.8457433637083994), np.float64(0.11616807159392478), np.float64(0.09305265298745784), np.float64(0.007233290422590908), np.float64(0.5015134288181562), np.float64(0.49812378376619254), np.float64(0.49952828170963215), np.float64(0.3091008836660557), np.float64(0.34696526301531194), np.float64(0.2816962333294024), np.float64(0.5865890554505161), np.float64(0.4299369006561563), np.float64(0.4618916562609985), np.float64(0.7150050243171059), np.float64(0.6186074003693474), np.float64(0.5708538635793726), np.float64(0.5962269801648116)]
+
+Result_features Length: 46
+
+Best Matching Unit: (6, 30)
+
+Full Label Vector: [ 0.20165577  0.19344232  0.07950694  0.12887214 -0.14001873  0.09591752
+  0.05108371 -0.17674637 -0.16739634 -0.16943681  0.09708518 -0.15503931
+ -0.0139631  -0.06188776  0.02185448  0.08934784  0.07993433  0.00671588
+ -0.01543324 -0.0442179   0.15660801 -0.0731949  -0.10412878]
+
+Prediction Binary: [1 1 0 1 0 1 0 0 0 0 1 0 0 0 0 0 1 0 0 0 1 0 0]
+
+Significant Labels: [('Nicholas Roerich', np.float64(0.20165576641374514)), ('Pierre Auguste Renoir', np.float64(0.193442315567956)), ('Martiros Saryan', np.float64(0.15660801211927014)), ('Salvador Dali', np.float64(0.12887213864719685)), ('Rembrandt', np.float64(0.09708518302271833)), ('Claude Monet', np.float64(0.0959175202742961)), ('Raphael Kirchner', np.float64(0.0799343303034332))]
+
+The contributing artists for the generated image were: Childe Hassam
+
+Ground Truth: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1]
+
+Predicted Binary: [1 1 0 1 0 1 0 0 0 0 1 0 0 0 0 0 1 0 0 0 1 0 0]
+
+Accuracy: 0.6521739130434783
+
+Precision: 0.0
+
+Recall: 0.0
+
+F1 Score: 0.0
+
+Random Forest Prediction: [3]
+
+Random Forest Probabilities: [[0.003  0.0168 0.0851 0.135  0.094  0.0354 0.0429 0.0033 0.039  0.044
+  0.0412 0.0144 0.0128 0.0161 0.0361 0.0333 0.074  0.0437 0.0745 0.0032
+  0.0064 0.0452 0.1006]]
+
+Random Forest Binary (threshold=0.05): [0 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 1]
+
+Random Forest Accuracy: 0.782608695652174
+
+Random Forest Precision: 0.16666666666666666
+
+Random Forest Recall: 1.0
+
+Random Forest F1 Score: 0.2857142857142857
+
+  Rank 1: fSalvador Dali (13.50%)
+  Rank 2: fChilde Hassam (10.06%)
+Selected Artwork: Lady In The Park Aka In The Garden
+Generated Prompt: Lady In The Park Aka In The Garden by Childe Hassam
+Selected Artwork Artist: Childe Hassam
+Saved 1 images as a grid: Lady In The Park Aka In The Garden by Childe Hassam.png
+Result_features: [np.float64(0.5900256881165626), np.float64(0.48853367537755854), np.float64(0.5295759406869125), np.float64(0.7879609906474057), 0.000156402587890625, 0.002315521240234375, 0.0322265625, 0.02850341796875, 0.05214691162109375, 0.2361602783203125, 0.3033332824707031, 0.21460723876953125, 0.07052993774414062, 0.019969940185546875, 0.010738372802734375, 0.007236480712890625, 0.010128021240234375, 0.00916290283203125, 0.002094268798828125, 0.000400543212890625, 7.62939453125e-05, 8.392333984375e-05, 5.7220458984375e-05, 7.2479248046875e-05, np.float64(0.3892362271184123), np.float64(0.8295953416181208), np.float64(0.4327953800070912), np.float64(0.44452571976144994), np.float64(0.5066958741645593), np.float64(0.7363028571335917), np.float64(0.1388645821898824), np.float64(0.11147154826509278), np.float64(0.042572380901768715), np.float64(0.5085125769466246), np.float64(0.49605899454331925), np.float64(0.496002604521409), np.float64(0.3407320826967772), np.float64(0.3187576324415821), np.float64(0.30343449815689605), np.float64(0.2829769557709318), np.float64(0.2982682119598858), np.float64(0.5794804650705718), np.float64(0.636164247290434), np.float64(0.5910747415957115), np.float64(0.48947177404524334), np.float64(0.618236249226028)]
+
+Result_features Length: 46
+
+Best Matching Unit: (12, 13)
+
+Full Label Vector: [-0.15849402  0.00072396  0.17499922  0.00262112  0.11718312 -0.19121577
+  0.09257841  0.18137161 -0.00019167 -0.06587366  0.05952554  0.16896072
+ -0.13119943 -0.03909059 -0.13951202 -0.00135805  0.01640732  0.18030256
+ -0.03551016  0.02717774  0.15637835 -0.07249184  0.07069324]
+
+Prediction Binary: [0 0 1 0 1 0 0 1 0 0 0 1 0 0 0 0 0 1 0 1 1 0 1]
+
+Significant Labels: [('Ivan Shishkin', np.float64(0.18137160824421084)), ('Camille Pissarro', np.float64(0.18030255858038657)), ('Vincent Van Gogh', np.float64(0.17499921674693222)), ('Ilya Repin', np.float64(0.168960718984956)), ('Martiros Saryan', np.float64(0.15637834885867744)), ('Pablo Picasso', np.float64(0.11718312222353265)), ('Childe Hassam', np.float64(0.0706932364942424)), ('Ivan Aivazovsky', np.float64(0.02717773636905319))]
+
+The contributing artists for the generated image were: Childe Hassam
+
+Ground Truth: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1]
+
+Predicted Binary: [0 0 1 0 1 0 0 1 0 0 0 1 0 0 0 0 0 1 0 1 1 0 1]
+
+Accuracy: 0.6956521739130435
+
+Precision: 0.125
+
+Recall: 1.0
+
+F1 Score: 0.2222222222222222
+
+Random Forest Prediction: [22]
+
+Random Forest Probabilities: [[0.0019 0.0171 0.0936 0.0605 0.0929 0.0204 0.025  0.001  0.0576 0.0198
+  0.0277 0.0024 0.004  0.0066 0.0366 0.0392 0.074  0.0838 0.0688 0.0133
+  0.0013 0.0539 0.1986]]
+
+Random Forest Binary (threshold=0.05): [0 0 1 1 1 0 0 0 1 0 0 0 0 0 0 0 1 1 1 0 0 1 1]
+
+Random Forest Accuracy: 0.6521739130434783
+
+Random Forest Precision: 0.1111111111111111
+
+Random Forest Recall: 1.0
+
+Random Forest F1 Score: 0.2
+
+  Rank 1: fChilde Hassam (19.86%)
+Selected Artwork: Introduction Picture From The Magazine Vampire 1905
+Generated Prompt: Introduction Picture From The Magazine Vampire 1905 by Boris Kustodiev
+Selected Artwork Artist: Boris Kustodiev
+Saved 1 images as a grid: Introduction Picture From The Magazine Vampire 1905 by Boris Kustodiev.png
+Result_features: [np.float64(0.4973990935191341), np.float64(0.4969009249345185), np.float64(0.5032016783324681), np.float64(0.8492588079585117), 0.003326416015625, 0.0002593994140625, 0.00182342529296875, 0.005626678466796875, 0.012760162353515625, 0.07440948486328125, 0.23391342163085938, 0.35398101806640625, 0.22177886962890625, 0.06642532348632812, 0.015079498291015625, 0.000453948974609375, 0.001861572265625, 0.002109527587890625, 0.000583648681640625, 0.0023193359375, 0.000400543212890625, 0.000713348388671875, 0.001377105712890625, 0.000797271728515625, np.float64(0.45825725689785307), np.float64(0.648358231357588), np.float64(0.8896683820147194), np.float64(0.504026412068098), np.float64(0.41070792159122865), np.float64(0.9520390121895124), np.float64(0.18581575941097772), np.float64(0.07268518555293238), np.float64(0.006259920229670929), np.float64(0.5057910518351179), np.float64(0.49261547777891906), np.float64(0.4996922656033999), np.float64(0.3571934166260399), np.float64(0.407075949747653), np.float64(0.4218285776016267), np.float64(0.39771346499896654), np.float64(0.38302652098465434), np.float64(0.6470817508532016), np.float64(0.2845158170066452), np.float64(0.23812059073989725), np.float64(0.3134493668300258), np.float64(0.3113522540177423)]
+
+Result_features Length: 46
+
+Best Matching Unit: (6, 30)
+
+Full Label Vector: [ 0.20165577  0.19344232  0.07950694  0.12887214 -0.14001873  0.09591752
+  0.05108371 -0.17674637 -0.16739634 -0.16943681  0.09708518 -0.15503931
+ -0.0139631  -0.06188776  0.02185448  0.08934784  0.07993433  0.00671588
+ -0.01543324 -0.0442179   0.15660801 -0.0731949  -0.10412878]
+
+Prediction Binary: [1 1 0 1 0 1 0 0 0 0 1 0 0 0 0 0 1 0 0 0 1 0 0]
+
+Significant Labels: [('Nicholas Roerich', np.float64(0.20165576641374514)), ('Pierre Auguste Renoir', np.float64(0.193442315567956)), ('Martiros Saryan', np.float64(0.15660801211927014)), ('Salvador Dali', np.float64(0.12887213864719685)), ('Rembrandt', np.float64(0.09708518302271833)), ('Claude Monet', np.float64(0.0959175202742961)), ('Raphael Kirchner', np.float64(0.0799343303034332))]
+
+The contributing artists for the generated image were: Boris Kustodiev
+
+Ground Truth: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Predicted Binary: [1 1 0 1 0 1 0 0 0 0 1 0 0 0 0 0 1 0 0 0 1 0 0]
+
+Accuracy: 0.6521739130434783
+
+Precision: 0.0
+
+Recall: 0.0
+
+F1 Score: 0.0
+
+Random Forest Prediction: [10]
+
+Random Forest Probabilities: [[0.0327 0.0795 0.0122 0.0113 0.02   0.0129 0.0109 0.0175 0.1131 0.1116
+  0.1169 0.0104 0.0328 0.0056 0.0467 0.0478 0.0312 0.0351 0.0478 0.0104
+  0.0129 0.0725 0.1082]]
+
+Random Forest Binary (threshold=0.05): [0 1 0 0 0 0 0 0 1 1 1 0 0 0 0 0 0 0 0 0 0 1 1]
+
+Random Forest Accuracy: 0.6956521739130435
+
+Random Forest Precision: 0.0
+
+Random Forest Recall: 0.0
+
+Random Forest F1 Score: 0.0
+
+  Rank 1: fRembrandt (11.69%)
+  Rank 2: fPyotr Konchalovsky (11.31%)
+  Rank 3: fEdgar Degas (11.16%)
+  Rank 4: fChilde Hassam (10.82%)
+  Rank 5: fPierre Auguste Renoir (7.95%)
+  Rank 6: fPaul Cezanne (7.25%)
+  Rank 7: fMarc Chagall (4.78%)
+  Rank 8: fAlbrecht Durer (4.78%)
+  Rank 9: fGustave Dore (4.67%)
+  Rank 10: fCamille Pissarro (3.51%)
+  Rank 11: fBoris Kustodiev (3.28%)
+Selected Artwork: Group Surrounding A Reclining Nude Velazquez 1981
+Generated Prompt: Group Surrounding A Reclining Nude Velazquez 1981 by Salvador Dali
+Selected Artwork Artist: Salvador Dali
+Saved 1 images as a grid: Group Surrounding A Reclining Nude Velazquez 1981 by Salvador Dali.png
+Result_features: [np.float64(0.5290341272912726), np.float64(0.5142345416895231), np.float64(0.5233281547431338), np.float64(0.6606162218172484), 0.001277923583984375, 0.02457427978515625, 0.4245185852050781, 0.3968162536621094, 0.09110260009765625, 0.037822723388671875, 0.017749786376953125, 0.001018524169921875, 0.000629425048828125, 0.000335693359375, 0.000469207763671875, 0.000156402587890625, 0.0006103515625, 0.000568389892578125, 0.00040435791015625, 0.00040435791015625, 0.00028228759765625, 0.000274658203125, 0.00051116943359375, 0.0004730224609375, np.float64(0.3651173739463256), np.float64(0.7322317779264459), np.float64(0.46928483020689526), np.float64(0.43854124022499946), np.float64(0.6943302447799995), np.float64(0.3251331864949069), np.float64(0.14588110765852963), np.float64(0.10328844066998544), np.float64(0.03698649202679941), np.float64(0.5192655790331999), np.float64(0.4668225632863688), np.float64(0.5005312365308625), np.float64(0.16277887020939877), np.float64(0.18094705133069572), np.float64(0.13180149914464667), np.float64(0.1631784044265845), np.float64(0.15722816770921075), np.float64(0.5388571485364109), np.float64(0.5304487095849061), np.float64(0.4606963642118822), np.float64(0.5156327719102894), np.float64(0.5727303902031498)]
+
+Result_features Length: 46
+
+Best Matching Unit: (12, 13)
+
+Full Label Vector: [-0.15849402  0.00072396  0.17499922  0.00262112  0.11718312 -0.19121577
+  0.09257841  0.18137161 -0.00019167 -0.06587366  0.05952554  0.16896072
+ -0.13119943 -0.03909059 -0.13951202 -0.00135805  0.01640732  0.18030256
+ -0.03551016  0.02717774  0.15637835 -0.07249184  0.07069324]
+
+Prediction Binary: [0 0 1 0 1 0 0 1 0 0 0 1 0 0 0 0 0 1 0 1 1 0 1]
+
+Significant Labels: [('Ivan Shishkin', np.float64(0.18137160824421084)), ('Camille Pissarro', np.float64(0.18030255858038657)), ('Vincent Van Gogh', np.float64(0.17499921674693222)), ('Ilya Repin', np.float64(0.168960718984956)), ('Martiros Saryan', np.float64(0.15637834885867744)), ('Pablo Picasso', np.float64(0.11718312222353265)), ('Childe Hassam', np.float64(0.0706932364942424)), ('Ivan Aivazovsky', np.float64(0.02717773636905319))]
+
+The contributing artists for the generated image were: Salvador Dali
+
+Ground Truth: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Predicted Binary: [0 0 1 0 1 0 0 1 0 0 0 1 0 0 0 0 0 1 0 1 1 0 1]
+
+Accuracy: 0.6086956521739131
+
+Precision: 0.0
+
+Recall: 0.0
+
+F1 Score: 0.0
+
+Random Forest Prediction: [17]
+
+Random Forest Probabilities: [[0.0369 0.0137 0.0741 0.027  0.0379 0.1356 0.0189 0.0032 0.0085 0.0113
+  0.0266 0.0372 0.0412 0.0067 0.0549 0.1007 0.0197 0.1394 0.0152 0.0268
+  0.0727 0.0217 0.0701]]
+
+Random Forest Binary (threshold=0.05): [0 0 1 0 0 1 0 0 0 0 0 0 0 0 1 1 0 1 0 0 1 0 1]
+
+Random Forest Accuracy: 0.6521739130434783
+
+Random Forest Precision: 0.0
+
+Random Forest Recall: 0.0
+
+Random Forest F1 Score: 0.0
+
+  Rank 1: fCamille Pissarro (13.94%)
+  Rank 2: fClaude Monet (13.56%)
+  Rank 3: fAlbrecht Durer (10.07%)
+  Rank 4: fVincent Van Gogh (7.41%)
+  Rank 5: fMartiros Saryan (7.27%)
+  Rank 6: fChilde Hassam (7.01%)
+  Rank 7: fGustave Dore (5.49%)
+  Rank 8: fBoris Kustodiev (4.12%)
+  Rank 9: fPablo Picasso (3.79%)
+  Rank 10: fIlya Repin (3.72%)
+  Rank 11: fNicholas Roerich (3.69%)
+  Rank 12: fSalvador Dali (2.70%)
+Selected Artwork: Milarepa The One Who Harkened 1925
+Generated Prompt: Milarepa The One Who Harkened 1925 by Nicholas Roerich
+Selected Artwork Artist: Nicholas Roerich
+Saved 1 images as a grid: Milarepa The One Who Harkened 1925 by Nicholas Roerich.png
+Result_features: [np.float64(0.5318707093372878), np.float64(0.5157298689522254), np.float64(0.48081115212533915), np.float64(0.37319926310095225), 0.025562286376953125, 0.0400543212890625, 0.019123077392578125, 0.01259613037109375, 0.019012451171875, 0.06942367553710938, 0.02081298828125, 0.000324249267578125, 0.00023651123046875, 0.000255584716796875, 0.000324249267578125, 0.000415802001953125, 0.020092010498046875, 0.16469955444335938, 0.20641326904296875, 0.040287017822265625, 0.04773712158203125, 0.1768341064453125, 0.08090972900390625, 0.0548858642578125, np.float64(0.5809209810868543), np.float64(0.5424559844316934), np.float64(0.11241339384464863), np.float64(0.6105063106998537), np.float64(0.14933748027678534), np.float64(0.6377047175429641), np.float64(0.1135679431106024), np.float64(0.0797865012321949), np.float64(0.05235275348918934), np.float64(0.49268394418014794), np.float64(0.49727445335665316), np.float64(0.4993054380688724), np.float64(0.6529293090619653), np.float64(0.7111864141270547), np.float64(0.6415905152383541), np.float64(0.47765801091381027), np.float64(0.9702488772011659), np.float64(0.48243718663269003), np.float64(0.6147586156599884), np.float64(0.523507174591097), np.float64(0.6472655716429558), np.float64(0.5163716425369654)]
+
+Result_features Length: 46
+
+Best Matching Unit: (35, 5)
+
+Full Label Vector: [ 0.17593737  0.11635428 -0.06529446 -0.13003199 -0.13942214 -0.16700342
+  0.1750761  -0.00558872  0.18842362  0.11129943  0.18373209  0.14923165
+  0.03374015 -0.11100835 -0.09958438 -0.05207818 -0.19260869  0.06755195
+  0.02233821 -0.16154178  0.13154306  0.13064877 -0.15443828]
+
+Prediction Binary: [1 1 0 0 0 0 1 0 1 1 1 1 0 0 0 0 0 0 0 0 1 1 0]
+
+Significant Labels: [('Pyotr Konchalovsky', np.float64(0.1884236220125807)), ('Rembrandt', np.float64(0.18373208788134932)), ('Nicholas Roerich', np.float64(0.1759373716598829)), ('John Singer Sargent', np.float64(0.17507610360731904)), ('Ilya Repin', np.float64(0.1492316536818149)), ('Martiros Saryan', np.float64(0.1315430551628286)), ('Paul Cezanne', np.float64(0.13064876632898442)), ('Pierre Auguste Renoir', np.float64(0.11635428453546032)), ('Edgar Degas', np.float64(0.1112994324883726))]
+
+The contributing artists for the generated image were: Nicholas Roerich
+
+Ground Truth: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Predicted Binary: [1 1 0 0 0 0 1 0 1 1 1 1 0 0 0 0 0 0 0 0 1 1 0]
+
+Accuracy: 0.6521739130434783
+
+Precision: 0.1111111111111111
+
+Recall: 1.0
+
+F1 Score: 0.2
+
+Random Forest Prediction: [14]
+
+Random Forest Probabilities: [[0.011  0.0128 0.004  0.0165 0.1222 0.0187 0.042  0.0014 0.0031 0.023
+  0.002  0.0295 0.0355 0.0465 0.5131 0.0239 0.0057 0.0135 0.0289 0.001
+  0.0096 0.0317 0.0044]]
+
+Random Forest Binary (threshold=0.05): [0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0]
+
+Random Forest Accuracy: 0.8695652173913043
+
+Random Forest Precision: 0.0
+
+Random Forest Recall: 0.0
+
+Random Forest F1 Score: 0.0
+
+  Rank 1: fGustave Dore (51.31%)
+  Rank 2: fPablo Picasso (12.22%)
+  Rank 3: fEugene Boudin (4.65%)
+  Rank 4: fJohn Singer Sargent (4.20%)
+  Rank 5: fBoris Kustodiev (3.55%)
+  Rank 6: fPaul Cezanne (3.17%)
+  Rank 7: fIlya Repin (2.95%)
+  Rank 8: fMarc Chagall (2.89%)
+  Rank 9: fAlbrecht Durer (2.39%)
+  Rank 10: fEdgar Degas (2.30%)
+  Rank 11: fClaude Monet (1.87%)
+  Rank 12: fSalvador Dali (1.65%)
+  Rank 13: fCamille Pissarro (1.35%)
+  Rank 14: fPierre Auguste Renoir (1.28%)
+  Rank 15: fNicholas Roerich (1.10%)

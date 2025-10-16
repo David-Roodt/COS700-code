@@ -1,0 +1,149 @@
+Prompt,GroundTruth,BMU,Accuracy,Precision,Recall,F1
+Mademoiselle Marie Dihau by Edgar Degas,Edgar Degas:Mademoiselle Marie Dihau,"(100, 137)",0.913043478,0.333333333,1,0.5
+Landscape With Figures By A River,Landscape With Figures By A River,"(100, 137)",0.826086957,0,0,0
+Marc Chagall,Marc Chagall,"(100, 137)",0.826086957,0,0,0
+Albrecht Durer,Albrecht Durer,"(100, 137)",0.826086957,0,0,0
+Pyotr Konchalovsky,Pyotr Konchalovsky,"(95, 109)",0.826086957,0,0,0
+Nicholas Roerich,Nicholas Roerich,"(100, 137)",0.826086957,0,0,0
+St Apollonia 1521,St Apollonia 1521,"(100, 137)",0.826086957,0,0,0
+Portrait Of Uncle Dominique In Profile 1866,Portrait Of Uncle Dominique In Profile 1866,"(100, 137)",0.826086957,0,0,0
+Breakfeast In The Outside,Breakfeast In The Outside,"(100, 137)",0.826086957,0,0,0
+Harlequin With His Hands Crossed Jacinto Salvado 1923,Harlequin With His Hands Crossed Jacinto Salvado 1923,"(100, 137)",0.913043478,0.333333333,1,0.5
+Vernicle 1912,Vernicle 1912,"(100, 137)",0.826086957,0,0,0
+Bauer Goose With A Fountain Figure,Bauer Goose With A Fountain Figure,"(95, 109)",0.826086957,0,0,0
+Fellah Village 1911 3,Fellah Village 1911 3,"(100, 137)",0.826086957,0,0,0
+Illustration To Revelationes Sancte Birgitte 1500 2,Illustration To Revelationes Sancte Birgitte 1500 2,"(100, 137)",0.826086957,0,0,0
+Saskia At Her Toilet by Rembrandt,Saskia At Her Toilet by Rembrandt,"(82, 62)",0.695652174,0.125,1,0.222222222
+On Falut 1924 by Nicholas Roerich,On Falut 1924 by Nicholas Roerich,"(70, 66)",0.608695652,0,0,0
+Dancers Bending Down 1885 by Edgar Degas,Dancers Bending Down 1885 by Edgar Degas,"(79, 52)",0.652173913,0.111111111,1,0.2
+Jeanne D Arc 1931 by Nicholas Roerich,Jeanne D Arc 1931 by Nicholas Roerich,"(81, 91)",0.608695652,0,0,0
+A Street 1910 by Martiros Saryan,A Street 1910 by Martiros Saryan,"(79, 52)",0.652173913,0.111111111,1,0.2
+Two Female Figures by Ivan Shishkin,Two Female Figures by Ivan Shishkin,"(79, 52)",0.565217391,0,0,0
+Komitas 1969 by Martiros Saryan,Komitas 1969 by Martiros Saryan,"(1, 130)",0.608695652,0.1,1,0.181818182
+The Merchant Kalashnikov 1868 by Ilya Repin,The Merchant Kalashnikov 1868 by Ilya Repin,"(69, 35)",0.608695652,0.1,1,0.181818182
+Boulevard Montmartre Winter Morning 1897 by Camille Pissarro,Boulevard Montmartre Winter Morning 1897 by Camille Pissarro,"(65, 11)",0.608695652,0,0,0
+Itinerant Players 1963 by Marc Chagall,Itinerant Players 1963 by Marc Chagall,"(110, 16)",0.739130435,0.142857143,1,0.25
+BREAK,BREAK,BREAK,BREAK,BREAK,BREAK,BREAK
+Marechal Niel Roses by Childe Hassam,Marechal Niel Roses by Childe Hassam,"(12, 13)",0.6521739130434783,0.0,0.0,0.0
+Moses And Aaron 1931 by Marc Chagall,Moses And Aaron 1931 by Marc Chagall,"(35, 5)",0.4782608695652174,0.0,0.0,0.0
+Mrs Joseph E Widener 1903 by John Singer Sargent,Mrs Joseph E Widener 1903 by John Singer Sargent,"(31, 6)",0.6086956521739131,0.1,1.0,0.18181818181818182
+Mrs Charles E Inches Louise Pomeroy 1887 by John Singer Sargent,Mrs Charles E Inches Louise Pomeroy 1887 by John Singer Sargent,"(33, 6)",0.5652173913043478,0.0,0.0,0.0
+Bibemus Quarry by Paul Cezanne,Bibemus Quarry by Paul Cezanne,"(31, 6)",0.6086956521739131,0.1,1.0,0.18181818181818182
+Old Dutch Building Fishkill New York by Childe Hassam,Old Dutch Building Fishkill New York by Childe Hassam,"(6, 30)",0.6086956521739131,0.0,0.0,0.0
+Canterbury by Childe Hassam,Canterbury by Childe Hassam,"(12, 13)",0.6521739130434783,0.0,0.0,0.0
+Study Of Belukha 1926 by Nicholas Roerich,Study Of Belukha 1926 by Nicholas Roerich,"(8, 7)",0.6521739130434783,0.0,0.0,0.0
+Don Quixote 134 by Gustave Dore,Don Quixote 134 by Gustave Dore,"(6, 30)",0.6086956521739131,0.0,0.0,0.0
+Mount Aragats 1925 by Martiros Saryan,Mount Aragats 1925 by Martiros Saryan,"(12, 13)",0.7391304347826086,0.14285714285714285,1.0,0.25
+The Judas Kiss by Gustave Dore,The Judas Kiss by Gustave Dore,"(31, 6)",0.5217391304347826,0.0,0.0,0.0
+Henry Gasquet 1897 by Paul Cezanne,Henry Gasquet 1897 by Paul Cezanne,"(12, 13)",0.6521739130434783,0.0,0.0,0.0
+Portrait Of A Man With Baret And Scroll 1521 by Albrecht Durer,Portrait Of A Man With Baret And Scroll 1521 by Albrecht Durer,"(12, 13)",0.6521739130434783,0.0,0.0,0.0
+Christin The Synagogue by Gustave Dore,Christin The Synagogue by Gustave Dore,"(6, 14)",0.6956521739130435,0.0,0.0,0.0
+F V Dubasov 1906 by Boris Kustodiev,F V Dubasov 1906 by Boris Kustodiev,"(12, 13)",0.6521739130434783,0.0,0.0,0.0
+Violet Sargent And Flora Priestley 1889 by John Singer Sargent,Violet Sargent And Flora Priestley 1889 by John Singer Sargent,"(6, 30)",0.6086956521739131,0.0,0.0,0.0
+Shipwreck Of Lefort 1858 by Ivan Aivazovsky,Shipwreck Of Lefort 1858 by Ivan Aivazovsky,"(12, 13)",0.6521739130434783,0.0,0.0,0.0
+Peasant Woman Portrait Of Gordina De Groot 1885 by Vincent Van Gogh,Peasant Woman Portrait Of Gordina De Groot 1885 by Vincent Van Gogh,"(6, 14)",0.6956521739130435,0.0,0.0,0.0
+Paradise Lost 7 by Gustave Dore,Paradise Lost 7 by Gustave Dore,"(12, 13)",0.6521739130434783,0.0,0.0,0.0
+Kew Gardens 1892 by Camille Pissarro,Kew Gardens 1892 by Camille Pissarro,"(12, 13)",0.7391304347826086,0.14285714285714285,1.0,0.25
+Sunrise On The Sea by Camille Pissarro,"(6, 30)",0.6521739130434783,0.0,0.0,0.0
+The Stoning Of St Stephen 1625 by Rembrandt,"(35, 5)",0.6521739130434783,0.1111111111111111,1.0,0.2
+Large Pine by Paul Cezanne,"(12, 13)",0.6086956521739131,0.0,0.0,0.0,0.6521739130434783,0.0,0.0,0.0
+The Seine At Bercy 1878 by Paul Cezanne,"(12, 13)",0.6086956521739131,0.0,0.0,0.0,6,0.7391304347826086,0.0,0.0,0.0
+Pollard Willow 1882 by Vincent Van Gogh,"(31, 6)",0.5652173913043478,0.0,0.0,0.0,14,0.8260869565217391,0.0,0.0,0.0
+The Merchant Kalashnikov 1868 by Ilya Repin,"(12, 13)",0.6956521739130435,0.125,1.0,0.2222222222222222,16,0.7391304347826086,0.0,0.0,0.0
+The Last Judgment 1511 by Albrecht Durer,"(6, 14)",0.6956521739130435,0.0,0.0,0.0,12,0.7391304347826086,0.0,0.0,0.0
+Interior At Menil Hubert 1892 by Edgar Degas,"(35, 5)",0.6521739130434783,0.1111111111111111,1.0,0.2,14,0.782608695652174,0.0,0.0,0.0
+The Boulevard Montmartre At Night 1897 by Camille Pissarro,"(35, 2)",0.43478260869565216,0.0,0.0,0.0,5,0.6956521739130435,0.125,1.0,0.2222222222222222
+Bench At The Mall 1872 by Ivan Shishkin,"(12, 13)",0.6956521739130435,0.125,1.0,0.2222222222222222,23,0.6521739130434783,0.0,0.0,0.0
+Three Acrobates 1926 by Marc Chagall,"(12, 13)",0.6086956521739131,0.0,0.0,0.0,1,0.7391304347826086,0.14285714285714285,1.0,0.25
+Sea View by Ivan Aivazovsky,"(25, 1)",0.782608695652174,0.0,0.0,0.0,23,0.6956521739130435,0.0,0.0,0.0
+Woman In A Blue Blouse by Pierre Auguste Renoir,"(6, 14)",0.6956521739130435,0.0,0.0,0.0,15,0.7391304347826086,0.0,0.0,0.0
+Rain In Early May 1940 by Martiros Saryan,"(12, 13)",0.6956521739130435,0.125,1.0,0.2222222222222222,19,0.6956521739130435,0.0,0.0,0.0
+Place Du Theatre Francais 1898 by Camille Pissarro,"(31, 6)",0.5652173913043478,0.0,0.0,0.0,1,0.782608695652174,0.16666666666666666,1.0,0.2857142857142857
+View Of Feodosiya 1845 by Ivan Aivazovsky,"(6, 30)",0.6521739130434783,0.0,0.0,0.0,22,0.6956521739130435,0.0,0.0,0.0
+Melisande 1916 by Raphael Kirchner,"(12, 13)",0.6086956521739131,0.0,0.0,0.0,14,0.6956521739130435,0.0,0.0,0.0
+The Tribe Of Benjamin Stained Glass Window For The Synagogue Of The Hadassh Hebrew University 1962 by Marc Chagall,"(13, 5)",0.7391304347826086,0.14285714285714285,1.0,0.25,1,0.7391304347826086,0.14285714285714285,1.0,0.25
+Leviathan Job 40 21 1967 by Salvador Dali,"(6, 30)",0.7391304347826086,0.14285714285714285,1.0,0.25,17,0.6521739130434783,0.0,0.0,0.0
+The Temptation Of Jesus by Gustave Dore,"(8, 7)",0.6521739130434783,0.0,0.0,0.0,1,0.7391304347826086,0.14285714285714285,1.0,0.25
+Ruth Gleaning 1960 by Marc Chagall,"(6, 30)",0.6521739130434783,0.0,0.0,0.0,4,0.6086956521739131,0.1,1.0,0.18181818181818182
+The New York Window by Childe Hassam,"(6, 30)",0.6521739130434783,0.0,0.0,0.0,18,0.6086956521739131,0.0,0.0,0.0
+Portrait Of Zinaida Kozhukhovskaya 1906 by Pyotr Konchalovsky,"(12, 13)",0.6086956521739131,0.0,0.0,0.0,3,0.782608695652174,0.16666666666666666,1.0,0.2857142857142857
+From Arcadia 1 by Raphael Kirchner,"(6, 14)",0.6956521739130435,0.0,0.0,0.0,16,0.6956521739130435,0.0,0.0,0.0
+Don Quixote 88 by Gustave Dore,"(12, 13)",0.6086956521739131,0.0,0.0,0.0,1,0.7391304347826086,0.14285714285714285,1.0,0.25
+The Lamentation Over The Dead Christ by Rembrandt,"(31, 6)",0.5652173913043478,0.0,0.0,0.0,12,0.6956521739130435,0.0,0.0,0.0
+Portrait Of The Artist S Wife Anna Burnazyan 1882 by Ivan Aivazovsky,"(6, 30)",0.6521739130434783,0.0,0.0,0.0,19,0.6086956521739131,0.0,0.0,0.0
+Ebb On Sunset by Eugene Boudin,"(6, 14)",0.6956521739130435,0.0,0.0,0.0,19,0.6521739130434783,0.0,0.0,0.0
+Le Havre The Regatta Festival 1869 by Eugene Boudin,"(8, 7)",0.6521739130434783,0.0,0.0,0.0,4,0.6521739130434783,0.1111111111111111,1.0,0.2
+Still Life Oranges Stretcher And Carpet 1946 by Pyotr Konchalovsky,"(35, 5)",0.6521739130434783,0.1111111111111111,1.0,0.2,19,0.7391304347826086,0.0,0.0,0.0
+Field At Eragny 1885 by Camille Pissarro,"(12, 13)",0.6956521739130435,0.125,1.0,0.2222222222222222,5,0.7391304347826086,0.14285714285714285,1.0,0.25
+Don Quixote 44 by Gustave Dore,"(6, 30)",0.6521739130434783,0.0,0.0,0.0,1,0.782608695652174,0.16666666666666666,1.0,0.2857142857142857
+Paradise Lost 10 by Gustave Dore,"(6, 30)",0.6521739130434783,0.0,0.0,0.0,1,0.6086956521739131,0.1,1.0,0.18181818181818182
+Fish Drying Barn Seen From A Height 1882(1) by Vincent Van Gogh,"(6, 30)",0.6521739130434783,0.0,0.0,0.0,1,0.7391304347826086,0.14285714285714285,1.0,0.25
+Vegetable Gardens In Montmartre 1887 2 by Vincent Van Gogh,"(12, 13)",0.6956521739130435,0.125,1.0,0.2222222222222222,5,0.7391304347826086,0.14285714285714285,1.0,0.25
+The Seine Estuary At Honfluer by Claude Monet,"(12, 13)",0.6086956521739131,0.0,0.0,0.0,20,0.6956521739130435,0.0,0.0,0.0
+Girl With A Sickle 1885 by John Singer Sargent,"(6, 30)",0.6521739130434783,0.0,0.0,0.0,18,0.6956521739130435,0.0,0.0,0.0
+Anemones by Pierre Auguste Renoir,"(6, 14)",0.6956521739130435,0.0,0.0,0.0,11,0.5217391304347826,0.0,0.0,0.0
+Roger Freeing Angelica St George And The Damsel by Salvador Dali,"(6, 14)",0.782608695652174,0.16666666666666666,1.0,0.2857142857142857,4,0.6521739130434783,0.1111111111111111,1.0,0.2
+Three Arrows 1923 by Nicholas Roerich,"(12, 13)",0.6086956521739131,0.0,0.0,0.0,20,0.782608695652174,0.0,0.0,0.0
+The Eagle by Gustave Dore,"(6, 14)",0.782608695652174,0.16666666666666666,1.0,0.2857142857142857,5,0.782608695652174,0.16666666666666666,1.0,0.2857142857142857
+In The Hut 1878 by Ilya Repin,"(12, 13)",0.6956521739130435,0.125,1.0,0.2222222222222222,10,0.6086956521739131,0.0,0.0,0.0
+Old Oak 1866 by Ivan Shishkin,"(12, 13)",0.6956521739130435,0.125,1.0,0.2222222222222222,23,0.6956521739130435,0.0,0.0,0.0
+Bust Of A Young Woman 1913 by Pierre Auguste Renoir,"(12, 13)",0.6086956521739131,0.0,0.0,0.0,19,0.782608695652174,0.0,0.0,0.0
+Venus Charles Martel by Gustave Dore,"(35, 5)",0.5652173913043478,0.0,0.0,0.0,3,0.6956521739130435,0.125,1.0,0.2222222222222222
+Landscape With House In The Woods In Saint Thomas Antilles by Camille Pissarro,"(6, 30)",0.6521739130434783,0.0,0.0,0.0,4,0.6956521739130435,0.125,1.0,0.2222222222222222
+Milarepa The One Who Harkened 1925 by Nicholas Roerich,"(35, 5)",0.6521739130434783,0.1111111111111111,1.0,0.2,11,0.8695652173913043,0.0,0.0,0.0
+Nude by Edgar Degas,"(6, 14)",0.6956521739130435,0.0,0.0,0.0,21,0.6086956521739131,0.0,0.0,0.0
+Adams And St Helen S Early Morning by Childe Hassam,"(6, 30)",0.6521739130434783,0.0,0.0,0.0,2,0.782608695652174,0.16666666666666666,1.0,0.2857142857142857
+Lady In The Park Aka In The Garden by Childe Hassam,"(12, 13)",0.6956521739130435,0.125,1.0,0.2222222222222222,1,0.6521739130434783,0.1111111111111111,1.0,0.2
+Introduction Picture From The Magazine Vampire 1905 by Boris Kustodiev,"(6, 30)",0.6521739130434783,0.0,0.0,0.0,11,0.6956521739130435,0.0,0.0,0.0
+Group Surrounding A Reclining Nude Velazquez 1981 by Salvador Dali,"(12, 13)",0.6086956521739131,0.0,0.0,0.0,12,0.6521739130434783,0.0,0.0,0.0
+Milarepa The One Who Harkened 1925 by Nicholas Roerich,"(35, 5)",0.6521739130434783,0.1111111111111111,1.0,0.2,15,0.8695652173913043,0.0,0.0,0.0
+Portrait Of Natalia Orshanskaya 1925 by Boris Kustodiev,"(12, 13)",0.6086956521739131,0.0,0.0,0.0,9,0.6521739130434783,0.0,0.0,0.0
+Gondolier At Sea By Night 1843 by Ivan Aivazovsky,"(35, 2)",0.5217391304347826,0.08333333333333333,1.0,0.15384615384615385,23,0.7391304347826086,0.0,0.0,0.0
+Paolo And Francesca by Gustave Dore,"(28, 37)",0.5652173913043478,0.0,0.0,0.0,5,0.782608695652174,0.16666666666666666,1.0,0.2857142857142857
+The Ghost Of Vermeer Van Delft by Salvador Dali,"(35, 5)",0.5652173913043478,0.0,0.0,0.0,17,0.5652173913043478,0.0,0.0,0.0
+Academical Study by Pablo Picasso,"(25, 1)",0.8695652173913043,0.25,1.0,0.4,1,0.8260869565217391,0.2,1.0,0.3333333333333333
+The Acheson Sisters 1902 by John Singer Sargent,"(12, 13)",0.6086956521739131,0.0,0.0,0.0,17,0.6086956521739131,0.0,0.0,0.0
+Polesye 1883 by Ivan Shishkin,"(12, 13)",0.6956521739130435,0.125,1.0,0.2222222222222222,21,0.6521739130434783,0.0,0.0,0.0
+Cart On The Snow Covered Road With Saint Simeon Farm by Claude Monet,"(31, 6)",0.5652173913043478,0.0,0.0,0.0,17,0.6521739130434783,0.0,0.0,0.0
+The Louveciennes Road 1870 by Camille Pissarro,"(12, 13)",0.6956521739130435,0.125,1.0,0.2222222222222222,15,0.5652173913043478,0.0,0.0,0.0
+The Artist S House In Arles 1888 by Vincent Van Gogh,"(6, 30)",0.6521739130434783,0.0,0.0,0.0,2,0.782608695652174,0.16666666666666666,1.0,0.2857142857142857
+Avenue Of The Allies by Childe Hassam,"(12, 13)",0.6956521739130435,0.125,1.0,0.2222222222222222,9,0.6956521739130435,0.0,0.0,0.0
+Seehafen 1870 by Eugene Boudin,"(35, 5)",0.5652173913043478,0.0,0.0,0.0,4,0.782608695652174,0.16666666666666666,1.0,0.2857142857142857
+Dancer At The Barre by Edgar Degas,"(31, 6)",0.6521739130434783,0.1111111111111111,1.0,0.2,14,0.7391304347826086,0.0,0.0,0.0
+View Of Amsterdam 1854 by Ivan Aivazovsky,"(31, 6)",0.5652173913043478,0.0,0.0,0.0,18,0.5652173913043478,0.0,0.0,0.0
+Illustration For Louis Aragon S Work One Who Says Things Without Saying Anything 1976 1 by Marc Chagall,"(12, 13)",0.6086956521739131,0.0,0.0,0.0,2,0.7391304347826086,0.14285714285714285,1.0,0.25
+The Revolutionary Meeting 1883 by Ilya Repin,"(6, 30)",0.6521739130434783,0.0,0.0,0.0,18,0.6956521739130435,0.0,0.0,0.0
+Portrait Of Artist Leonard Mikhailovich Bunatyan 1920 by Pyotr Konchalovsky,"(6, 30)",0.6521739130434783,0.0,0.0,0.0,4,0.782608695652174,0.16666666666666666,1.0,0.2857142857142857
+Girls Heads In A Circle 1901 by Raphael Kirchner,"(31, 6)",0.5652173913043478,0.0,0.0,0.0,9,0.6956521739130435,0.0,0.0,0.0
+Interior At Menil Hubert 1892 by Edgar Degas,"(6, 14)",0.6956521739130435,0.0,0.0,0.0,21,0.6521739130434783,0.0,0.0,0.0
+Himalayas Study by Nicholas Roerich,"(35, 2)",0.5217391304347826,0.08333333333333333,1.0,0.15384615384615385,9,0.8695652173913043,0.0,0.0,0.0
+House In Abramtsevo 1920 by Pyotr Konchalovsky,"(12, 13)",0.6086956521739131,0.0,0.0,0.0,4,0.8260869565217391,0.2,1.0,0.3333333333333333
+Trulla Caementarii In Manu Domini Amos 7 7 1967 by Salvador Dali,"(12, 13)",0.6086956521739131,0.0,0.0,0.0,14,0.5652173913043478,0.0,0.0,0.0
+The Beach 1867 by Eugene Boudin,"(6, 14)",0.6956521739130435,0.0,0.0,0.0,14,0.7391304347826086,0.0,0.0,0.0
+The Port Deauville 1887 by Eugene Boudin,"(25, 1)",0.782608695652174,0.0,0.0,0.0,12,0.7391304347826086,0.0,0.0,0.0
+Portrait Of An Art Historian And Restorer Alexander Anisimov 1915 by Boris Kustodiev,"(12, 13)",0.6086956521739131,0.0,0.0,0.0,12,0.6521739130434783,0.0,0.0,0.0
+Woman With Necklace Of Gems 1901 by Pablo Picasso,"(13, 5)",0.7391304347826086,0.14285714285714285,1.0,0.25,9,0.7391304347826086,0.0,0.0,0.0
+A Roman Beggar Woman 1857 by Edgar Degas,"(12, 13)",0.6086956521739131,0.0,0.0,0.0,15,0.6521739130434783,0.0,0.0,0.0
+Great Spirit Of Himalayas by Nicholas Roerich,"(25, 1)",0.782608695652174,0.0,0.0,0.0,11,0.8695652173913043,0.0,0.0,0.0
+The Toilette After The Bath by Edgar Degas,"(12, 13)",0.6086956521739131,0.0,0.0,0.0,21,0.5652173913043478,0.0,0.0,0.0
+Unknown 10 by Raphael Kirchner,"(12, 13)",0.6086956521739131,0.0,0.0,0.0,22,0.7391304347826086,0.0,0.0,0.0
+The Enchantment Of Don Quixote by Gustave Dore,"(6, 30)",0.6521739130434783,0.0,0.0,0.0,1,0.782608695652174,0.16666666666666666,1.0,0.2857142857142857
+Study Of Saskia Called The Great Jewish Bride 1635 by Rembrandt,"(10, 30)",0.7391304347826086,0.14285714285714285,1.0,0.25,21,0.6086956521739131,0.0,0.0,0.0
+Crimea Alupka 1916 by Pyotr Konchalovsky,"(25, 1)",0.8695652173913043,0.25,1.0,0.4,10,0.6956521739130435,0.0,0.0,0.0
+Sunlight On An Old House Putnam by Childe Hassam,"(6, 30)",0.6521739130434783,0.0,0.0,0.0,1,0.7391304347826086,0.14285714285714285,1.0,0.25
+The Death Of Casagemas 1901 1 by Pablo Picasso,"(35, 5)",0.5652173913043478,0.0,0.0,0.0,5,0.6086956521739131,0.1,1.0,0.18181818181818182
+Orchard In Blossom Louveciennes 1872 by Camille Pissarro,"(6, 30)",0.6521739130434783,0.0,0.0,0.0,3,0.782608695652174,0.16666666666666666,1.0,0.2857142857142857
+Women Only by Albrecht Durer,"(6, 14)",0.6956521739130435,0.0,0.0,0.0,13,0.6521739130434783,0.0,0.0,0.0
+Achille Emperaire by Paul Cezanne,"(12, 13)",0.6086956521739131,0.0,0.0,0.0,13,0.6521739130434783,0.0,0.0,0.0
+Bather 1887 by Pierre Auguste Renoir,"(31, 6)",0.6521739130434783,0.1111111111111111,1.0,0.2,18,0.6956521739130435,0.0,0.0,0.0
+Circus In The Village 1969 by Marc Chagall,"(6, 30)",0.6521739130434783,0.0,0.0,0.0,3,0.782608695652174,0.16666666666666666,1.0,0.2857142857142857
+Apple Trees On The Chantemesle Hill(1) by Claude Monet,"(6, 30)",0.7391304347826086,0.14285714285714285,1.0,0.25,20,0.782608695652174,0.0,0.0,0.0
+Three Pomegranates And Two Apples by Pierre Auguste Renoir,"(12, 13)",0.6086956521739131,0.0,0.0,0.0,16,0.782608695652174,0.0,0.0,0.0
+The Lac D Annecy 1896 by Paul Cezanne,"(12, 13)",0.6086956521739131,0.0,0.0,0.0,12,0.782608695652174,0.0,0.0,0.0
+Don Quixote 137 by Gustave Dore,"(6, 30)",0.6521739130434783,0.0,0.0,0.0,1,0.7391304347826086,0.14285714285714285,1.0,0.25
+Alexander Tamanyan 1928 by Martiros Saryan,"(6, 30)",0.7391304347826086,0.14285714285714285,1.0,0.25,11,0.6086956521739131,0.0,0.0,0.0
+Landscape 1929 by Pyotr Konchalovsky,"(6, 14)",0.6956521739130435,0.0,0.0,0.0,9,0.7391304347826086,0.0,0.0,0.0
+Minotaur With Dead Horse In Front Of A Cave Facing A Girl In Veil 1936 by Pablo Picasso,"(6, 14)",0.6956521739130435,0.0,0.0,0.0,5,0.6956521739130435,0.125,1.0,0.2222222222222222
+Gentlemen Jockeys Before The Start 1862 by Edgar Degas,"(12, 13)",0.6086956521739131,0.0,0.0,0.0,15,0.6086956521739131,0.0,0.0,0.0
+Olive Thomas The Pittsburgh Press 1917 by Raphael Kirchner,"(6, 14)",0.6956521739130435,0.0,0.0,0.0,14,0.6956521739130435,0.0,0.0,0.0
+Cliffs Of Les Petites Dalles by Claude Monet,"(6, 30)",0.7391304347826086,0.14285714285714285,1.0,0.25,19,0.7391304347826086,0.0,0.0,0.0

@@ -1,0 +1,1531 @@
+Before running training for 500 epochs
+Checkpoint saved at iteration 13300 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_001_tanh.npy
+quantization error: 1.261282889727176
+topographic error: 0.22313801888206208
+Checkpoint saved at iteration 13254 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_002_tanh.npy
+quantization error: 1.2608446316794386
+topographic error: 0.2118237674209501
+Checkpoint saved at iteration 13208 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_003_tanh.npy
+quantization error: 1.257036912282601
+topographic error: 0.20935111643938253
+Checkpoint saved at iteration 13162 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_004_tanh.npy
+quantization error: 1.2555474669875062
+topographic error: 0.2603027124231979
+Checkpoint saved at iteration 13116 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_005_tanh.npy
+quantization error: 1.2633965034806032
+topographic error: 0.27588790648883565
+Checkpoint saved at iteration 13070 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_006_tanh.npy
+quantization error: 1.2483463550856504
+topographic error: 0.27701183875318447
+Checkpoint saved at iteration 13024 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_007_tanh.npy
+quantization error: 1.25668452069611
+topographic error: 0.24389330136370446
+Checkpoint saved at iteration 12978 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_008_tanh.npy
+quantization error: 1.253150290053252
+topographic error: 0.2840551476097707
+Checkpoint saved at iteration 12932 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_009_tanh.npy
+quantization error: 1.2612747067291186
+topographic error: 0.26577251610969577
+Checkpoint saved at iteration 12886 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_010_tanh.npy
+quantization error: 1.2553298760105036
+topographic error: 0.24104600629402073
+Checkpoint saved at iteration 12840 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_011_tanh.npy
+quantization error: 1.262052915366248
+topographic error: 0.26577251610969577
+Checkpoint saved at iteration 12794 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_012_tanh.npy
+quantization error: 1.2641718254020844
+topographic error: 0.2505619661321744
+Checkpoint saved at iteration 12748 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_013_tanh.npy
+quantization error: 1.2635594343576115
+topographic error: 0.24711524052150458
+Checkpoint saved at iteration 12702 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_014_tanh.npy
+quantization error: 1.2598062461114934
+topographic error: 0.23632549078375542
+Checkpoint saved at iteration 12656 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_015_tanh.npy
+quantization error: 1.247070053704454
+topographic error: 0.22725910385134118
+Checkpoint saved at iteration 12610 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_016_tanh.npy
+quantization error: 1.2699887390875833
+topographic error: 0.27483890304211
+Checkpoint saved at iteration 12564 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_017_tanh.npy
+quantization error: 1.2611683706157157
+topographic error: 0.20275738048853587
+Checkpoint saved at iteration 12518 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_018_tanh.npy
+quantization error: 1.2592762763991825
+topographic error: 0.19121834257455417
+Checkpoint saved at iteration 12472 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_019_tanh.npy
+quantization error: 1.2663887584504472
+topographic error: 0.2618762175932864
+Checkpoint saved at iteration 12426 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_020_tanh.npy
+quantization error: 1.2572999118700694
+topographic error: 0.2094260452570058
+Checkpoint saved at iteration 12380 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_021_tanh.npy
+quantization error: 1.2556601111527856
+topographic error: 0.2236625206054248
+Checkpoint saved at iteration 12334 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_022_tanh.npy
+quantization error: 1.2539835522924463
+topographic error: 0.260902142964184
+Checkpoint saved at iteration 12288 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_023_tanh.npy
+quantization error: 1.2542128675885889
+topographic error: 0.2307807582796344
+Checkpoint saved at iteration 12242 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_024_tanh.npy
+quantization error: 1.260287037110433
+topographic error: 0.26554772965682605
+Checkpoint saved at iteration 12196 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_025_tanh.npy
+quantization error: 1.2541386665068894
+topographic error: 0.24906338977970932
+Checkpoint saved at iteration 12150 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_026_tanh.npy
+quantization error: 1.2610629794137589
+topographic error: 0.3215195564213996
+Checkpoint saved at iteration 12104 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_027_tanh.npy
+quantization error: 1.2485655345713451
+topographic error: 0.2833807882511614
+Checkpoint saved at iteration 12058 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_028_tanh.npy
+quantization error: 1.2638957349642492
+topographic error: 0.24224486737599282
+Checkpoint saved at iteration 12012 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_029_tanh.npy
+quantization error: 1.2597805367079031
+topographic error: 0.26195114641090966
+Checkpoint saved at iteration 11966 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_030_tanh.npy
+quantization error: 1.2636927746668054
+topographic error: 0.23714970777761124
+Checkpoint saved at iteration 11920 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_031_tanh.npy
+quantization error: 1.2641099185662112
+topographic error: 0.277461411658924
+Checkpoint saved at iteration 11874 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_032_tanh.npy
+quantization error: 1.2514905237448688
+topographic error: 0.20935111643938253
+Checkpoint saved at iteration 11828 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_033_tanh.npy
+quantization error: 1.2600651196025183
+topographic error: 0.21841750337179677
+Checkpoint saved at iteration 11782 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_034_tanh.npy
+quantization error: 1.2541732357237645
+topographic error: 0.21946650681852242
+Checkpoint saved at iteration 11736 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_035_tanh.npy
+quantization error: 1.2634521946544193
+topographic error: 0.2840551476097707
+Checkpoint saved at iteration 11690 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_036_tanh.npy
+quantization error: 1.2558787937577465
+topographic error: 0.22793346320995056
+Checkpoint saved at iteration 11644 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_037_tanh.npy
+quantization error: 1.2477180423870922
+topographic error: 0.2381987112243369
+Checkpoint saved at iteration 11598 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_038_tanh.npy
+quantization error: 1.2507188940561684
+topographic error: 0.15525251011539043
+Checkpoint saved at iteration 11552 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_039_tanh.npy
+quantization error: 1.2526363040488417
+topographic error: 0.27026824516709125
+Checkpoint saved at iteration 11506 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_040_tanh.npy
+quantization error: 1.2562906787890218
+topographic error: 0.20215794994754988
+Checkpoint saved at iteration 11460 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_041_tanh.npy
+quantization error: 1.261372099657785
+topographic error: 0.29387082271841747
+Checkpoint saved at iteration 11414 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_042_tanh.npy
+quantization error: 1.2552960898705594
+topographic error: 0.1703881312752885
+Checkpoint saved at iteration 11368 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_043_tanh.npy
+quantization error: 1.266538367825882
+topographic error: 0.2224636595234527
+Checkpoint saved at iteration 11322 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_044_tanh.npy
+quantization error: 1.262643418084433
+topographic error: 0.21579499475498276
+Checkpoint saved at iteration 11276 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_045_tanh.npy
+quantization error: 1.2582018700449955
+topographic error: 0.22943203956241576
+Checkpoint saved at iteration 11230 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_046_tanh.npy
+quantization error: 1.264219501413348
+topographic error: 0.19151805784504716
+Checkpoint saved at iteration 11184 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_047_tanh.npy
+quantization error: 1.261280265211392
+topographic error: 0.2429192267346021
+Checkpoint saved at iteration 11138 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_048_tanh.npy
+quantization error: 1.2480603216630377
+topographic error: 0.27349018432489136
+Checkpoint saved at iteration 11092 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_049_tanh.npy
+quantization error: 1.260452176600002
+topographic error: 0.2328038363554623
+Checkpoint saved at iteration 11046 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_050_tanh.npy
+quantization error: 1.2679836835566671
+topographic error: 0.2680953094560168
+Checkpoint saved at iteration 11000 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_051_tanh.npy
+quantization error: 1.2584713488246304
+topographic error: 0.2749138318597333
+Checkpoint saved at iteration 10954 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_052_tanh.npy
+quantization error: 1.2618023092651889
+topographic error: 0.2588790648883561
+Checkpoint saved at iteration 10908 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_053_tanh.npy
+quantization error: 1.2671068575634918
+topographic error: 0.2952195414356361
+Checkpoint saved at iteration 10862 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_054_tanh.npy
+quantization error: 1.261978681923141
+topographic error: 0.2609770717818073
+Checkpoint saved at iteration 10816 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_055_tanh.npy
+quantization error: 1.2645225363387342
+topographic error: 0.2450172336280534
+Checkpoint saved at iteration 10770 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_056_tanh.npy
+quantization error: 1.253610982787978
+topographic error: 0.2668215195564214
+Checkpoint saved at iteration 10724 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_057_tanh.npy
+quantization error: 1.2566888558200406
+topographic error: 0.22059043908287124
+Checkpoint saved at iteration 10678 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_058_tanh.npy
+quantization error: 1.26302724790012
+topographic error: 0.2322793346320995
+Checkpoint saved at iteration 10632 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_059_tanh.npy
+quantization error: 1.2591319028444494
+topographic error: 0.24374344372845802
+Checkpoint saved at iteration 10586 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_060_tanh.npy
+quantization error: 1.2542272975115039
+topographic error: 0.27206653679004944
+Checkpoint saved at iteration 10540 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_061_tanh.npy
+quantization error: 1.2569933667569964
+topographic error: 0.2798591338228683
+Checkpoint saved at iteration 10494 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_062_tanh.npy
+quantization error: 1.258105366533857
+topographic error: 0.2334032668964484
+Checkpoint saved at iteration 10448 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_063_tanh.npy
+quantization error: 1.2599215181871906
+topographic error: 0.25543233927768616
+Checkpoint saved at iteration 10402 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_064_tanh.npy
+quantization error: 1.2573865557924166
+topographic error: 0.2982166941405665
+Checkpoint saved at iteration 10356 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_065_tanh.npy
+quantization error: 1.2554578546960231
+topographic error: 0.25962835306458865
+Checkpoint saved at iteration 10310 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_066_tanh.npy
+quantization error: 1.256268932823828
+topographic error: 0.21407163194964784
+Checkpoint saved at iteration 10264 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_067_tanh.npy
+quantization error: 1.2604381770598603
+topographic error: 0.20972576052749892
+Checkpoint saved at iteration 10218 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_068_tanh.npy
+quantization error: 1.2492542697232643
+topographic error: 0.3068335081672411
+Checkpoint saved at iteration 10172 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_069_tanh.npy
+quantization error: 1.2552817064095363
+topographic error: 0.20155851940656377
+Checkpoint saved at iteration 10126 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_070_tanh.npy
+quantization error: 1.2682633788188813
+topographic error: 0.25453319346620706
+Checkpoint saved at iteration 10080 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_071_tanh.npy
+quantization error: 1.2533385974054772
+topographic error: 0.277461411658924
+Checkpoint saved at iteration 10034 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_072_tanh.npy
+quantization error: 1.2519650315816218
+topographic error: 0.2206653679004945
+Checkpoint saved at iteration 9988 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_073_tanh.npy
+quantization error: 1.2527861773965656
+topographic error: 0.2633747939457516
+Checkpoint saved at iteration 9942 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_074_tanh.npy
+quantization error: 1.2496959686430928
+topographic error: 0.28592836805035216
+Checkpoint saved at iteration 9896 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_075_tanh.npy
+quantization error: 1.255220181890334
+topographic error: 0.242020080923123
+Checkpoint saved at iteration 9850 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_076_tanh.npy
+quantization error: 1.2613688451056912
+topographic error: 0.2943953244417803
+Checkpoint saved at iteration 9804 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_077_tanh.npy
+quantization error: 1.259114029284141
+topographic error: 0.2795594185523752
+Checkpoint saved at iteration 9758 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_078_tanh.npy
+quantization error: 1.2597623378205967
+topographic error: 0.2218642289824666
+Checkpoint saved at iteration 9712 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_079_tanh.npy
+quantization error: 1.2629156131945134
+topographic error: 0.21077476397422445
+Checkpoint saved at iteration 9666 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_080_tanh.npy
+quantization error: 1.2540637998808377
+topographic error: 0.36288026374943805
+Checkpoint saved at iteration 9620 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_081_tanh.npy
+quantization error: 1.261946747331578
+topographic error: 0.21916679154802943
+Checkpoint saved at iteration 9574 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_082_tanh.npy
+quantization error: 1.2591735537020703
+topographic error: 0.2816574254458265
+Checkpoint saved at iteration 9528 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_083_tanh.npy
+quantization error: 1.2557284023100566
+topographic error: 0.21766821519556423
+Checkpoint saved at iteration 9482 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_084_tanh.npy
+quantization error: 1.26234600435557
+topographic error: 0.2549827663719466
+Checkpoint saved at iteration 9436 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_085_tanh.npy
+quantization error: 1.2590313412751932
+topographic error: 0.24831410160347667
+Checkpoint saved at iteration 9390 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_086_tanh.npy
+quantization error: 1.253753032236942
+topographic error: 0.22643488685748536
+Checkpoint saved at iteration 9344 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_087_tanh.npy
+quantization error: 1.2534092295344639
+topographic error: 0.22658474449273192
+Checkpoint saved at iteration 9298 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_088_tanh.npy
+quantization error: 1.2553203538681756
+topographic error: 0.2636745092162446
+Checkpoint saved at iteration 9252 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_089_tanh.npy
+quantization error: 1.2523416661871443
+topographic error: 0.2322793346320995
+Checkpoint saved at iteration 9206 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_090_tanh.npy
+quantization error: 1.2693591011104977
+topographic error: 0.24194515210549983
+Checkpoint saved at iteration 9160 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_091_tanh.npy
+quantization error: 1.254799331437393
+topographic error: 0.26135171586992356
+Checkpoint saved at iteration 9114 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_092_tanh.npy
+quantization error: 1.2679182169794283
+topographic error: 0.22373744942304807
+Checkpoint saved at iteration 9068 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_093_tanh.npy
+quantization error: 1.254376375141534
+topographic error: 0.18327588790648885
+Checkpoint saved at iteration 9022 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_094_tanh.npy
+quantization error: 1.2571772064102986
+topographic error: 0.24396823018132774
+Checkpoint saved at iteration 8976 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_095_tanh.npy
+quantization error: 1.264277973009093
+topographic error: 0.22441180878165745
+Checkpoint saved at iteration 8930 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_096_tanh.npy
+quantization error: 1.266319952886639
+topographic error: 0.22628502922223892
+Checkpoint saved at iteration 8884 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_097_tanh.npy
+quantization error: 1.259888758277765
+topographic error: 0.32736400419601375
+Checkpoint saved at iteration 8838 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_098_tanh.npy
+quantization error: 1.2485093240923013
+topographic error: 0.2349018432489135
+Checkpoint saved at iteration 8792 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_099_tanh.npy
+quantization error: 1.257773245199693
+topographic error: 0.24808931515060695
+Checkpoint saved at iteration 8746 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_100_tanh.npy
+quantization error: 1.2609281540147346
+topographic error: 0.20882661471601982
+Checkpoint saved at iteration 8700 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_101_tanh.npy
+quantization error: 1.260940475820335
+topographic error: 0.2627753634047655
+Checkpoint saved at iteration 8654 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_102_tanh.npy
+quantization error: 1.2714927347396134
+topographic error: 0.16424396823018128
+Checkpoint saved at iteration 8608 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_103_tanh.npy
+quantization error: 1.2617934480816073
+topographic error: 0.3139517458414506
+Checkpoint saved at iteration 8562 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_104_tanh.npy
+quantization error: 1.2605822791978776
+topographic error: 0.19953544133073575
+Checkpoint saved at iteration 8516 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_105_tanh.npy
+quantization error: 1.251828179030078
+topographic error: 0.25400869174284435
+Checkpoint saved at iteration 8470 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_106_tanh.npy
+quantization error: 1.2668722130816161
+topographic error: 0.1754083620560467
+Checkpoint saved at iteration 8424 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_107_tanh.npy
+quantization error: 1.259939471699636
+topographic error: 0.2698186722613517
+Checkpoint saved at iteration 8378 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_108_tanh.npy
+quantization error: 1.2591935106080643
+topographic error: 0.2591038513412258
+Checkpoint saved at iteration 8332 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_109_tanh.npy
+quantization error: 1.2594183995056698
+topographic error: 0.26382436685149113
+Checkpoint saved at iteration 8286 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_110_tanh.npy
+quantization error: 1.2456296221045788
+topographic error: 0.27551326240071927
+Checkpoint saved at iteration 8240 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_111_tanh.npy
+quantization error: 1.2664285061636822
+topographic error: 0.27948448973475204
+Checkpoint saved at iteration 8194 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_112_tanh.npy
+quantization error: 1.2506866266338286
+topographic error: 0.25131125430840706
+Checkpoint saved at iteration 8148 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_113_tanh.npy
+quantization error: 1.2599376337142902
+topographic error: 0.2740146860482542
+Checkpoint saved at iteration 8102 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_114_tanh.npy
+quantization error: 1.2559158368571102
+topographic error: 0.2544582646485839
+Checkpoint saved at iteration 8056 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_115_tanh.npy
+quantization error: 1.268674345610932
+topographic error: 0.24164543683500672
+Checkpoint saved at iteration 8010 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_116_tanh.npy
+quantization error: 1.253300434646958
+topographic error: 0.23130526000299712
+Checkpoint saved at iteration 7964 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_117_tanh.npy
+quantization error: 1.258603815408137
+topographic error: 0.30930615914880866
+Checkpoint saved at iteration 7918 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_118_tanh.npy
+quantization error: 1.2544917187513938
+topographic error: 0.227483890304211
+Checkpoint saved at iteration 7872 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_119_tanh.npy
+quantization error: 1.2577774209633994
+topographic error: 0.20433088565862434
+Checkpoint saved at iteration 7826 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_120_tanh.npy
+quantization error: 1.2683105005945097
+topographic error: 0.21377191667915485
+Checkpoint saved at iteration 7780 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_121_tanh.npy
+quantization error: 1.2586324463946703
+topographic error: 0.22785853439232728
+Checkpoint saved at iteration 7734 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_122_tanh.npy
+quantization error: 1.2638130436254178
+topographic error: 0.30638393526150154
+Checkpoint saved at iteration 7688 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_123_tanh.npy
+quantization error: 1.2517906683246196
+topographic error: 0.2665967331035516
+Checkpoint saved at iteration 7642 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_124_tanh.npy
+quantization error: 1.251395601200597
+topographic error: 0.2597032818822119
+Checkpoint saved at iteration 7596 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_125_tanh.npy
+quantization error: 1.2704398963317398
+topographic error: 0.25251011539037915
+Checkpoint saved at iteration 7550 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_126_tanh.npy
+quantization error: 1.2446709001066807
+topographic error: 0.2340026974374344
+Checkpoint saved at iteration 7504 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_127_tanh.npy
+quantization error: 1.254558933137936
+topographic error: 0.26524801438633294
+Checkpoint saved at iteration 7458 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_128_tanh.npy
+quantization error: 1.2560637891263138
+topographic error: 0.26494829911583995
+Checkpoint saved at iteration 7412 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_129_tanh.npy
+quantization error: 1.2654392256286409
+topographic error: 0.19976022778360558
+Checkpoint saved at iteration 7366 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_130_tanh.npy
+quantization error: 1.2565098681606273
+topographic error: 0.16858983965233032
+Checkpoint saved at iteration 7320 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_131_tanh.npy
+quantization error: 1.2516938365170283
+topographic error: 0.2524351865727559
+Checkpoint saved at iteration 7274 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_132_tanh.npy
+quantization error: 1.2598308368043631
+topographic error: 0.2520605424846396
+Checkpoint saved at iteration 7228 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_133_tanh.npy
+quantization error: 1.2576883191265684
+topographic error: 0.2280833208451971
+Checkpoint saved at iteration 7182 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_134_tanh.npy
+quantization error: 1.255741309164032
+topographic error: 0.241420650382137
+Checkpoint saved at iteration 7136 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_135_tanh.npy
+quantization error: 1.2561020664815572
+topographic error: 0.2266596733103552
+Checkpoint saved at iteration 7090 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_136_tanh.npy
+quantization error: 1.2589948905542432
+topographic error: 0.24157050801738345
+Checkpoint saved at iteration 7044 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_137_tanh.npy
+quantization error: 1.2507835097193318
+topographic error: 0.23003147010340175
+Checkpoint saved at iteration 6998 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_138_tanh.npy
+quantization error: 1.2509607462089194
+topographic error: 0.2227633747939457
+Checkpoint saved at iteration 6952 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_139_tanh.npy
+quantization error: 1.2668952568096048
+topographic error: 0.2710175333433238
+Checkpoint saved at iteration 6906 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_140_tanh.npy
+quantization error: 1.2716988000174962
+topographic error: 0.26614716019781204
+Checkpoint saved at iteration 6860 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_141_tanh.npy
+quantization error: 1.2499325782192847
+topographic error: 0.2893001648433988
+Checkpoint saved at iteration 6814 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_142_tanh.npy
+quantization error: 1.2626142190560374
+topographic error: 0.2811329237224637
+Checkpoint saved at iteration 6768 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_143_tanh.npy
+quantization error: 1.2630768571834043
+topographic error: 0.26487337029821667
+Checkpoint saved at iteration 6722 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_144_tanh.npy
+quantization error: 1.2517612611310225
+topographic error: 0.24172036565263
+Checkpoint saved at iteration 6676 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_145_tanh.npy
+quantization error: 1.266027730869619
+topographic error: 0.25048703731455113
+Checkpoint saved at iteration 6630 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_146_tanh.npy
+quantization error: 1.2581878080176976
+topographic error: 0.21407163194964784
+Checkpoint saved at iteration 6584 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_147_tanh.npy
+quantization error: 1.2574409570594514
+topographic error: 0.19916079724261948
+Checkpoint saved at iteration 6538 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_148_tanh.npy
+quantization error: 1.250432283582568
+topographic error: 0.29064888356061747
+Checkpoint saved at iteration 6492 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_149_tanh.npy
+quantization error: 1.2570101522685282
+topographic error: 0.2768619811179379
+Checkpoint saved at iteration 6446 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_150_tanh.npy
+quantization error: 1.2597428590160857
+topographic error: 0.23857335531245316
+Checkpoint saved at iteration 6400 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_151_tanh.npy
+quantization error: 1.2640724488636637
+topographic error: 0.23063090064438785
+Checkpoint saved at iteration 6354 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_152_tanh.npy
+quantization error: 1.2541950741336705
+topographic error: 0.2552824816424397
+Checkpoint saved at iteration 6308 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_153_tanh.npy
+quantization error: 1.2578018969472047
+topographic error: 0.28353064588640786
+Checkpoint saved at iteration 6262 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_154_tanh.npy
+quantization error: 1.2640842320168366
+topographic error: 0.2518357560317698
+Checkpoint saved at iteration 6216 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_155_tanh.npy
+quantization error: 1.2461402460104076
+topographic error: 0.22568559868125282
+Checkpoint saved at iteration 6170 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_156_tanh.npy
+quantization error: 1.2617288593303526
+topographic error: 0.2656226584744493
+Checkpoint saved at iteration 6124 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_157_tanh.npy
+quantization error: 1.2562692372282311
+topographic error: 0.24861381687396977
+Checkpoint saved at iteration 6078 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_158_tanh.npy
+quantization error: 1.2629513857384314
+topographic error: 0.23205454817922977
+Checkpoint saved at iteration 6032 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_159_tanh.npy
+quantization error: 1.2675073613882697
+topographic error: 0.22104001198861079
+Checkpoint saved at iteration 5986 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_160_tanh.npy
+quantization error: 1.261511292669536
+topographic error: 0.21324741495579203
+Checkpoint saved at iteration 5940 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_161_tanh.npy
+quantization error: 1.2581971116787494
+topographic error: 0.24988760677356514
+Checkpoint saved at iteration 5894 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_162_tanh.npy
+quantization error: 1.2540433659364136
+topographic error: 0.1958639292671962
+Checkpoint saved at iteration 5848 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_163_tanh.npy
+quantization error: 1.2583043307359592
+topographic error: 0.26787052300314707
+Checkpoint saved at iteration 5802 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_164_tanh.npy
+quantization error: 1.2545300564141186
+topographic error: 0.20575453319346626
+Checkpoint saved at iteration 5756 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_165_tanh.npy
+quantization error: 1.2600997216697356
+topographic error: 0.2756631200359658
+Checkpoint saved at iteration 5710 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_166_tanh.npy
+quantization error: 1.247045907802332
+topographic error: 0.20005994305409858
+Checkpoint saved at iteration 5664 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_167_tanh.npy
+quantization error: 1.2538381498611333
+topographic error: 0.2334032668964484
+Checkpoint saved at iteration 5618 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_168_tanh.npy
+quantization error: 1.2649073189947726
+topographic error: 0.22658474449273192
+Checkpoint saved at iteration 5572 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_169_tanh.npy
+quantization error: 1.2744559416577614
+topographic error: 0.16289524951296264
+Checkpoint saved at iteration 5526 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_170_tanh.npy
+quantization error: 1.2563129608208445
+topographic error: 0.2180428592836805
+Checkpoint saved at iteration 5480 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_171_tanh.npy
+quantization error: 1.2469498332393103
+topographic error: 0.22935711074479248
+Checkpoint saved at iteration 5434 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_172_tanh.npy
+quantization error: 1.2534395257708462
+topographic error: 0.2970178330585943
+Checkpoint saved at iteration 5388 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_173_tanh.npy
+quantization error: 1.266290898168636
+topographic error: 0.27296568260152854
+Checkpoint saved at iteration 5342 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_174_tanh.npy
+quantization error: 1.2661600028325146
+topographic error: 0.26472351266297023
+Checkpoint saved at iteration 5296 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_175_tanh.npy
+quantization error: 1.2703920657056738
+topographic error: 0.27970927618762176
+Checkpoint saved at iteration 5250 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_176_tanh.npy
+quantization error: 1.258628737569719
+topographic error: 0.2976921924172037
+Checkpoint saved at iteration 5204 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_177_tanh.npy
+quantization error: 1.2606520023539551
+topographic error: 0.28510415105649634
+Checkpoint saved at iteration 5158 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_178_tanh.npy
+quantization error: 1.2525709527447193
+topographic error: 0.2793346320995055
+Checkpoint saved at iteration 5112 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_179_tanh.npy
+quantization error: 1.2653443794313373
+topographic error: 0.20987561816274536
+Checkpoint saved at iteration 5066 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_180_tanh.npy
+quantization error: 1.2671607980059059
+topographic error: 0.20395624157050807
+Checkpoint saved at iteration 5020 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_181_tanh.npy
+quantization error: 1.2532546608903894
+topographic error: 0.2683200959088865
+Checkpoint saved at iteration 4974 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_182_tanh.npy
+quantization error: 1.255255410570415
+topographic error: 0.16491832758879066
+Checkpoint saved at iteration 4928 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_183_tanh.npy
+quantization error: 1.260832908999436
+topographic error: 0.23347819571407158
+Checkpoint saved at iteration 4882 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_184_tanh.npy
+quantization error: 1.2663741621250353
+topographic error: 0.22845796493331338
+Checkpoint saved at iteration 4836 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_185_tanh.npy
+quantization error: 1.2670116328733465
+topographic error: 0.19481492582047055
+Checkpoint saved at iteration 4790 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_186_tanh.npy
+quantization error: 1.258707443196249
+topographic error: 0.2503371796793047
+Checkpoint saved at iteration 4744 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_187_tanh.npy
+quantization error: 1.256763148600466
+topographic error: 0.2537839052899745
+Checkpoint saved at iteration 4698 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_188_tanh.npy
+quantization error: 1.2602575503889915
+topographic error: 0.2496628203206953
+Checkpoint saved at iteration 4652 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_189_tanh.npy
+quantization error: 1.271014687756897
+topographic error: 0.27738648284130074
+Checkpoint saved at iteration 4606 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_190_tanh.npy
+quantization error: 1.2566110961421955
+topographic error: 0.19916079724261948
+Checkpoint saved at iteration 4560 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_191_tanh.npy
+quantization error: 1.2639781478972594
+topographic error: 0.1967630750786753
+Checkpoint saved at iteration 4514 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_192_tanh.npy
+quantization error: 1.2493359391057661
+topographic error: 0.2644987262101004
+Checkpoint saved at iteration 4468 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_193_tanh.npy
+quantization error: 1.2574324352554063
+topographic error: 0.2636745092162446
+Checkpoint saved at iteration 4422 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_194_tanh.npy
+quantization error: 1.253314688348856
+topographic error: 0.17271092462160942
+Checkpoint saved at iteration 4376 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_195_tanh.npy
+quantization error: 1.270014071716737
+topographic error: 0.23272890753783904
+Checkpoint saved at iteration 4330 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_196_tanh.npy
+quantization error: 1.2594350689844556
+topographic error: 0.20395624157050807
+Checkpoint saved at iteration 4284 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_197_tanh.npy
+quantization error: 1.2562529807933527
+topographic error: 0.24539187771616966
+Checkpoint saved at iteration 4238 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_198_tanh.npy
+quantization error: 1.267204697344116
+topographic error: 0.3003147010340177
+Checkpoint saved at iteration 4192 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_199_tanh.npy
+quantization error: 1.2554796691696624
+topographic error: 0.2627753634047655
+Checkpoint saved at iteration 4146 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_200_tanh.npy
+quantization error: 1.2666198856249633
+topographic error: 0.23864828413007644
+Checkpoint saved at iteration 4100 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_201_tanh.npy
+quantization error: 1.2571639861374326
+topographic error: 0.20657875018732208
+Checkpoint saved at iteration 4054 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_202_tanh.npy
+quantization error: 1.2714559404005974
+topographic error: 0.24479244717518356
+Checkpoint saved at iteration 4008 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_203_tanh.npy
+quantization error: 1.2522228138028235
+topographic error: 0.29072381237824063
+Checkpoint saved at iteration 3962 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_204_tanh.npy
+quantization error: 1.2600470630983944
+topographic error: 0.27558819121834255
+Checkpoint saved at iteration 3916 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_205_tanh.npy
+quantization error: 1.2656602206523437
+topographic error: 0.2866776562265847
+Checkpoint saved at iteration 3870 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_206_tanh.npy
+quantization error: 1.2615870965633964
+topographic error: 0.26914431290274243
+Checkpoint saved at iteration 3824 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_207_tanh.npy
+quantization error: 1.2603601150912243
+topographic error: 0.2802337779109846
+Checkpoint saved at iteration 3778 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_208_tanh.npy
+quantization error: 1.2664753001082956
+topographic error: 0.1976622208901544
+Checkpoint saved at iteration 3732 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_209_tanh.npy
+quantization error: 1.2597118506588574
+topographic error: 0.28712722913232425
+Checkpoint saved at iteration 3686 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_210_tanh.npy
+quantization error: 1.2637301723676173
+topographic error: 0.2535591188371048
+Checkpoint saved at iteration 3640 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_211_tanh.npy
+quantization error: 1.261017852780355
+topographic error: 0.2381237824067136
+Checkpoint saved at iteration 3594 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_212_tanh.npy
+quantization error: 1.2647280920461441
+topographic error: 0.23317848044357858
+Checkpoint saved at iteration 3548 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_213_tanh.npy
+quantization error: 1.258286408726818
+topographic error: 0.2650981567510865
+Checkpoint saved at iteration 3502 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_214_tanh.npy
+quantization error: 1.2468983682773866
+topographic error: 0.24531694889854638
+Checkpoint saved at iteration 3456 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_215_tanh.npy
+quantization error: 1.2546310895677346
+topographic error: 0.2671212348269144
+Checkpoint saved at iteration 3410 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_216_tanh.npy
+quantization error: 1.2578563858654348
+topographic error: 0.23662520605424842
+Checkpoint saved at iteration 3364 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_217_tanh.npy
+quantization error: 1.2844912824915946
+topographic error: 0.3470702832309306
+Checkpoint saved at iteration 3318 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_218_tanh.npy
+quantization error: 1.2541513954980206
+topographic error: 0.24981267795594186
+Checkpoint saved at iteration 3272 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_219_tanh.npy
+quantization error: 1.258018324861471
+topographic error: 0.21174883860332683
+Checkpoint saved at iteration 3226 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_220_tanh.npy
+quantization error: 1.2818926077597173
+topographic error: 0.18095309456016784
+Checkpoint saved at iteration 3180 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_221_tanh.npy
+quantization error: 1.2643974278980539
+topographic error: 0.21819271691892705
+Checkpoint saved at iteration 3134 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_222_tanh.npy
+quantization error: 1.2493094577902035
+topographic error: 0.2760377641240821
+Checkpoint saved at iteration 3088 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_223_tanh.npy
+quantization error: 1.2615109377633313
+topographic error: 0.2405215045706579
+Checkpoint saved at iteration 3042 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_224_tanh.npy
+quantization error: 1.2633485526100963
+topographic error: 0.24404315899895102
+Checkpoint saved at iteration 2996 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_225_tanh.npy
+quantization error: 1.2581503383012205
+topographic error: 0.23407762625505768
+Checkpoint saved at iteration 2950 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_226_tanh.npy
+quantization error: 1.2595083118119617
+topographic error: 0.32451670912633
+Checkpoint saved at iteration 2904 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_227_tanh.npy
+quantization error: 1.2470142148584185
+topographic error: 0.24089614865877418
+Checkpoint saved at iteration 2858 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_228_tanh.npy
+quantization error: 1.2570311608679308
+topographic error: 0.2038813127528848
+Checkpoint saved at iteration 2812 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_229_tanh.npy
+quantization error: 1.2594977694286205
+topographic error: 0.3296118687247115
+Checkpoint saved at iteration 2766 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_230_tanh.npy
+quantization error: 1.2574586304708348
+topographic error: 0.25273490184324887
+Checkpoint saved at iteration 2720 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_231_tanh.npy
+quantization error: 1.257060545353043
+topographic error: 0.2768619811179379
+Checkpoint saved at iteration 2674 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_232_tanh.npy
+quantization error: 1.2638957798358101
+topographic error: 0.2597032818822119
+Checkpoint saved at iteration 2628 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_233_tanh.npy
+quantization error: 1.2612413889013376
+topographic error: 0.2659223737449423
+Checkpoint saved at iteration 2582 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_234_tanh.npy
+quantization error: 1.2613531174394712
+topographic error: 0.2399220740296718
+Checkpoint saved at iteration 2536 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_235_tanh.npy
+quantization error: 1.262383407920483
+topographic error: 0.2689195264498726
+Checkpoint saved at iteration 2490 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_236_tanh.npy
+quantization error: 1.2573356417902213
+topographic error: 0.23894799940056943
+Checkpoint saved at iteration 2444 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_237_tanh.npy
+quantization error: 1.2602029844658618
+topographic error: 0.2032818822118987
+Checkpoint saved at iteration 2398 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_238_tanh.npy
+quantization error: 1.258495075261717
+topographic error: 0.2650981567510865
+Checkpoint saved at iteration 2352 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_239_tanh.npy
+quantization error: 1.2507866089683193
+topographic error: 0.18320095908886558
+Checkpoint saved at iteration 2306 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_240_tanh.npy
+quantization error: 1.2594827150410663
+topographic error: 0.30368649782706425
+Checkpoint saved at iteration 2260 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_241_tanh.npy
+quantization error: 1.2604647919260459
+topographic error: 0.2540836205604675
+Checkpoint saved at iteration 2214 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_242_tanh.npy
+quantization error: 1.2628533229575538
+topographic error: 0.19578900044957293
+Checkpoint saved at iteration 2168 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_243_tanh.npy
+quantization error: 1.2582705947865944
+topographic error: 0.24801438633298367
+Checkpoint saved at iteration 2122 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_244_tanh.npy
+quantization error: 1.2538794639386228
+topographic error: 0.22231380188820615
+Checkpoint saved at iteration 2076 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_245_tanh.npy
+quantization error: 1.252229914406301
+topographic error: 0.2506368949497977
+Checkpoint saved at iteration 2030 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_246_tanh.npy
+quantization error: 1.2553932566964905
+topographic error: 0.2949947549827664
+Checkpoint saved at iteration 1984 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_247_tanh.npy
+quantization error: 1.2581126052770233
+topographic error: 0.23265397872021576
+Checkpoint saved at iteration 1938 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_248_tanh.npy
+quantization error: 1.2531143957601873
+topographic error: 0.25131125430840706
+Checkpoint saved at iteration 1892 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_249_tanh.npy
+quantization error: 1.2489356400235576
+topographic error: 0.227483890304211
+Checkpoint saved at iteration 1846 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_250_tanh.npy
+quantization error: 1.2541859397453128
+topographic error: 0.23063090064438785
+Checkpoint saved at iteration 1800 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_251_tanh.npy
+quantization error: 1.2587409903510152
+topographic error: 0.28270642889255204
+Checkpoint saved at iteration 1754 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_252_tanh.npy
+quantization error: 1.2579066160305454
+topographic error: 0.2606773565113143
+Checkpoint saved at iteration 1708 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_253_tanh.npy
+quantization error: 1.2551995284452908
+topographic error: 0.2713172486138169
+Checkpoint saved at iteration 1662 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_254_tanh.npy
+quantization error: 1.2589810522630323
+topographic error: 0.2496628203206953
+Checkpoint saved at iteration 1616 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_255_tanh.npy
+quantization error: 1.2626056304526518
+topographic error: 0.30638393526150154
+Checkpoint saved at iteration 1570 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_256_tanh.npy
+quantization error: 1.2667163073068457
+topographic error: 0.26674659073879814
+Checkpoint saved at iteration 1524 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_257_tanh.npy
+quantization error: 1.259072472549732
+topographic error: 0.2432189420050952
+Checkpoint saved at iteration 1478 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_258_tanh.npy
+quantization error: 1.2557027552167566
+topographic error: 0.255357410460063
+Checkpoint saved at iteration 1432 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_259_tanh.npy
+quantization error: 1.2576317201458262
+topographic error: 0.20493031619961033
+Checkpoint saved at iteration 1386 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_260_tanh.npy
+quantization error: 1.252345117159089
+topographic error: 0.28390528997452424
+Checkpoint saved at iteration 1340 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_261_tanh.npy
+quantization error: 1.258923044647988
+topographic error: 0.27828562865277984
+Checkpoint saved at iteration 1294 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_262_tanh.npy
+quantization error: 1.2488168113400255
+topographic error: 0.19046905439832162
+Checkpoint saved at iteration 1248 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_263_tanh.npy
+quantization error: 1.2583395011672005
+topographic error: 0.21040011988610818
+Checkpoint saved at iteration 1202 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_264_tanh.npy
+quantization error: 1.2676848531864466
+topographic error: 0.1955642139967031
+Checkpoint saved at iteration 1156 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_265_tanh.npy
+quantization error: 1.2526620713223064
+topographic error: 0.2760377641240821
+Checkpoint saved at iteration 1110 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_266_tanh.npy
+quantization error: 1.2546621865339151
+topographic error: 0.19833658024876366
+Checkpoint saved at iteration 1064 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_267_tanh.npy
+quantization error: 1.2549415090165044
+topographic error: 0.32144462760377646
+Checkpoint saved at iteration 1018 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_268_tanh.npy
+quantization error: 1.2500343492573367
+topographic error: 0.20642889255207553
+Checkpoint saved at iteration 972 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_269_tanh.npy
+quantization error: 1.2602112161934504
+topographic error: 0.21294769968529892
+Checkpoint saved at iteration 926 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_270_tanh.npy
+quantization error: 1.252416453166283
+topographic error: 0.3242169938558369
+Checkpoint saved at iteration 880 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_271_tanh.npy
+quantization error: 1.2639299080138398
+topographic error: 0.1958639292671962
+Checkpoint saved at iteration 834 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_272_tanh.npy
+quantization error: 1.2555476974911162
+topographic error: 0.28915030720815227
+Checkpoint saved at iteration 788 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_273_tanh.npy
+quantization error: 1.2557151394626245
+topographic error: 0.26142664468754684
+Checkpoint saved at iteration 742 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_274_tanh.npy
+quantization error: 1.2736781385413056
+topographic error: 0.21069983515660118
+Checkpoint saved at iteration 696 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_275_tanh.npy
+quantization error: 1.2530519151807866
+topographic error: 0.21159898096808027
+Checkpoint saved at iteration 650 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_276_tanh.npy
+quantization error: 1.2502958470947574
+topographic error: 0.2444178030870673
+Checkpoint saved at iteration 604 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_277_tanh.npy
+quantization error: 1.2586410369718377
+topographic error: 0.2814326389929567
+Checkpoint saved at iteration 558 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_278_tanh.npy
+quantization error: 1.2544640614140639
+topographic error: 0.2804585643638543
+Checkpoint saved at iteration 512 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_279_tanh.npy
+quantization error: 1.2566977859714024
+topographic error: 0.19309156301513564
+Checkpoint saved at iteration 466 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_280_tanh.npy
+quantization error: 1.2509452320501993
+topographic error: 0.20005994305409858
+Checkpoint saved at iteration 420 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_281_tanh.npy
+quantization error: 1.2549119755492293
+topographic error: 0.23512662970178333
+Checkpoint saved at iteration 374 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_282_tanh.npy
+quantization error: 1.2559150900330507
+topographic error: 0.227783605574704
+Checkpoint saved at iteration 328 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_283_tanh.npy
+quantization error: 1.2544330331025217
+topographic error: 0.1893451221339727
+Checkpoint saved at iteration 282 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_284_tanh.npy
+quantization error: 1.2562848590949802
+topographic error: 0.23377791098456469
+Checkpoint saved at iteration 236 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_285_tanh.npy
+quantization error: 1.2505473850060882
+topographic error: 0.2594784954293421
+Checkpoint saved at iteration 190 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_286_tanh.npy
+quantization error: 1.254160910063888
+topographic error: 0.308556870972576
+Checkpoint saved at iteration 144 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_287_tanh.npy
+quantization error: 1.2602111430201082
+topographic error: 0.2597782106998352
+Checkpoint saved at iteration 98 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_288_tanh.npy
+quantization error: 1.2611677619042874
+topographic error: 0.1733852839802188
+Checkpoint saved at iteration 52 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_289_tanh.npy
+quantization error: 1.2608375860824668
+topographic error: 0.21107447924471756
+Checkpoint saved at iteration 6 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_290_tanh.npy
+quantization error: 1.2700730304911454
+topographic error: 0.30728308107298064
+Checkpoint saved at iteration 13306 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_290_tanh.npy
+quantization error: 1.2650824115091872
+topographic error: 0.2390229282181927
+Checkpoint saved at iteration 13260 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_291_tanh.npy
+quantization error: 1.2642092351488747
+topographic error: 0.2707927468904541
+Checkpoint saved at iteration 13214 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_292_tanh.npy
+quantization error: 1.261902474171296
+topographic error: 0.28502922223887306
+Checkpoint saved at iteration 13168 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_293_tanh.npy
+quantization error: 1.260217310689088
+topographic error: 0.26764573655027724
+Checkpoint saved at iteration 13122 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_294_tanh.npy
+quantization error: 1.2525250625579312
+topographic error: 0.1932414206503822
+Checkpoint saved at iteration 13076 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_295_tanh.npy
+quantization error: 1.2556457954544316
+topographic error: 0.2740146860482542
+Checkpoint saved at iteration 13030 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_296_tanh.npy
+quantization error: 1.2543029303262592
+topographic error: 0.23572606024276932
+Checkpoint saved at iteration 12984 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_297_tanh.npy
+quantization error: 1.2559131910776484
+topographic error: 0.2213397272591039
+Checkpoint saved at iteration 12938 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_298_tanh.npy
+quantization error: 1.2573937197789793
+topographic error: 0.2552824816424397
+Checkpoint saved at iteration 12892 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_299_tanh.npy
+quantization error: 1.2619852879886726
+topographic error: 0.1976622208901544
+Checkpoint saved at iteration 12846 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_300_tanh.npy
+quantization error: 1.2571057456168664
+topographic error: 0.20230780758279632
+Checkpoint saved at iteration 12800 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_301_tanh.npy
+quantization error: 1.2617560415258169
+topographic error: 0.16416903941255812
+Checkpoint saved at iteration 12754 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_302_tanh.npy
+quantization error: 1.2714214786757874
+topographic error: 0.161246815525251
+Checkpoint saved at iteration 12708 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_303_tanh.npy
+quantization error: 1.2531391332148045
+topographic error: 0.258579349617863
+Checkpoint saved at iteration 12662 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_304_tanh.npy
+quantization error: 1.2542178657395195
+topographic error: 0.23445227034317395
+Checkpoint saved at iteration 12616 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_305_tanh.npy
+quantization error: 1.258057018169493
+topographic error: 0.1751086467855537
+Checkpoint saved at iteration 12570 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_306_tanh.npy
+quantization error: 1.2606436190530055
+topographic error: 0.2825565712573056
+Checkpoint saved at iteration 12524 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_307_tanh.npy
+quantization error: 1.2548839951265944
+topographic error: 0.2882511613966732
+Checkpoint saved at iteration 12478 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_308_tanh.npy
+quantization error: 1.2541822349406533
+topographic error: 0.3110295219541436
+Checkpoint saved at iteration 12432 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_309_tanh.npy
+quantization error: 1.2691346040541895
+topographic error: 0.23145511763824367
+Checkpoint saved at iteration 12386 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_310_tanh.npy
+quantization error: 1.2580950203148935
+topographic error: 0.27259103851341226
+Checkpoint saved at iteration 12340 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_311_tanh.npy
+quantization error: 1.2630569061985932
+topographic error: 0.2582047055297467
+Checkpoint saved at iteration 12294 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_312_tanh.npy
+quantization error: 1.2531313741341237
+topographic error: 0.28383036115690097
+Checkpoint saved at iteration 12248 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_313_tanh.npy
+quantization error: 1.263239706844129
+topographic error: 0.23295369399070887
+Checkpoint saved at iteration 12202 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_314_tanh.npy
+quantization error: 1.2561752638596702
+topographic error: 0.24187022328787655
+Checkpoint saved at iteration 12156 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_315_tanh.npy
+quantization error: 1.2557528029334915
+topographic error: 0.3023377791098456
+Checkpoint saved at iteration 12110 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_316_tanh.npy
+quantization error: 1.2592021817374612
+topographic error: 0.2786602727408961
+Checkpoint saved at iteration 12064 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_317_tanh.npy
+quantization error: 1.2686208086113389
+topographic error: 0.23849842649482988
+Checkpoint saved at iteration 12018 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_318_tanh.npy
+quantization error: 1.2659252370166454
+topographic error: 0.2426195114641091
+Checkpoint saved at iteration 11972 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_319_tanh.npy
+quantization error: 1.266086657196911
+topographic error: 0.24599130825715565
+Checkpoint saved at iteration 11926 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_320_tanh.npy
+quantization error: 1.2603805719498677
+topographic error: 0.2815824966282032
+Checkpoint saved at iteration 11880 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_321_tanh.npy
+quantization error: 1.2518318723756279
+topographic error: 0.18177731155402366
+Checkpoint saved at iteration 11834 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_322_tanh.npy
+quantization error: 1.2614702620808664
+topographic error: 0.21047504870373146
+Checkpoint saved at iteration 11788 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_323_tanh.npy
+quantization error: 1.256897456624394
+topographic error: 0.23909785703581599
+Checkpoint saved at iteration 11742 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_324_tanh.npy
+quantization error: 1.2588629420192357
+topographic error: 0.3168739697287577
+Checkpoint saved at iteration 11696 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_325_tanh.npy
+quantization error: 1.2582362830236038
+topographic error: 0.3008392027573805
+Checkpoint saved at iteration 11650 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_326_tanh.npy
+quantization error: 1.263082757151588
+topographic error: 0.22680953094560163
+Checkpoint saved at iteration 11604 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_327_tanh.npy
+quantization error: 1.260546396074503
+topographic error: 0.29656826015285476
+Checkpoint saved at iteration 11558 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_328_tanh.npy
+quantization error: 1.262304724413575
+topographic error: 0.22568559868125282
+Checkpoint saved at iteration 11512 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_329_tanh.npy
+quantization error: 1.2620027387621908
+topographic error: 0.25460812228383034
+Checkpoint saved at iteration 11466 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_330_tanh.npy
+quantization error: 1.2507481970956624
+topographic error: 0.24808931515060695
+Checkpoint saved at iteration 11420 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_331_tanh.npy
+quantization error: 1.26340095189934
+topographic error: 0.2479394575153604
+Checkpoint saved at iteration 11374 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_332_tanh.npy
+quantization error: 1.25210418607471
+topographic error: 0.2651730855687098
+Checkpoint saved at iteration 11328 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_333_tanh.npy
+quantization error: 1.2654706399772058
+topographic error: 0.2555821969129327
+Checkpoint saved at iteration 11282 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_334_tanh.npy
+quantization error: 1.2595614280699925
+topographic error: 0.2577551326240072
+Checkpoint saved at iteration 11236 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_335_tanh.npy
+quantization error: 1.259826312451282
+topographic error: 0.1751086467855537
+Checkpoint saved at iteration 11190 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_336_tanh.npy
+quantization error: 1.247774574644798
+topographic error: 0.23257904990259248
+Checkpoint saved at iteration 11144 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_337_tanh.npy
+quantization error: 1.2591998027226914
+topographic error: 0.1979619361606474
+Checkpoint saved at iteration 11098 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_338_tanh.npy
+quantization error: 1.2622693748896372
+topographic error: 0.23123033118537395
+Checkpoint saved at iteration 11052 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_339_tanh.npy
+quantization error: 1.2527761875190964
+topographic error: 0.2914731005544733
+Checkpoint saved at iteration 11006 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_340_tanh.npy
+quantization error: 1.258472868133785
+topographic error: 0.22718417503371802
+Checkpoint saved at iteration 10960 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_341_tanh.npy
+quantization error: 1.251629907724216
+topographic error: 0.2355012737898996
+Checkpoint saved at iteration 10914 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_342_tanh.npy
+quantization error: 1.2601449485991727
+topographic error: 0.24209500974074627
+Checkpoint saved at iteration 10868 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_343_tanh.npy
+quantization error: 1.26500937722332
+topographic error: 0.24606623707477893
+Checkpoint saved at iteration 10822 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_344_tanh.npy
+quantization error: 1.2565732372268332
+topographic error: 0.1961636445376892
+Checkpoint saved at iteration 10776 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_345_tanh.npy
+quantization error: 1.257804502407432
+topographic error: 0.24059643338828118
+Checkpoint saved at iteration 10730 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_346_tanh.npy
+quantization error: 1.259212134992413
+topographic error: 0.30660872171437137
+Checkpoint saved at iteration 10684 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_347_tanh.npy
+quantization error: 1.2574747268463085
+topographic error: 0.2322793346320995
+Checkpoint saved at iteration 10638 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_348_tanh.npy
+quantization error: 1.2548049660654887
+topographic error: 0.2095009740746291
+Checkpoint saved at iteration 10592 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_349_tanh.npy
+quantization error: 1.2567290246595888
+topographic error: 0.24456766072231384
+Checkpoint saved at iteration 10546 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_350_tanh.npy
+quantization error: 1.2689629619365328
+topographic error: 0.24299415555222537
+Checkpoint saved at iteration 10500 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_351_tanh.npy
+quantization error: 1.2550940233635788
+topographic error: 0.2949947549827664
+Checkpoint saved at iteration 10454 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_352_tanh.npy
+quantization error: 1.2594915461083749
+topographic error: 0.2677206653679005
+Checkpoint saved at iteration 10408 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_353_tanh.npy
+quantization error: 1.2663811644983025
+topographic error: 0.21077476397422445
+Checkpoint saved at iteration 10362 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_354_tanh.npy
+quantization error: 1.2570469116861231
+topographic error: 0.26667166192117486
+Checkpoint saved at iteration 10316 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_355_tanh.npy
+quantization error: 1.2635363479076036
+topographic error: 0.20425595684100106
+Checkpoint saved at iteration 10270 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_356_tanh.npy
+quantization error: 1.253119779979917
+topographic error: 0.23505170088416005
+Checkpoint saved at iteration 10224 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_357_tanh.npy
+quantization error: 1.2720937506221466
+topographic error: 0.2712423197961936
+Checkpoint saved at iteration 10178 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_358_tanh.npy
+quantization error: 1.262920634135799
+topographic error: 0.25161096957890006
+Checkpoint saved at iteration 10132 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_359_tanh.npy
+quantization error: 1.2510706733313277
+topographic error: 0.2585044208002397
+Checkpoint saved at iteration 10086 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_360_tanh.npy
+quantization error: 1.256245990783303
+topographic error: 0.2535591188371048
+Checkpoint saved at iteration 10040 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_361_tanh.npy
+quantization error: 1.2640972352107098
+topographic error: 0.29919076876966877
+Checkpoint saved at iteration 9994 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_362_tanh.npy
+quantization error: 1.2647761171625653
+topographic error: 0.18882062041060987
+Checkpoint saved at iteration 9948 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_363_tanh.npy
+quantization error: 1.2564006998639823
+topographic error: 0.2597032818822119
+Checkpoint saved at iteration 9902 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_364_tanh.npy
+quantization error: 1.2573286799499575
+topographic error: 0.24606623707477893
+Checkpoint saved at iteration 9856 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_365_tanh.npy
+quantization error: 1.2611522731510574
+topographic error: 0.31043009141315747
+Checkpoint saved at iteration 9810 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_366_tanh.npy
+quantization error: 1.2617850745601347
+topographic error: 0.2901993106548779
+Checkpoint saved at iteration 9764 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_367_tanh.npy
+quantization error: 1.2498941148978484
+topographic error: 0.25221040011988616
+Checkpoint saved at iteration 9718 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_368_tanh.npy
+quantization error: 1.2713727027395805
+topographic error: 0.30840701333732956
+Checkpoint saved at iteration 9672 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_369_tanh.npy
+quantization error: 1.258628775735341
+topographic error: 0.18095309456016784
+Checkpoint saved at iteration 9626 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_370_tanh.npy
+quantization error: 1.2625030290335815
+topographic error: 0.20912632998651282
+Checkpoint saved at iteration 9580 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_371_tanh.npy
+quantization error: 1.2521698812666573
+topographic error: 0.26075228532893746
+Checkpoint saved at iteration 9534 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_372_tanh.npy
+quantization error: 1.2503763085453443
+topographic error: 0.25400869174284435
+Checkpoint saved at iteration 9488 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_373_tanh.npy
+quantization error: 1.2572359502789765
+topographic error: 0.24726509815675113
+Checkpoint saved at iteration 9442 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_374_tanh.npy
+quantization error: 1.253590563885671
+topographic error: 0.3218192716918927
+Checkpoint saved at iteration 9396 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_375_tanh.npy
+quantization error: 1.2508815480626332
+topographic error: 0.28472950696838006
+Checkpoint saved at iteration 9350 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_376_tanh.npy
+quantization error: 1.2520903937739585
+topographic error: 0.2659973025625656
+Checkpoint saved at iteration 9304 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_377_tanh.npy
+quantization error: 1.2590670421044252
+topographic error: 0.18207702682451676
+Checkpoint saved at iteration 9258 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_378_tanh.npy
+quantization error: 1.2612285536361303
+topographic error: 0.22021579499475497
+Checkpoint saved at iteration 9212 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_379_tanh.npy
+quantization error: 1.257357343183826
+topographic error: 0.23744942304810435
+Checkpoint saved at iteration 9166 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_380_tanh.npy
+quantization error: 1.2586488594385914
+topographic error: 0.26727109246216096
+Checkpoint saved at iteration 9120 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_381_tanh.npy
+quantization error: 1.2623614128956901
+topographic error: 0.20403117038813123
+Checkpoint saved at iteration 9074 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_382_tanh.npy
+quantization error: 1.2545508866710522
+topographic error: 0.26045257005844447
+Checkpoint saved at iteration 9028 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_383_tanh.npy
+quantization error: 1.253826154084825
+topographic error: 0.3287127229132324
+Checkpoint saved at iteration 8982 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_384_tanh.npy
+quantization error: 1.2624001619827019
+topographic error: 0.23482691443129022
+Checkpoint saved at iteration 8936 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_385_tanh.npy
+quantization error: 1.2683457087756027
+topographic error: 0.21234826914431293
+Checkpoint saved at iteration 8890 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_386_tanh.npy
+quantization error: 1.247082788665936
+topographic error: 0.21339727259103847
+Checkpoint saved at iteration 8844 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_387_tanh.npy
+quantization error: 1.2656563314921152
+topographic error: 0.2204405814476248
+Checkpoint saved at iteration 8798 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_388_tanh.npy
+quantization error: 1.26544776143903
+topographic error: 0.19091862730406117
+Checkpoint saved at iteration 8752 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_389_tanh.npy
+quantization error: 1.255964099335755
+topographic error: 0.18080323692492128
+Checkpoint saved at iteration 8706 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_390_tanh.npy
+quantization error: 1.2586629336619188
+topographic error: 0.22733403266896446
+Checkpoint saved at iteration 8660 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_391_tanh.npy
+quantization error: 1.2524488051810876
+topographic error: 0.25603176981867226
+Checkpoint saved at iteration 8614 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_392_tanh.npy
+quantization error: 1.2663889678309117
+topographic error: 0.2996403416754083
+Checkpoint saved at iteration 8568 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_393_tanh.npy
+quantization error: 1.2648848390444019
+topographic error: 0.294020680353664
+Checkpoint saved at iteration 8522 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_394_tanh.npy
+quantization error: 1.2589162546638821
+topographic error: 0.21354713022628502
+Checkpoint saved at iteration 8476 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_395_tanh.npy
+quantization error: 1.2593474942246825
+topographic error: 0.19369099355612174
+Checkpoint saved at iteration 8430 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_396_tanh.npy
+quantization error: 1.2606838282327848
+topographic error: 0.27641240821219837
+Checkpoint saved at iteration 8384 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_397_tanh.npy
+quantization error: 1.2650492972364893
+topographic error: 0.23692492132474152
+Checkpoint saved at iteration 8338 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_398_tanh.npy
+quantization error: 1.2659020499238942
+topographic error: 0.19016933912782852
+Checkpoint saved at iteration 8292 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_399_tanh.npy
+quantization error: 1.260188705545997
+topographic error: 0.2384234976772066
+Checkpoint saved at iteration 8246 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_400_tanh.npy
+quantization error: 1.2570152194159754
+topographic error: 0.20687846545781508
+Checkpoint saved at iteration 8200 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_401_tanh.npy
+quantization error: 1.2577928456555914
+topographic error: 0.21826764573655033
+Checkpoint saved at iteration 8154 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_402_tanh.npy
+quantization error: 1.2491334027510412
+topographic error: 0.2529596882961187
+Checkpoint saved at iteration 8108 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_403_tanh.npy
+quantization error: 1.2547373997207236
+topographic error: 0.21969129327139214
+Checkpoint saved at iteration 8062 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_404_tanh.npy
+quantization error: 1.2594687186291902
+topographic error: 0.17121234826914433
+Checkpoint saved at iteration 8016 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_405_tanh.npy
+quantization error: 1.2545039456195217
+topographic error: 0.2547579799190769
+Checkpoint saved at iteration 7970 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_406_tanh.npy
+quantization error: 1.2548598381059721
+topographic error: 0.21946650681852242
+Checkpoint saved at iteration 7924 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_407_tanh.npy
+quantization error: 1.2683721535452621
+topographic error: 0.2071032519106849
+Checkpoint saved at iteration 7878 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_408_tanh.npy
+quantization error: 1.256758210269279
+topographic error: 0.18971976622208897
+Checkpoint saved at iteration 7832 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_409_tanh.npy
+quantization error: 1.2516156010004293
+topographic error: 0.22568559868125282
+Checkpoint saved at iteration 7786 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_410_tanh.npy
+quantization error: 1.2525009803514142
+topographic error: 0.20890154353364299
+Checkpoint saved at iteration 7740 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_411_tanh.npy
+quantization error: 1.26871784113336
+topographic error: 0.3058594335381387
+Checkpoint saved at iteration 7694 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_412_tanh.npy
+quantization error: 1.2593129673069117
+topographic error: 0.25723063090064435
+Checkpoint saved at iteration 7648 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_413_tanh.npy
+quantization error: 1.263825337236014
+topographic error: 0.22448673759928073
+Checkpoint saved at iteration 7602 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_414_tanh.npy
+quantization error: 1.2583479073697086
+topographic error: 0.19488985463809383
+Checkpoint saved at iteration 7556 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_415_tanh.npy
+quantization error: 1.2529059413026098
+topographic error: 0.28862580548478944
+Checkpoint saved at iteration 7510 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_416_tanh.npy
+quantization error: 1.2586973313000933
+topographic error: 0.19331634946800536
+Checkpoint saved at iteration 7464 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_417_tanh.npy
+quantization error: 1.2697161876216645
+topographic error: 0.2650232279334632
+Checkpoint saved at iteration 7418 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_418_tanh.npy
+quantization error: 1.2638952096956044
+topographic error: 0.2674209500974075
+Checkpoint saved at iteration 7372 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_419_tanh.npy
+quantization error: 1.256592746914949
+topographic error: 0.20260752285328942
+Checkpoint saved at iteration 7326 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_420_tanh.npy
+quantization error: 1.260313816388001
+topographic error: 0.16499325640641394
+Checkpoint saved at iteration 7280 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_421_tanh.npy
+quantization error: 1.2568843722442213
+topographic error: 0.23774913831859734
+Checkpoint saved at iteration 7234 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_422_tanh.npy
+quantization error: 1.2584827321413696
+topographic error: 0.23040611419151802
+Checkpoint saved at iteration 7188 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_423_tanh.npy
+quantization error: 1.2603748926679508
+topographic error: 0.2920725310954593
+Checkpoint saved at iteration 7142 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_424_tanh.npy
+quantization error: 1.2491323791870035
+topographic error: 0.23744942304810435
+Checkpoint saved at iteration 7096 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_425_tanh.npy
+quantization error: 1.2697261516324092
+topographic error: 0.3251910684849393
+Checkpoint saved at iteration 7050 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_426_tanh.npy
+quantization error: 1.2556104596142144
+topographic error: 0.2830810729806683
+Checkpoint saved at iteration 7004 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_427_tanh.npy
+quantization error: 1.256633770398022
+topographic error: 0.26547280083920277
+Checkpoint saved at iteration 6958 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_428_tanh.npy
+quantization error: 1.256450866121743
+topographic error: 0.2905739547429942
+Checkpoint saved at iteration 6912 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_429_tanh.npy
+quantization error: 1.2570600097391924
+topographic error: 0.2494380338678256
+Checkpoint saved at iteration 6866 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_430_tanh.npy
+quantization error: 1.2607422579793608
+topographic error: 0.24269444028173237
+Checkpoint saved at iteration 6820 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_431_tanh.npy
+quantization error: 1.2506118395057146
+topographic error: 0.2914731005544733
+Checkpoint saved at iteration 6774 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_432_tanh.npy
+quantization error: 1.2569856008499904
+topographic error: 0.30278735201558515
+Checkpoint saved at iteration 6728 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_433_tanh.npy
+quantization error: 1.2557709173625022
+topographic error: 0.255657125730556
+Checkpoint saved at iteration 6682 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_434_tanh.npy
+quantization error: 1.2585548453247628
+topographic error: 0.26172635995803983
+Checkpoint saved at iteration 6636 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_435_tanh.npy
+quantization error: 1.2524664046246505
+topographic error: 0.21729357110744796
+Checkpoint saved at iteration 6590 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_436_tanh.npy
+quantization error: 1.2536308797803029
+topographic error: 0.27026824516709125
+Checkpoint saved at iteration 6544 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_437_tanh.npy
+quantization error: 1.2636161356983162
+topographic error: 0.2524351865727559
+Checkpoint saved at iteration 6498 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_438_tanh.npy
+quantization error: 1.2560833070590005
+topographic error: 0.2529596882961187
+Checkpoint saved at iteration 6452 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_439_tanh.npy
+quantization error: 1.257085707765751
+topographic error: 0.21309755732054547
+Checkpoint saved at iteration 6406 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_440_tanh.npy
+quantization error: 1.2649138130051034
+topographic error: 0.2808332084519706
+Checkpoint saved at iteration 6360 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_441_tanh.npy
+quantization error: 1.2532515614251827
+topographic error: 0.23385283980218796
+Checkpoint saved at iteration 6314 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_442_tanh.npy
+quantization error: 1.2571116823757367
+topographic error: 0.24509216244567655
+Checkpoint saved at iteration 6268 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_443_tanh.npy
+quantization error: 1.2452115296536659
+topographic error: 0.21706878465457813
+Checkpoint saved at iteration 6222 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_444_tanh.npy
+quantization error: 1.2662752509783604
+topographic error: 0.2041060992057545
+Checkpoint saved at iteration 6176 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_445_tanh.npy
+quantization error: 1.265790791489034
+topographic error: 0.19593885808481937
+Checkpoint saved at iteration 6130 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_446_tanh.npy
+quantization error: 1.2641656940054669
+topographic error: 0.16858983965233032
+Checkpoint saved at iteration 6084 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_447_tanh.npy
+quantization error: 1.261287115554609
+topographic error: 0.3588341075977821
+Checkpoint saved at iteration 6038 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_448_tanh.npy
+quantization error: 1.2522118779117972
+topographic error: 0.2914731005544733
+Checkpoint saved at iteration 5992 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_449_tanh.npy
+quantization error: 1.2613557274221918
+topographic error: 0.30668365053199464
+Checkpoint saved at iteration 5946 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_450_tanh.npy
+quantization error: 1.2564834951940904
+topographic error: 0.24831410160347667
+Checkpoint saved at iteration 5900 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_451_tanh.npy
+quantization error: 1.2552251248318937
+topographic error: 0.22815824966282028
+Checkpoint saved at iteration 5854 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_452_tanh.npy
+quantization error: 1.2649375067245128
+topographic error: 0.22658474449273192
+Checkpoint saved at iteration 5808 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_453_tanh.npy
+quantization error: 1.2522948562815408
+topographic error: 0.2316799040911135
+Checkpoint saved at iteration 5762 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_454_tanh.npy
+quantization error: 1.2625631718038628
+topographic error: 0.257979919076877
+Checkpoint saved at iteration 5716 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_455_tanh.npy
+quantization error: 1.2524531624909838
+topographic error: 0.24007193166491836
+Checkpoint saved at iteration 5670 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_456_tanh.npy
+quantization error: 1.2695085694631871
+topographic error: 0.23467705679604378
+Checkpoint saved at iteration 5624 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_457_tanh.npy
+quantization error: 1.2616960059265245
+topographic error: 0.2479394575153604
+Checkpoint saved at iteration 5578 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_458_tanh.npy
+quantization error: 1.249505060924089
+topographic error: 0.28750187322044063
+Checkpoint saved at iteration 5532 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_459_tanh.npy
+quantization error: 1.2633729148679365
+topographic error: 0.2784354862880264
+Checkpoint saved at iteration 5486 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_460_tanh.npy
+quantization error: 1.257497669121147
+topographic error: 0.3080323692492133
+Checkpoint saved at iteration 5440 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_461_tanh.npy
+quantization error: 1.2504825393886143
+topographic error: 0.1925670612917728
+Checkpoint saved at iteration 5394 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_462_tanh.npy
+quantization error: 1.2580185674005895
+topographic error: 0.286452869773715
+Checkpoint saved at iteration 5348 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_463_tanh.npy
+quantization error: 1.2639464982333053
+topographic error: 0.19279184774464264
+Checkpoint saved at iteration 5302 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_464_tanh.npy
+quantization error: 1.2488422745851187
+topographic error: 0.3023377791098456
+Checkpoint saved at iteration 5256 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_465_tanh.npy
+quantization error: 1.2573503528713832
+topographic error: 0.28832609021429645
+Checkpoint saved at iteration 5210 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_466_tanh.npy
+quantization error: 1.2594463947169634
+topographic error: 0.227483890304211
+Checkpoint saved at iteration 5164 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_467_tanh.npy
+quantization error: 1.2605389008689976
+topographic error: 0.25640641390678853
+Checkpoint saved at iteration 5118 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_468_tanh.npy
+quantization error: 1.2624929922212114
+topographic error: 0.21729357110744796
+Checkpoint saved at iteration 5072 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_469_tanh.npy
+quantization error: 1.2456309888505277
+topographic error: 0.23999700284729508
+Checkpoint saved at iteration 5026 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_470_tanh.npy
+quantization error: 1.2552666800266514
+topographic error: 0.21384684549677802
+Checkpoint saved at iteration 4980 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_471_tanh.npy
+quantization error: 1.251877408299602
+topographic error: 0.29454518207702685
+Checkpoint saved at iteration 4934 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_472_tanh.npy
+quantization error: 1.2626489864632433
+topographic error: 0.2716169638843099
+Checkpoint saved at iteration 4888 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_473_tanh.npy
+quantization error: 1.2711353223914805
+topographic error: 0.17331035516259552
+Checkpoint saved at iteration 4842 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_474_tanh.npy
+quantization error: 1.2609591949817256
+topographic error: 0.3003147010340177
+Checkpoint saved at iteration 4796 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_475_tanh.npy
+quantization error: 1.2609467316669882
+topographic error: 0.27738648284130074
+Checkpoint saved at iteration 4750 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_476_tanh.npy
+quantization error: 1.2687156393815042
+topographic error: 0.18979469503971225
+Checkpoint saved at iteration 4704 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_477_tanh.npy
+quantization error: 1.263830019091627
+topographic error: 0.2964933313352315
+Checkpoint saved at iteration 4658 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_478_tanh.npy
+quantization error: 1.256110064292681
+topographic error: 0.178105799490484
+Checkpoint saved at iteration 4612 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_479_tanh.npy
+quantization error: 1.2666668178727971
+topographic error: 0.30488535890903645
+Checkpoint saved at iteration 4566 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_480_tanh.npy
+quantization error: 1.2736080301540025
+topographic error: 0.24778959988011384
+Checkpoint saved at iteration 4520 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_481_tanh.npy
+quantization error: 1.2513464214140384
+topographic error: 0.28570358159748244
+Checkpoint saved at iteration 4474 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_482_tanh.npy
+quantization error: 1.2590319224979998
+topographic error: 0.191443129027424
+Checkpoint saved at iteration 4428 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_483_tanh.npy
+quantization error: 1.2620831832486759
+topographic error: 0.3433987711673909
+Checkpoint saved at iteration 4382 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_484_tanh.npy
+quantization error: 1.2632676871484216
+topographic error: 0.24374344372845802
+Checkpoint saved at iteration 4336 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_485_tanh.npy
+quantization error: 1.2633756281098487
+topographic error: 0.22328787651730853
+Checkpoint saved at iteration 4290 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_486_tanh.npy
+quantization error: 1.2567748758205641
+topographic error: 0.23347819571407158
+Checkpoint saved at iteration 4244 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_487_tanh.npy
+quantization error: 1.2661187407032701
+topographic error: 0.2071032519106849
+Checkpoint saved at iteration 4198 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_488_tanh.npy
+quantization error: 1.2535277318943403
+topographic error: 0.20425595684100106
+Checkpoint saved at iteration 4152 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_489_tanh.npy
+quantization error: 1.263014720955748
+topographic error: 0.1697887007343024
+Checkpoint saved at iteration 4106 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_490_tanh.npy
+quantization error: 1.264470719980183
+topographic error: 0.253334332384235
+Checkpoint saved at iteration 4060 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_491_tanh.npy
+quantization error: 1.2714166561130227
+topographic error: 0.31020530496028775
+Checkpoint saved at iteration 4014 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_492_tanh.npy
+quantization error: 1.2444714643700905
+topographic error: 0.23295369399070887
+Checkpoint saved at iteration 3968 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_493_tanh.npy
+quantization error: 1.2569635481062948
+topographic error: 0.31372695938858086
+Checkpoint saved at iteration 3922 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_494_tanh.npy
+quantization error: 1.264059352029128
+topographic error: 0.22118986962385734
+Checkpoint saved at iteration 3876 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_495_tanh.npy
+quantization error: 1.258088346014752
+topographic error: 0.272216394425296
+Checkpoint saved at iteration 3830 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_496_tanh.npy
+quantization error: 1.2611257340907251
+topographic error: 0.2665218042859284
+Checkpoint saved at iteration 3784 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_497_tanh.npy
+quantization error: 1.2580841141979004
+topographic error: 0.2077026824516709
+Checkpoint saved at iteration 3738 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_498_tanh.npy
+quantization error: 1.2589217765568672
+topographic error: 0.20313202457665214
+Checkpoint saved at iteration 3692 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_499_tanh.npy
+quantization error: 1.26018609087206
+topographic error: 0.18395024726509812
+Checkpoint saved at iteration 3646 as ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_500_tanh.npy
+quantization error: 1.2592024064701017
+topographic error: 0.2642739397572307
+Checkpoint saved after 500 epochs to ./SSSOMweights/SemiSSOM_40_0.1_exponent_decay_euclidean_hexagonal_500_tanh.npy
+quantization error: 1.2624940129874305
+topographic error: 0.2737149707777611
+Saved ./component_planes/component_planes_hex_40_0.1_exponent_decay_euclidean_hexagonal_tanh/Albrecht_Durer.png
+Saved ./component_planes/component_planes_hex_40_0.1_exponent_decay_euclidean_hexagonal_tanh/Boris_Kustodiev.png
+Saved ./component_planes/component_planes_hex_40_0.1_exponent_decay_euclidean_hexagonal_tanh/Camille_Pissarro.png
+Saved ./component_planes/component_planes_hex_40_0.1_exponent_decay_euclidean_hexagonal_tanh/Childe_Hassam.png
+Saved ./component_planes/component_planes_hex_40_0.1_exponent_decay_euclidean_hexagonal_tanh/Claude_Monet.png
+Saved ./component_planes/component_planes_hex_40_0.1_exponent_decay_euclidean_hexagonal_tanh/Edgar_Degas.png
+Saved ./component_planes/component_planes_hex_40_0.1_exponent_decay_euclidean_hexagonal_tanh/Eugene_Boudin.png
+Saved ./component_planes/component_planes_hex_40_0.1_exponent_decay_euclidean_hexagonal_tanh/Gustave_Dore.png
+Saved ./component_planes/component_planes_hex_40_0.1_exponent_decay_euclidean_hexagonal_tanh/Ilya_Repin.png
+Saved ./component_planes/component_planes_hex_40_0.1_exponent_decay_euclidean_hexagonal_tanh/Ivan_Aivazovsky.png
+Saved ./component_planes/component_planes_hex_40_0.1_exponent_decay_euclidean_hexagonal_tanh/Ivan_Shishkin.png
+Saved ./component_planes/component_planes_hex_40_0.1_exponent_decay_euclidean_hexagonal_tanh/John_Singer_Sargent.png
+Saved ./component_planes/component_planes_hex_40_0.1_exponent_decay_euclidean_hexagonal_tanh/Marc_Chagall.png
+Saved ./component_planes/component_planes_hex_40_0.1_exponent_decay_euclidean_hexagonal_tanh/Martiros_Saryan.png
+Saved ./component_planes/component_planes_hex_40_0.1_exponent_decay_euclidean_hexagonal_tanh/Nicholas_Roerich.png
+Saved ./component_planes/component_planes_hex_40_0.1_exponent_decay_euclidean_hexagonal_tanh/Pablo_Picasso.png
+Saved ./component_planes/component_planes_hex_40_0.1_exponent_decay_euclidean_hexagonal_tanh/Paul_Cezanne.png
+Saved ./component_planes/component_planes_hex_40_0.1_exponent_decay_euclidean_hexagonal_tanh/Pierre_Auguste_Renoir.png
+Saved ./component_planes/component_planes_hex_40_0.1_exponent_decay_euclidean_hexagonal_tanh/Pyotr_Konchalovsky.png
+Saved ./component_planes/component_planes_hex_40_0.1_exponent_decay_euclidean_hexagonal_tanh/Raphael_Kirchner.png
+Saved ./component_planes/component_planes_hex_40_0.1_exponent_decay_euclidean_hexagonal_tanh/Rembrandt.png
+Saved ./component_planes/component_planes_hex_40_0.1_exponent_decay_euclidean_hexagonal_tanh/Salvador_Dali.png
+Saved ./component_planes/component_planes_hex_40_0.1_exponent_decay_euclidean_hexagonal_tanh/Vincent_van_Gogh.png
+Saved feature and label maps to ./label_map_hex_size40_lr0.1_decayexponent_decay_disteuclidean_topohexagonal_tanh.png

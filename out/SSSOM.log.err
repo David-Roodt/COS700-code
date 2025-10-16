@@ -1,0 +1,9 @@
+INFO: chpc/python/anaconda/3-2024.10.1 loaded
+Traceback (most recent call last):
+  File "/mnt/lustre/users/droodt1/SOM.py", line 22, in <module>
+    data = load_dataset(csv_file)
+  File "/mnt/lustre/users/droodt1/SOM.py", line 18, in load_dataset
+    features = [float(x) for x in features]
+  File "/mnt/lustre/users/droodt1/SOM.py", line 18, in <listcomp>
+    features = [float(x) for x in features]
+ValueError: could not convert string to float: ' average_L'

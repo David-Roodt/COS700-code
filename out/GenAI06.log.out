@@ -1,0 +1,46 @@
+
+/apps/chpc/cuda/12.4/lib64:/apps/chpc/bio/gnu-build/tbb-2018_U2/build/linux_intel64_gcc_cc7.2.0_libc2.17_kernel3.10.0_release
+/apps/chpc/cuda/12.4/bin/nvcc
+Running on host: gpu2006
+CUDA devices: 1
+Mon Sep 22 16:08:48 2025       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 550.54.14              Driver Version: 550.54.14      CUDA Version: 12.4     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  Tesla V100-PCIE-32GB           Off |   00000000:3B:00.0 Off |                    0 |
+| N/A   42C    P0            130W /  250W |    3681MiB /  32768MiB |    100%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+|   1  Tesla V100-PCIE-32GB           Off |   00000000:AF:00.0 Off |                    0 |
+| N/A   29C    P0             25W /  250W |       3MiB /  32768MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+|   2  Tesla V100-PCIE-32GB           Off |   00000000:D8:00.0 Off |                    0 |
+| N/A   44C    P0            155W /  250W |     931MiB /  32768MiB |     97%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+                                                                                         
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI        PID   Type   Process name                              GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|    0   N/A  N/A    239056      C   ...pc/chem/gpu/amber/18/bin/pmemd.cuda       1056MiB |
+|    0   N/A  N/A    241118      C   pmemd.cuda                                    874MiB |
+|    0   N/A  N/A    243437      C   pmemd.cuda                                    874MiB |
+|    0   N/A  N/A    243438      C   pmemd.cuda                                    874MiB |
+|    2   N/A  N/A    239637      C   ...pc/chem/gpu/amber/18/bin/pmemd.cuda        928MiB |
++-----------------------------------------------------------------------------------------+
+is available: True
+
+version: 12.1
+
+device name: Tesla V100-PCIE-32GB
+
+GPU memory: 31.73 GB
+Using batch size: 2
+xformers not available ?

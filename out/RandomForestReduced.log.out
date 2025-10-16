@@ -1,0 +1,164 @@
+Number of CPUs detected by Python: 24
+OMP_NUM_THREADS: 
+MKL_NUM_THREADS: 
+Seed: 1
+Model saved to ./RandomForest/artist_train_tanh.joblib
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.67      0.47      0.56       116
+           1       0.58      0.25      0.35        89
+           2       0.26      0.27      0.27       124
+           3       0.24      0.10      0.15        77
+           4       0.24      0.46      0.32       187
+           5       0.16      0.03      0.06        86
+           6       0.20      0.10      0.14        78
+           7       0.75      0.86      0.80       106
+           8       0.35      0.24      0.28        75
+           9       0.28      0.11      0.16        81
+          10       0.44      0.32      0.37        73
+          11       0.40      0.30      0.34       110
+          12       0.67      0.32      0.43       107
+          13       0.55      0.14      0.22        80
+          14       0.50      0.58      0.54       255
+          15       0.33      0.06      0.10       107
+          16       0.00      0.00      0.00        81
+          17       0.29      0.59      0.39       196
+          18       0.27      0.29      0.28       129
+          19       0.50      0.51      0.51        72
+          20       0.60      0.56      0.58       109
+          21       0.75      0.04      0.08        67
+          22       0.34      0.67      0.45       265
+
+    accuracy                           0.38      2670
+   macro avg       0.41      0.32      0.32      2670
+weighted avg       0.40      0.38      0.35      2670
+
+
+Feature ranking:
+1.  average_B (0.0372)
+2.  average_L (0.0308)
+3.  oklab_hue_histogram_4 (0.0306)
+4.  average_A (0.0281)
+5.  average_lightness_per_region_0 (0.0278)
+6.  oklab_hue_angle (0.0276)
+7.  oklab_hue_histogram_3 (0.0267)
+8.  oklab_hue_histogram_2 (0.0265)
+9.  oklab_hue_histogram_5 (0.0252)
+10.  oklab_hue_histogram_0 (0.0249)
+11.  oklab_hue_histogram_1 (0.0236)
+12.  average_lightness_per_region_1 (0.0235)
+13.  oklab_hue_histogram_6 (0.0233)
+14.  oklab_hue_histogram_7 (0.0228)
+15.  average_lightness_per_region_3 (0.0218)
+16.  average_lightness_per_region_2 (0.0216)
+17.  average_lightness_per_region_4 (0.0212)
+18.  average_hue_angle_per_region_0 (0.0211)
+19.  mass_variance_0 (0.0211)
+20.  mass_variance_1 (0.0206)
+21.  oklab_hue_histogram_16 (0.0203)
+22.  horizontal_coords_0 (0.0203)
+23.  oklab_hue_histogram_19 (0.0200)
+24.  horizontal_coords_1 (0.0200)
+25.  oklab_hue_histogram_8 (0.0199)
+26.  mass_variance_2 (0.0199)
+27.  oklab_hue_histogram_18 (0.0195)
+28.  oklab_hue_histogram_9 (0.0192)
+29.  average_hue_angle_per_region_1 (0.0191)
+30.  oklab_hue_histogram_15 (0.0190)
+31.  vertical_coords_2 (0.0190)
+32.  average_hue_angle_per_region_4 (0.0190)
+33.  oklab_hue_histogram_13 (0.0189)
+34.  oklab_hue_histogram_17 (0.0189)
+35.  average_hue_angle_per_region_2 (0.0189)
+36.  average_hue_angle_per_region_3 (0.0188)
+37.  oklab_hue_histogram_14 (0.0187)
+38.  mass_skewness_1 (0.0186)
+39.  vertical_coords_1 (0.0185)
+40.  horizontal_coords_2 (0.0185)
+41.  mass_skewness_2 (0.0185)
+42.  oklab_hue_histogram_10 (0.0184)
+43.  vertical_coords_0 (0.0184)
+44.  mass_skewness_0 (0.0183)
+45.  oklab_hue_histogram_12 (0.0181)
+46.  oklab_hue_histogram_11 (0.0170)
+Model saved to ./RandomForest/artist_train_fixed.joblib
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.69      0.55      0.61       116
+           1       0.49      0.26      0.34        89
+           2       0.30      0.21      0.25       124
+           3       0.28      0.13      0.18        77
+           4       0.24      0.48      0.32       187
+           5       0.05      0.01      0.02        86
+           6       0.38      0.18      0.24        78
+           7       0.85      0.88      0.87       106
+           8       0.32      0.25      0.28        75
+           9       0.23      0.07      0.11        81
+          10       0.40      0.32      0.35        73
+          11       0.32      0.24      0.27       110
+          12       0.73      0.34      0.46       107
+          13       0.32      0.09      0.14        80
+          14       0.48      0.60      0.53       255
+          15       0.43      0.06      0.10       107
+          16       0.20      0.05      0.08        81
+          17       0.28      0.57      0.38       196
+          18       0.21      0.24      0.22       129
+          19       0.51      0.49      0.50        72
+          20       0.61      0.51      0.56       109
+          21       0.33      0.01      0.03        67
+          22       0.33      0.62      0.43       265
+
+    accuracy                           0.37      2670
+   macro avg       0.39      0.31      0.32      2670
+weighted avg       0.39      0.37      0.35      2670
+
+
+Feature ranking:
+1.  average_B (0.0373)
+2.  average_L (0.0312)
+3.  oklab_hue_histogram_4 (0.0299)
+4.  average_A (0.0279)
+5.  average_lightness_per_region_0 (0.0278)
+6.  oklab_hue_angle (0.0272)
+7.  oklab_hue_histogram_3 (0.0270)
+8.  oklab_hue_histogram_2 (0.0263)
+9.  oklab_hue_histogram_5 (0.0254)
+10.  oklab_hue_histogram_0 (0.0246)
+11.  oklab_hue_histogram_1 (0.0236)
+12.  average_lightness_per_region_1 (0.0236)
+13.  oklab_hue_histogram_6 (0.0231)
+14.  oklab_hue_histogram_7 (0.0228)
+15.  average_lightness_per_region_3 (0.0219)
+16.  average_lightness_per_region_2 (0.0216)
+17.  average_hue_angle_per_region_0 (0.0212)
+18.  average_lightness_per_region_4 (0.0211)
+19.  mass_variance_0 (0.0210)
+20.  mass_variance_1 (0.0207)
+21.  oklab_hue_histogram_16 (0.0203)
+22.  mass_variance_2 (0.0203)
+23.  oklab_hue_histogram_19 (0.0202)
+24.  horizontal_coords_0 (0.0202)
+25.  oklab_hue_histogram_8 (0.0201)
+26.  horizontal_coords_1 (0.0200)
+27.  oklab_hue_histogram_18 (0.0199)
+28.  oklab_hue_histogram_9 (0.0195)
+29.  average_hue_angle_per_region_1 (0.0193)
+30.  average_hue_angle_per_region_4 (0.0191)
+31.  oklab_hue_histogram_15 (0.0190)
+32.  average_hue_angle_per_region_2 (0.0190)
+33.  oklab_hue_histogram_17 (0.0189)
+34.  vertical_coords_2 (0.0188)
+35.  oklab_hue_histogram_14 (0.0188)
+36.  average_hue_angle_per_region_3 (0.0188)
+37.  mass_skewness_2 (0.0187)
+38.  mass_skewness_1 (0.0187)
+39.  oklab_hue_histogram_13 (0.0187)
+40.  horizontal_coords_2 (0.0186)
+41.  vertical_coords_1 (0.0185)
+42.  vertical_coords_0 (0.0185)
+43.  mass_skewness_0 (0.0183)
+44.  oklab_hue_histogram_10 (0.0181)
+45.  oklab_hue_histogram_12 (0.0177)
+46.  oklab_hue_histogram_11 (0.0169)
